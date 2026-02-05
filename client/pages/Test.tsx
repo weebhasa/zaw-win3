@@ -1,4 +1,3 @@
-import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { useQuestions } from "@/hooks/use-questions";
 import {
@@ -7,58 +6,40 @@ import {
   type AnswerValue,
 } from "@/components/quiz/QuestionCard";
 import { Button } from "@/components/ui/button";
-import { Progress } from "@/components/ui/progress";
-
-export type AnswersMap = Record<number, AnswerValue>;
-
-function normalizeShort(a: string) {
-  return a.trim().toLowerCase();
-}
+import { useMemo, useState } from "react";
 
 function isCorrect(q: Question, ans: AnswerValue): boolean {
   if (ans === undefined || ans === null) return false;
-  if (q.type === "multiple") return ans === q.correctAnswer;
-  if (q.type === "boolean") return ans === q.correctAnswer;
-  if (q.type === "short")
-    return (
-      normalizeShort(String(ans)) === normalizeShort(String(q.correctAnswer))
-    );
-  return false;
+  const answer = q as any;
+  if (!answer.answer) return false;
+  return String(ans).toUpperCase() === String(answer.answer).toUpperCase();
 }
 
 export default function TestPage() {
   const navigate = useNavigate();
-  const [search] = useSearchParams();
-  const rawSession = search.get("session") ?? "0";
-
-  // Determine if session is a numeric index or a filename
-  const isNumericSession = /^\d+$/.test(rawSession);
-  const sessionFilename = isNumericSession ? undefined : rawSession;
+  const [searchParams] = useSearchParams();
+  const sessionFilename = searchParams.get("session");
 
   const { questions, loading, error } = useQuestions(
     sessionFilename ? `/${encodeURIComponent(sessionFilename)}` : undefined,
   );
 
-  const [index, setIndex] = useState(0);
-  const [answers, setAnswers] = useState<AnswersMap>({});
-  const [revealed, setRevealed] = useState<Record<number, boolean>>({});
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [answers, setAnswers] = useState<Record<number, AnswerValue>>({});
+  const [sessionIndex, setSessionIndex] = useState(0);
 
-  const sessionIndex = Math.max(
-    0,
-    Number(isNumericSession ? rawSession : 0) | 0,
-  );
   const totalSessions = useMemo(
-    () => (questions ? Math.ceil(questions.length / 20) : 0),
+    () => (questions ? Math.ceil(questions.length / 20) : 1),
     [questions],
   );
 
   const start = useMemo(() => {
     if (!questions) return 0;
-    if (sessionFilename) return 0; // when using a file, use entire file as single session
+    if (sessionFilename) return 0;
     return sessionIndex * 20;
   }, [questions, sessionIndex, sessionFilename]);
 
-  const session = useMemo(
+  const currentQuestions = useMemo(
     () =>
       questions
         ? questions.slice(
@@ -68,128 +49,132 @@ export default function TestPage() {
         : [],
     [questions, start, sessionFilename],
   );
-  const total = session.length;
 
-  useEffect(() => {
-    setIndex(0);
-    setAnswers({});
-    setRevealed({});
-  }, [start]);
-
-  const completed = useMemo(() => {
-    return session.filter((q) => {
-      const v = answers[q.id];
-      return v !== undefined && v !== "";
-    }).length;
-  }, [answers, session]);
-
-  const progress = total ? Math.round((completed / total) * 100) : 0;
-
-  function handleChange(value: AnswerValue) {
-    const id = session[index].id;
-    setAnswers((prev) => ({ ...prev, [id]: value }));
-  }
-
-  function prev() {
-    setIndex((i) => Math.max(0, i - 1));
-  }
-
-  function next() {
-    const curr = session[index];
-    const isRevealed = !!revealed[curr.id];
-    if (!isRevealed) {
-      setRevealed((r) => ({ ...r, [curr.id]: true }));
-      return;
+  const handleNextQuestion = () => {
+    if (currentIndex < currentQuestions.length - 1) {
+      setCurrentIndex(currentIndex + 1);
     }
-    setIndex((i) => Math.min(total - 1, i + 1));
-  }
+  };
 
-  function submit() {
-    if (!session.length) return;
-    const details = session.map((q) => {
-      const user = answers[q.id];
-      return {
+  const handlePrevQuestion = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
+    }
+  };
+
+  const handleSubmit = () => {
+    const resultsData = {
+      sessionFilename,
+      sessionIndex,
+      totalSessions,
+      currentQuestions: currentQuestions.map((q) => ({
         id: q.id,
         question: q.question,
         type: q.type,
-        options: q.options,
-        correctAnswer: q.correctAnswer,
-        userAnswer: user,
-        explanation: q.explanation,
-        correct: isCorrect(q, user),
-      };
-    });
-    const score = details.filter((d) => d.correct).length;
-    navigate("/results", {
-      state: {
-        details,
-        score,
-        total,
-        sessionIndex,
-        totalSessions,
-        sessionParam: rawSession,
-      },
-    });
+        answer: (q as any).answer,
+        userAnswer: answers[q.id],
+      })),
+      answers,
+      score: Object.keys(answers).length,
+    };
+    navigate("/results", { state: resultsData });
+  };
+
+  const allAnswered = currentQuestions.every(
+    (q) => answers[q.id] !== undefined,
+  );
+
+  if (error) {
+    return (
+      <div className="container py-24 text-center text-red-500">{error}</div>
+    );
   }
 
-  if (loading)
+  if (loading) {
     return (
       <div className="container py-24 text-center">Loading questions…</div>
     );
-  if (error)
-    return (
-      <div className="container py-24 text-center text-destructive">
-        {error}
-      </div>
-    );
-  if (!session.length)
+  }
+
+  if (currentQuestions.length === 0) {
     return (
       <div className="container py-24 text-center">No questions available.</div>
     );
+  }
 
-  const q = session[index];
-  const answer = answers[q.id];
-  const isRevealed = !!revealed[q.id];
-  const isLast = index === total - 1;
+  const q = currentQuestions[currentIndex];
+  const progress =
+    (Object.keys(answers).length / currentQuestions.length) * 100;
 
   return (
-    <div className="container max-w-3xl py-8">
-      <div className="mb-6 rounded-xl border bg-card p-4 sm:p-6">
-        <div className="flex items-center justify-between gap-4">
-          <div>
-            <div className="text-sm text-muted-foreground">Progress</div>
-            <div className="text-lg font-semibold">
-              {completed} / {total} answered
-            </div>
-          </div>
-          <div className="min-w-[160px]">
-            <Progress value={progress} />
-          </div>
+    <div className="container max-w-2xl py-12">
+      <div className="mb-8">
+        <div className="flex justify-between items-center mb-2">
+          <span className="text-sm font-medium">Progress</span>
+          <span className="text-sm text-muted-foreground">
+            {Object.keys(answers).length} of {currentQuestions.length}
+          </span>
+        </div>
+        <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
+          <div
+            className="h-full bg-primary transition-all"
+            style={{ width: `${progress}%` }}
+          />
         </div>
       </div>
 
       <QuestionCard
         q={q}
-        answer={answer}
-        onChange={handleChange}
-        index={index}
-        total={total}
-        reveal={isRevealed}
+        index={currentIndex}
+        total={currentQuestions.length}
+        answer={answers[q.id]}
+        onChange={(val) => setAnswers({ ...answers, [q.id]: val })}
       />
 
-      <div className="mt-6 flex flex-col items-stretch justify-between gap-3 sm:flex-row">
-        <div className="flex gap-3">
-          <Button variant="secondary" onClick={prev} disabled={index === 0}>
-            Previous
-          </Button>
-          <Button onClick={next} disabled={isLast && isRevealed}>
-            {isRevealed ? "Next" : "Show Answer"}
-          </Button>
-        </div>
-        <Button variant="outline" onClick={submit}>
-          Submit Test
+      <div className="flex gap-4 mt-8">
+        <Button
+          variant="outline"
+          onClick={handlePrevQuestion}
+          disabled={currentIndex === 0}
+          className="flex-1"
+        >
+          Previous
         </Button>
+
+        {currentIndex < currentQuestions.length - 1 ? (
+          <Button onClick={handleNextQuestion} className="flex-1">
+            Next
+          </Button>
+        ) : (
+          <Button
+            onClick={handleSubmit}
+            disabled={!allAnswered}
+            className="flex-1"
+          >
+            Submit Test
+          </Button>
+        )}
       </div>
+
+      {totalSessions > 1 && !sessionFilename && (
+        <div className="mt-8 p-4 bg-muted rounded-lg text-sm text-muted-foreground">
+          Session {sessionIndex + 1} of {totalSessions}
+          {sessionIndex < totalSessions - 1 && (
+            <Button
+              variant="link"
+              size="sm"
+              onClick={() => {
+                setSessionIndex(sessionIndex + 1);
+                setCurrentIndex(0);
+                setAnswers({});
+              }}
+              className="ml-2"
+            >
+              Next Session
+            </Button>
+          )}
+        </div>
+      )}
     </div>
   );
 }

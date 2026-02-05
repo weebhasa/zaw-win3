@@ -20,7 +20,7 @@ export function createServer() {
 
   app.get("/api/demo", handleDemo);
 
-  // Question sets discovery (serve JSON files placed in /public that end with "Questions.json")
+  // Question sets discovery
   app.get("/api/question-sets", handleQuestionSets);
 
   return app;

@@ -1,151 +1,97 @@
-import { useNavigate, useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { CheckCircle2, XCircle } from "lucide-react";
 
 export default function ResultsPage() {
+  const location = useLocation();
   const navigate = useNavigate();
-  const location = useLocation() as any;
-  const state = location.state as
-    | {
-        details: any[];
-        score: number;
-        total: number;
-        sessionIndex?: number;
-        totalSessions?: number;
-      }
-    | undefined;
+  const resultsData = location.state as any;
 
-  if (!state) {
+  if (!resultsData) {
     return (
-      <div className="container max-w-3xl py-16 text-center">
-        <h1 className="text-2xl font-semibold">No results to show</h1>
-        <p className="mt-2 text-muted-foreground">
-          Please take the test first.
-        </p>
-        <div className="mt-6 flex justify-center gap-3">
-          <Button onClick={() => navigate("/test?session=0")}>
-            Start Test
-          </Button>
-          <Button variant="secondary" onClick={() => navigate("/")}>
-            Home
-          </Button>
-        </div>
+      <div className="container py-24 text-center">
+        <p className="text-muted-foreground mb-4">No test results found.</p>
+        <Button onClick={() => navigate("/")}>Back to Home</Button>
       </div>
     );
   }
 
-  const {
-    details,
-    score,
-    total,
-    sessionIndex = 0,
-    totalSessions = 1,
-    sessionParam,
-  } = state as any;
-  const percent = Math.round((score / total) * 100);
-  const hasNext = sessionIndex < totalSessions - 1;
-
-  // If the original session was a filename (non-numeric), prefer restarting that exact file
-  const isFileSession =
-    typeof sessionParam === "string" && !/^[0-9]+$/.test(sessionParam);
+  const { currentQuestions, answers } = resultsData;
+  const correctCount = currentQuestions.filter(
+    (d: any) =>
+      String(answers[d.id]).toUpperCase() === String(d.answer).toUpperCase(),
+  ).length;
+  const percentage = Math.round((correctCount / currentQuestions.length) * 100);
 
   return (
-    <div className="container max-w-4xl py-8">
-      <div className="rounded-xl border bg-card p-6">
-        <h1 className="text-2xl font-bold">Your Results</h1>
-        <p className="mt-1 text-muted-foreground">
-          Score: {score} / {total} ({percent}%)
-        </p>
-        <div className="mt-4 flex gap-3">
-          <Button
-            onClick={() => {
-              if (isFileSession) {
-                navigate(`/test?session=${encodeURIComponent(sessionParam)}`);
-              } else {
-                navigate(
-                  `/test?session=${hasNext ? sessionIndex + 1 : sessionIndex}`,
-                );
-              }
-            }}
-          >
-            {hasNext ? "Next Session" : "Restart Test"}
+    <div className="container max-w-3xl py-12">
+      <div className="mb-12 text-center">
+        <h1 className="text-4xl font-bold mb-4">Test Complete!</h1>
+        <div className="mb-4">
+          <div className="text-6xl font-bold text-primary mb-2">
+            {percentage}%
+          </div>
+          <p className="text-xl text-muted-foreground">
+            You scored {correctCount} out of {currentQuestions.length}
+          </p>
+        </div>
+
+        <div className="mt-8 flex gap-4 justify-center">
+          <Button onClick={() => navigate("/")}>Take Another Test</Button>
+          <Button variant="outline" onClick={() => window.location.reload()}>
+            Restart
           </Button>
-          {hasNext && (
-            <Button
-              variant="secondary"
-              onClick={() => {
-                if (isFileSession) {
-                  navigate(`/test?session=${encodeURIComponent(sessionParam)}`);
-                } else {
-                  navigate(`/test?session=${sessionIndex}`);
-                }
-              }}
-            >
-              Restart
-            </Button>
-          )}
         </div>
       </div>
 
-      <div className="mt-8 space-y-4">
-        {details.map((d) => {
-          const correct = d.correct as boolean;
+      <div className="space-y-4">
+        <h2 className="text-2xl font-bold mb-6">Answer Review</h2>
+
+        {currentQuestions.map((d: any) => {
+          const isCorrect =
+            String(answers[d.id]).toUpperCase() ===
+            String(d.answer).toUpperCase();
+
           return (
-            <div key={d.id} className="rounded-xl border p-4">
-              <div className="flex items-center justify-between gap-3">
-                <h2 className="font-medium">{d.question}</h2>
-                <span
-                  className={correct ? "text-emerald-600" : "text-destructive"}
-                >
-                  {correct ? "Correct" : "Incorrect"}
-                </span>
-              </div>
-              <div className="mt-2 text-sm text-muted-foreground">
-                <div className="grid gap-1">
-                  {d.type !== "short" && d.options && (
-                    <div className="text-xs">
-                      Options: {d.options.join(", ")}
-                    </div>
-                  )}
-                  <div>
-                    Correct answer:{" "}
-                    <span className="font-medium">
-                      {formatAnswer(d.type, d.correctAnswer, d.options)}
-                    </span>
+            <div key={d.id} className="border rounded-lg p-4 space-y-3">
+              <div className="flex items-start justify-between gap-3">
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-2">
+                    {isCorrect ? (
+                      <CheckCircle2 className="text-green-500 w-5 h-5 flex-shrink-0" />
+                    ) : (
+                      <XCircle className="text-red-500 w-5 h-5 flex-shrink-0" />
+                    )}
+                    <h3 className="font-medium">{d.question}</h3>
                   </div>
-                  <div>
-                    Your answer:{" "}
-                    <span className="font-medium">
-                      {formatAnswer(d.type, d.userAnswer, d.options)}
-                    </span>
+                  <div className="ml-7 space-y-2 text-sm">
+                    <div>
+                      <span className="text-muted-foreground">
+                        Your answer:
+                      </span>{" "}
+                      <span
+                        className={
+                          isCorrect ? "text-green-600" : "text-red-600"
+                        }
+                      >
+                        {answers[d.id]}
+                      </span>
+                    </div>
+                    {!isCorrect && (
+                      <div>
+                        <span className="text-muted-foreground">
+                          Correct answer:
+                        </span>{" "}
+                        <span className="text-green-600">{d.answer}</span>
+                      </div>
+                    )}
                   </div>
                 </div>
-                {d.explanation && (
-                  <div className="mt-2 text-foreground">
-                    Explanation: {d.explanation}
-                  </div>
-                )}
               </div>
             </div>
           );
         })}
       </div>
-
-      <div className="mt-10 flex justify-center">
-        <Button variant="secondary" onClick={() => navigate("/")}>
-          Back to Home
-        </Button>
-      </div>
     </div>
   );
-}
-
-function formatAnswer(type: string, value: any, options?: string[]) {
-  if (value === undefined || value === null || value === "") return "—";
-  if (type === "multiple") {
-    if (typeof value === "number" && options)
-      return options[value] ?? String(value);
-    return String(value);
-  }
-  if (type === "boolean") return value ? "True" : "False";
-  return String(value);
 }

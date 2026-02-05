@@ -1,0 +1,2315 @@
+{
+  "title": "Building Maintenance & Safety MCQs (Q1-Q210)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The main purpose of preventive maintenance is to:",
+      "options": {
+        "A": "Repair failures after breakdown",
+        "B": "Reduce initial construction cost",
+        "C": "Avoid unexpected breakdowns",
+        "D": "Increase building age"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 2,
+      "question": "Which document is mandatory before starting any maintenance work in an occupied building?",
+      "options": {
+        "A": "BOQ",
+        "B": "Method Statement",
+        "C": "Work Permit",
+        "D": "Invoice"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "question": "Who is responsible for ensuring safety compliance during maintenance work?",
+      "options": {
+        "A": "Client",
+        "B": "Engineer",
+        "C": "Contractor",
+        "D": "Municipality"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "question": "Which maintenance activity requires immediate action?",
+      "options": {
+        "A": "Painting",
+        "B": "Hairline wall cracks",
+        "C": "Gas leakage",
+        "D": "Tile replacement"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "question": "Hairline cracks in plaster are usually caused by:",
+      "options": {
+        "A": "Structural failure",
+        "B": "Thermal movement",
+        "C": "Foundation settlement",
+        "D": "Overloading"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "question": "For concrete repair, loose material must be removed before applying repair mortar to:",
+      "options": {
+        "A": "Reduce cost",
+        "B": "Improve appearance",
+        "C": "Ensure proper bonding",
+        "D": "Save time"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "question": "Water seepage in basement walls is best controlled by:",
+      "options": {
+        "A": "Cement plaster",
+        "B": "Acrylic paint",
+        "C": "Waterproof membrane",
+        "D": "Whitewash"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "question": "Which test checks concrete surface strength before repair?",
+      "options": {
+        "A": "Slump test",
+        "B": "Rebound hammer test",
+        "C": "Cube test",
+        "D": "Core cutting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "Which device protects against electric shock?",
+      "options": {
+        "A": "MCB",
+        "B": "Isolator",
+        "C": "ELCB / RCCB",
+        "D": "Fuse"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "question": "Overloading of electrical circuits may cause:",
+      "options": {
+        "A": "Low voltage",
+        "B": "Short circuit",
+        "C": "Fire hazard",
+        "D": "Energy saving"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "question": "Earthing system resistance should generally be less than:",
+      "options": {
+        "A": "10 ohms",
+        "B": "5 ohms",
+        "C": "2 ohms",
+        "D": "1 ohm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Regular AC filter cleaning helps to:",
+      "options": {
+        "A": "Increase power consumption",
+        "B": "Improve air quality",
+        "C": "Reduce cooling",
+        "D": "Damage coil"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "Which refrigerant is commonly used in split AC units in UAE?",
+      "options": {
+        "A": "R22",
+        "B": "R12",
+        "C": "R410A",
+        "D": "Ammonia"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "question": "AC water leakage is usually caused by:",
+      "options": {
+        "A": "Gas leakage",
+        "B": "Choked drain line",
+        "C": "High voltage",
+        "D": "Dirty condenser"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "question": "Which pipe is commonly used for hot water supply?",
+      "options": {
+        "A": "PVC",
+        "B": "HDPE",
+        "C": "PPR",
+        "D": "GI"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "question": "Backflow prevention in plumbing is achieved by installing:",
+      "options": {
+        "A": "Gate valve",
+        "B": "Ball valve",
+        "C": "Non-return valve (NRV)",
+        "D": "Pressure valve"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "question": "Water hammer in pipes is caused by:",
+      "options": {
+        "A": "Pipe leakage",
+        "B": "Sudden valve closure",
+        "C": "High temperature",
+        "D": "Low pressure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "question": "Fire extinguishers must be inspected at least:",
+      "options": {
+        "A": "Every week",
+        "B": "Every month",
+        "C": "Every 6 months",
+        "D": "Once a year"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "question": "Which color code is used for fire fighting pipes?",
+      "options": {
+        "A": "Blue",
+        "B": "Green",
+        "C": "Red",
+        "D": "Yellow"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 20,
+      "question": "Emergency exit doors must:",
+      "options": {
+        "A": "Be locked",
+        "B": "Open inward",
+        "C": "Be clearly illuminated",
+        "D": "Be hidden"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "question": "Which type of maintenance is carried out after equipment failure?",
+      "options": {
+        "A": "Preventive",
+        "B": "Predictive",
+        "C": "Corrective",
+        "D": "Planned"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 22,
+      "question": "Maintenance work in public areas should be carried out:",
+      "options": {
+        "A": "During peak hours",
+        "B": "Without warning signs",
+        "C": "With barricading and signage",
+        "D": "Only after complaints"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "question": "Tool Box Talk (TBT) is conducted to:",
+      "options": {
+        "A": "Increase productivity",
+        "B": "Train new staff only",
+        "C": "Explain hazards and safety measures",
+        "D": "Record attendance"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "question": "Which document shows scheduled maintenance activities?",
+      "options": {
+        "A": "As-built drawing",
+        "B": "Maintenance logbook",
+        "C": "Test report",
+        "D": "Purchase order"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "question": "Spalling of concrete mainly occurs due to:",
+      "options": {
+        "A": "Poor paint quality",
+        "B": "Corrosion of reinforcement",
+        "C": "Over plastering",
+        "D": "Thermal expansion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "question": "Which material is commonly used for crack injection repair?",
+      "options": {
+        "A": "Cement slurry",
+        "B": "Epoxy resin",
+        "C": "Bitumen",
+        "D": "Acrylic paint"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "Expansion joints in buildings are provided to:",
+      "options": {
+        "A": "Improve appearance",
+        "B": "Reduce cost",
+        "C": "Allow thermal movement",
+        "D": "Increase load capacity"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 28,
+      "question": "Which activity requires structural engineer approval?",
+      "options": {
+        "A": "Repainting walls",
+        "B": "Replacing tiles",
+        "C": "Cutting RCC beam",
+        "D": "Changing light fixtures"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "question": "Which test is carried out to check cable insulation?",
+      "options": {
+        "A": "Continuity test",
+        "B": "Polarity test",
+        "C": "Insulation resistance (Megger) test",
+        "D": "Earth resistance test"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 30,
+      "question": "Which condition is MOST dangerous in electrical maintenance?",
+      "options": {
+        "A": "Loose wire",
+        "B": "Damaged insulation",
+        "C": "Overheating cable",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 31,
+      "question": "Emergency lighting should operate during:",
+      "options": {
+        "A": "Normal power",
+        "B": "Power failure",
+        "C": "Daytime only",
+        "D": "Maintenance hours"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "Which component controls refrigerant flow in split AC?",
+      "options": {
+        "A": "Compressor",
+        "B": "Condenser",
+        "C": "Expansion valve",
+        "D": "Evaporator"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 33,
+      "question": "Dirty condenser coils will cause:",
+      "options": {
+        "A": "Reduced cooling efficiency",
+        "B": "Lower power consumption",
+        "C": "Increased airflow",
+        "D": "Better performance"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "Recommended maintenance frequency for AC units in UAE climate is:",
+      "options": {
+        "A": "Once a year",
+        "B": "Every 6 months",
+        "C": "Every 3 months",
+        "D": "Only when faulty"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 35,
+      "question": "Which fitting is used to stop foul smell from drainage system?",
+      "options": {
+        "A": "Elbow",
+        "B": "Tee",
+        "C": "Trap",
+        "D": "Reducer"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 36,
+      "question": "Which test is conducted to check water pipeline leakage?",
+      "options": {
+        "A": "Air test",
+        "B": "Pressure test",
+        "C": "Flow test",
+        "D": "Sound test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "question": "Choking of drainage pipes is mainly caused by:",
+      "options": {
+        "A": "Clean water",
+        "B": "Proper slope",
+        "C": "Grease and debris",
+        "D": "Vent pipes"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "question": "Which fire extinguisher is suitable for electrical fires?",
+      "options": {
+        "A": "Water",
+        "B": "Foam",
+        "C": "CO2",
+        "D": "Wet chemical"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 39,
+      "question": "Fire alarm system maintenance includes testing of:",
+      "options": {
+        "A": "Detectors",
+        "B": "Manual call points",
+        "C": "Sounders",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 40,
+      "question": "Fire exit routes must be:",
+      "options": {
+        "A": "Used for storage",
+        "B": "Locked after office hours",
+        "C": "Kept clear at all times",
+        "D": "Painted white"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 41,
+      "question": "Before starting hot works (welding/cutting), which permit is mandatory?",
+      "options": {
+        "A": "Work at height permit",
+        "B": "Hot work permit",
+        "C": "Electrical permit",
+        "D": "Confined space permit"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "question": "Lock-Out Tag-Out (LOTO) system is used to:",
+      "options": {
+        "A": "Save energy",
+        "B": "Identify tools",
+        "C": "Prevent accidental energizing",
+        "D": "Reduce noise"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 43,
+      "question": "Personal Protective Equipment (PPE) must be provided by:",
+      "options": {
+        "A": "Worker",
+        "B": "Client",
+        "C": "Contractor",
+        "D": "Municipality"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 44,
+      "question": "Which area requires the highest level of housekeeping control?",
+      "options": {
+        "A": "Store room",
+        "B": "Plant room",
+        "C": "Office area",
+        "D": "Parking area"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 45,
+      "question": "Efflorescence on walls is mainly due to:",
+      "options": {
+        "A": "Paint defect",
+        "B": "Moisture movement and salts",
+        "C": "Structural failure",
+        "D": "Dust accumulation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "question": "Which waterproofing is commonly used for wet areas like toilets?",
+      "options": {
+        "A": "Bituminous membrane",
+        "B": "Cementitious coating",
+        "C": "Acrylic paint",
+        "D": "Oil paint"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 47,
+      "question": "Hollow sound in tiles indicates:",
+      "options": {
+        "A": "Good bonding",
+        "B": "Air gap or debonding",
+        "C": "Structural crack",
+        "D": "Tile quality issue"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 48,
+      "question": "Before tile replacement, the substrate must be:",
+      "options": {
+        "A": "Wet and dusty",
+        "B": "Dry and clean",
+        "C": "Painted",
+        "D": "Polished"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "question": "Which lighting system is recommended for energy efficiency in buildings?",
+      "options": {
+        "A": "Incandescent",
+        "B": "Halogen",
+        "C": "Fluorescent",
+        "D": "LED"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 50,
+      "question": "Which device protects electrical circuits from overload and short circuit?",
+      "options": {
+        "A": "RCCB",
+        "B": "Isolator",
+        "C": "MCB",
+        "D": "Contactor"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 51,
+      "question": "Which maintenance strategy uses condition monitoring to predict failures?",
+      "options": {
+        "A": "Preventive",
+        "B": "Corrective",
+        "C": "Predictive",
+        "D": "Reactive"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 52,
+      "question": "Which document records completed maintenance activities?",
+      "options": {
+        "A": "Method statement",
+        "B": "Risk assessment",
+        "C": "Maintenance logbook",
+        "D": "Work permit"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 53,
+      "question": "Unauthorized structural modifications may lead to:",
+      "options": {
+        "A": "Improved safety",
+        "B": "Structural instability",
+        "C": "Lower maintenance cost",
+        "D": "Better aesthetics"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 54,
+      "question": "Which sign indicates corrosion of reinforcement in concrete?",
+      "options": {
+        "A": "Paint peeling",
+        "B": "Efflorescence",
+        "C": "Rust stains and spalling",
+        "D": "Surface dust"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 55,
+      "question": "Carbonation in concrete mainly affects:",
+      "options": {
+        "A": "Aggregates",
+        "B": "Cement color",
+        "C": "Reinforcement protection",
+        "D": "Concrete weight"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 56,
+      "question": "Which repair material is best for high-strength structural repairs?",
+      "options": {
+        "A": "Gypsum",
+        "B": "Lime mortar",
+        "C": "Polymer-modified mortar",
+        "D": "Mud mortar"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 57,
+      "question": "Before applying waterproofing, the surface should be:",
+      "options": {
+        "A": "Oily",
+        "B": "Dusty",
+        "C": "Clean and sound",
+        "D": "Painted"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 58,
+      "question": "Which test checks the slope adequacy of drainage lines?",
+      "options": {
+        "A": "Flow test",
+        "B": "Pressure test",
+        "C": "Smoke test",
+        "D": "Dye test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "Water tank cleaning frequency in residential buildings is usually:",
+      "options": {
+        "A": "Monthly",
+        "B": "Quarterly",
+        "C": "Half-yearly",
+        "D": "Once in 5 years"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 60,
+      "question": "Which material is preferred for potable water tanks?",
+      "options": {
+        "A": "Mild steel",
+        "B": "Asbestos",
+        "C": "GRP",
+        "D": "Wood"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 61,
+      "question": "Low water pressure in upper floors is usually due to:",
+      "options": {
+        "A": "Pipe leakage",
+        "B": "Insufficient pump head",
+        "C": "Dirty fixtures",
+        "D": "Air in pipes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "Which valve controls water pressure in plumbing systems?",
+      "options": {
+        "A": "Gate valve",
+        "B": "Ball valve",
+        "C": "Pressure reducing valve",
+        "D": "Check valve"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 63,
+      "question": "Which test is performed after plumbing installation?",
+      "options": {
+        "A": "Insulation test",
+        "B": "Pressure test",
+        "C": "Load test",
+        "D": "Rebound test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "Which gas is commonly used in fire suppression for server rooms?",
+      "options": {
+        "A": "CO2",
+        "B": "Nitrogen",
+        "C": "FM-200",
+        "D": "Oxygen"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 65,
+      "question": "Fire hose reels are mainly used for:",
+      "options": {
+        "A": "Large fires",
+        "B": "Electrical fires",
+        "C": "First aid fire fighting",
+        "D": "Chemical fires"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 66,
+      "question": "Which color is used for emergency exit signage?",
+      "options": {
+        "A": "Red",
+        "B": "Blue",
+        "C": "Green",
+        "D": "Yellow"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 67,
+      "question": "Fire alarm batteries should be checked:",
+      "options": {
+        "A": "Once a year",
+        "B": "Only during failure",
+        "C": "Regularly as per schedule",
+        "D": "Never"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 68,
+      "question": "Which work requires confined space permit?",
+      "options": {
+        "A": "Painting walls",
+        "B": "Tank cleaning",
+        "C": "Tile fixing",
+        "D": "Light replacement"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 69,
+      "question": "Gas detectors are installed to detect:",
+      "options": {
+        "A": "Smoke only",
+        "B": "Temperature",
+        "C": "Gas leakage",
+        "D": "Humidity"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 70,
+      "question": "Which PPE is mandatory during grinding work?",
+      "options": {
+        "A": "Helmet only",
+        "B": "Hand gloves",
+        "C": "Safety goggles and face shield",
+        "D": "Safety shoes only"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 71,
+      "question": "Work at height requires fall protection when working above:",
+      "options": {
+        "A": "0.5 m",
+        "B": "1.0 m",
+        "C": "1.8 m",
+        "D": "3.0 m"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 72,
+      "question": "Scaffolding must be inspected:",
+      "options": {
+        "A": "Once installed",
+        "B": "Weekly or after modification",
+        "C": "Only after accident",
+        "D": "Monthly"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 73,
+      "question": "Which factor mainly affects lift maintenance frequency?",
+      "options": {
+        "A": "Lift color",
+        "B": "Usage intensity",
+        "C": "Building height only",
+        "D": "Cabin size"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 74,
+      "question": "Lift emergency alarm should connect to:",
+      "options": {
+        "A": "Power supply",
+        "B": "Fire alarm panel",
+        "C": "24/7 monitoring or security",
+        "D": "Lighting panel"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 75,
+      "question": "Which maintenance activity increases equipment life?",
+      "options": {
+        "A": "Ignoring minor issues",
+        "B": "Reactive maintenance",
+        "C": "Preventive maintenance",
+        "D": "Delayed repairs"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 76,
+      "question": "Which lubricant is commonly used for door hinges?",
+      "options": {
+        "A": "Water",
+        "B": "Grease or oil",
+        "C": "Paint",
+        "D": "Solvent"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 77,
+      "question": "Loose handrails mainly pose a risk of:",
+      "options": {
+        "A": "Fire",
+        "B": "Electrical shock",
+        "C": "Fall injury",
+        "D": "Water leakage"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 78,
+      "question": "Which flooring defect is a trip hazard?",
+      "options": {
+        "A": "Glossy tiles",
+        "B": "Uneven tiles",
+        "C": "Clean floor",
+        "D": "Dry surface"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 79,
+      "question": "Which inspection checks emergency preparedness?",
+      "options": {
+        "A": "Structural audit",
+        "B": "Fire drill",
+        "C": "Energy audit",
+        "D": "Condition survey"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 80,
+      "question": "Emergency evacuation plans should be displayed:",
+      "options": {
+        "A": "In store rooms",
+        "B": "Near exits and common areas",
+        "C": "Inside offices only",
+        "D": "Only in fire control room"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 81,
+      "question": "Which paint is recommended for external walls?",
+      "options": {
+        "A": "Distemper",
+        "B": "Emulsion",
+        "C": "Weather-resistant acrylic",
+        "D": "Oil paint"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 82,
+      "question": "Blistering of paint is usually caused by:",
+      "options": {
+        "A": "Dry surface",
+        "B": "Moisture trapped under paint",
+        "C": "Good surface prep",
+        "D": "Low humidity"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 83,
+      "question": "Which defect indicates poor surface preparation?",
+      "options": {
+        "A": "Smooth finish",
+        "B": "Uniform color",
+        "C": "Peeling paint",
+        "D": "Glossy surface"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 84,
+      "question": "Sealant is mainly used to:",
+      "options": {
+        "A": "Increase strength",
+        "B": "Allow movement and prevent water ingress",
+        "C": "Improve color",
+        "D": "Reduce weight"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 85,
+      "question": "Which joint requires flexible sealant?",
+      "options": {
+        "A": "Rigid concrete joint",
+        "B": "Expansion joint",
+        "C": "Brick joint",
+        "D": "Plaster joint"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 86,
+      "question": "Which lighting level is required for staircases?",
+      "options": {
+        "A": "Very low",
+        "B": "Moderate and uniform",
+        "C": "High glare",
+        "D": "No lighting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 87,
+      "question": "Which factor improves indoor air quality?",
+      "options": {
+        "A": "Blocked vents",
+        "B": "Regular HVAC maintenance",
+        "C": "High humidity",
+        "D": "Dirty filters"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 88,
+      "question": "Condensation on AC ducts indicates:",
+      "options": {
+        "A": "Good insulation",
+        "B": "Poor insulation",
+        "C": "Low humidity",
+        "D": "High airflow"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 89,
+      "question": "Which test measures energy efficiency of a building?",
+      "options": {
+        "A": "Structural test",
+        "B": "Energy audit",
+        "C": "Load test",
+        "D": "Fire test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 90,
+      "question": "Which system controls smoke movement in a building?",
+      "options": {
+        "A": "HVAC",
+        "B": "Plumbing",
+        "C": "Smoke management system",
+        "D": "Electrical system"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 91,
+      "question": "Which maintenance activity should be documented for audits?",
+      "options": {
+        "A": "Only major works",
+        "B": "Only electrical works",
+        "C": "All maintenance activities",
+        "D": "Only complaints"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 92,
+      "question": "Which equipment requires statutory inspection?",
+      "options": {
+        "A": "Office chairs",
+        "B": "Lifts and pressure vessels",
+        "C": "Desks",
+        "D": "Partitions"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 93,
+      "question": "Which record helps track repeated failures?",
+      "options": {
+        "A": "Invoice",
+        "B": "Complaint register",
+        "C": "Maintenance history",
+        "D": "Delivery note"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 94,
+      "question": "Which activity reduces operational cost long-term?",
+      "options": {
+        "A": "Deferred maintenance",
+        "B": "Emergency repairs",
+        "C": "Planned preventive maintenance",
+        "D": "Ignoring minor defects"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 95,
+      "question": "Which document defines safety hazards and controls?",
+      "options": {
+        "A": "BOQ",
+        "B": "Risk Assessment",
+        "C": "Invoice",
+        "D": "As-built drawing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 96,
+      "question": "Which maintenance KPI measures response speed?",
+      "options": {
+        "A": "MTBF",
+        "B": "MTTR",
+        "C": "Energy index",
+        "D": "Downtime ratio"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 97,
+      "question": "Which maintenance practice improves tenant satisfaction?",
+      "options": {
+        "A": "Delayed response",
+        "B": "Clear communication and quick repairs",
+        "C": "Ignoring feedback",
+        "D": "Minimal inspections"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 98,
+      "question": "Which inspection identifies early-stage defects?",
+      "options": {
+        "A": "Visual inspection",
+        "B": "Final inspection",
+        "C": "Post-failure inspection",
+        "D": "Demolition inspection"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 99,
+      "question": "Which factor mainly affects maintenance budget?",
+      "options": {
+        "A": "Building age",
+        "B": "Paint color",
+        "C": "Furniture type",
+        "D": "Office layout"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 100,
+      "question": "Effective maintenance management results in:",
+      "options": {
+        "A": "Higher breakdowns",
+        "B": "Unsafe environment",
+        "C": "Extended asset life and safety",
+        "D": "Increased complaints"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 101,
+      "question": "Which maintenance approach focuses on eliminating the root cause of failure?",
+      "options": {
+        "A": "Reactive maintenance",
+        "B": "Corrective maintenance",
+        "C": "Root cause analysis maintenance",
+        "D": "Breakdown maintenance"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 102,
+      "question": "Which document defines the scope of maintenance work?",
+      "options": {
+        "A": "Invoice",
+        "B": "Scope of Work",
+        "C": "Delivery note",
+        "D": "Warranty card"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 103,
+      "question": "Unauthorized drilling in slabs may affect:",
+      "options": {
+        "A": "Paint finish",
+        "B": "Structural integrity",
+        "C": "Lighting layout",
+        "D": "Furniture fixing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 104,
+      "question": "Which defect indicates moisture ingress in walls?",
+      "options": {
+        "A": "Hairline crack",
+        "B": "Damp patches",
+        "C": "Color variation",
+        "D": "Smooth finish"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 105,
+      "question": "Which repair method is suitable for active water leaks?",
+      "options": {
+        "A": "Surface painting",
+        "B": "Injection grouting",
+        "C": "Dry plastering",
+        "D": "Whitewash"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "question": "Which material is commonly used for roof waterproofing?",
+      "options": {
+        "A": "Cement paint",
+        "B": "Bituminous membrane",
+        "C": "Distemper",
+        "D": "Lime wash"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "question": "Ponding water on roofs is mainly due to:",
+      "options": {
+        "A": "Good drainage",
+        "B": "Excess slope",
+        "C": "Inadequate slope or blocked drains",
+        "D": "Concrete strength"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 108,
+      "question": "Which test checks waterproofing effectiveness?",
+      "options": {
+        "A": "Flood test",
+        "B": "Rebound test",
+        "C": "Slump test",
+        "D": "Load test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 109,
+      "question": "Which pipeline is used for fire fighting systems?",
+      "options": {
+        "A": "PVC",
+        "B": "CPVC / GI",
+        "C": "PPR",
+        "D": "HDPE"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 110,
+      "question": "Fire pumps should be tested:",
+      "options": {
+        "A": "Once a year",
+        "B": "Only during emergency",
+        "C": "Weekly",
+        "D": "Once in 5 years"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 111,
+      "question": "Which system ensures pressurized staircases during fire?",
+      "options": {
+        "A": "HVAC system",
+        "B": "Plumbing system",
+        "C": "Staircase pressurization system",
+        "D": "Lighting system"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 112,
+      "question": "Which safety sign indicates mandatory action?",
+      "options": {
+        "A": "Red circle",
+        "B": "Blue circle",
+        "C": "Yellow triangle",
+        "D": "Green rectangle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 113,
+      "question": "Which work requires electrical isolation?",
+      "options": {
+        "A": "Painting walls",
+        "B": "Replacing switch or socket",
+        "C": "Floor cleaning",
+        "D": "Glass replacement"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 114,
+      "question": "Electrical panels must be:",
+      "options": {
+        "A": "Blocked by materials",
+        "B": "Locked and labeled",
+        "C": "Open at all times",
+        "D": "Painted only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 115,
+      "question": "Which test verifies proper earthing?",
+      "options": {
+        "A": "Continuity test",
+        "B": "Earth resistance test",
+        "C": "Polarity test",
+        "D": "Voltage test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "question": "Which factor causes frequent MCB tripping?",
+      "options": {
+        "A": "Good insulation",
+        "B": "Overloading",
+        "C": "Proper earthing",
+        "D": "Correct wiring"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "question": "Which component protects motors from overload?",
+      "options": {
+        "A": "MCB",
+        "B": "Contactor",
+        "C": "Thermal overload relay",
+        "D": "Isolator"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 118,
+      "question": "Which factor reduces motor efficiency?",
+      "options": {
+        "A": "Proper lubrication",
+        "B": "Balanced load",
+        "C": "Poor alignment",
+        "D": "Correct voltage"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 119,
+      "question": "Which AC component removes heat from indoor air?",
+      "options": {
+        "A": "Condenser",
+        "B": "Compressor",
+        "C": "Evaporator",
+        "D": "Expansion valve"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 120,
+      "question": "Low refrigerant level causes:",
+      "options": {
+        "A": "Better cooling",
+        "B": "Higher efficiency",
+        "C": "Reduced cooling",
+        "D": "No power consumption"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 121,
+      "question": "Which device controls room temperature automatically?",
+      "options": {
+        "A": "Relay",
+        "B": "Thermostat",
+        "C": "Contactor",
+        "D": "Timer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 122,
+      "question": "Which maintenance issue increases energy consumption?",
+      "options": {
+        "A": "Clean filters",
+        "B": "Dirty coils",
+        "C": "Proper insulation",
+        "D": "Correct settings"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "question": "Which plumbing fixture uses the most water?",
+      "options": {
+        "A": "Wash basin",
+        "B": "Shower",
+        "C": "WC flush",
+        "D": "Kitchen sink"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 124,
+      "question": "Which practice reduces water wastage?",
+      "options": {
+        "A": "Delayed leak repair",
+        "B": "High flow fixtures",
+        "C": "Low-flow fixtures",
+        "D": "Continuous flushing"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 125,
+      "question": "Which system removes foul gases from drainage?",
+      "options": {
+        "A": "Water supply system",
+        "B": "Vent pipe system",
+        "C": "Fire system",
+        "D": "Electrical system"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 126,
+      "question": "Which test identifies hidden leaks in drainage?",
+      "options": {
+        "A": "Pressure test",
+        "B": "Dye test",
+        "C": "Rebound test",
+        "D": "Voltage test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 127,
+      "question": "Which fire detection device senses heat?",
+      "options": {
+        "A": "Smoke detector",
+        "B": "Heat detector",
+        "C": "Gas detector",
+        "D": "Flame detector"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 128,
+      "question": "Which area requires explosion-proof fixtures?",
+      "options": {
+        "A": "Office",
+        "B": "Server room",
+        "C": "Car parking with fuel vapors",
+        "D": "Lobby"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 129,
+      "question": "Which activity requires hot work permit?",
+      "options": {
+        "A": "Drilling",
+        "B": "Welding",
+        "C": "Painting",
+        "D": "Cleaning"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 130,
+      "question": "Which control prevents sparks during hot works?",
+      "options": {
+        "A": "Fire blanket",
+        "B": "Electrical tape",
+        "C": "Warning sign",
+        "D": "Paint"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 131,
+      "question": "Which inspection ensures safe working conditions?",
+      "options": {
+        "A": "Quality inspection",
+        "B": "Safety inspection",
+        "C": "Final inspection",
+        "D": "Visual inspection"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 132,
+      "question": "Which PPE is mandatory for work at height?",
+      "options": {
+        "A": "Gloves",
+        "B": "Safety harness",
+        "C": "Dust mask",
+        "D": "Apron"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 133,
+      "question": "Which factor causes slippery floors?",
+      "options": {
+        "A": "Dry surface",
+        "B": "Good cleaning",
+        "C": "Water or oil spill",
+        "D": "Rough tiles"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 134,
+      "question": "Which sign indicates emergency exit?",
+      "options": {
+        "A": "Red fire sign",
+        "B": "Blue mandatory sign",
+        "C": "Green exit sign",
+        "D": "Yellow warning sign"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 135,
+      "question": "Which practice improves housekeeping?",
+      "options": {
+        "A": "Material accumulation",
+        "B": "Blocked walkways",
+        "C": "Regular cleaning and organization",
+        "D": "Ignoring spills"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 136,
+      "question": "Which maintenance activity ensures regulatory compliance?",
+      "options": {
+        "A": "Aesthetic upgrades",
+        "B": "Statutory inspections",
+        "C": "Furniture replacement",
+        "D": "Interior decoration"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 137,
+      "question": "Which record is required during authority audits?",
+      "options": {
+        "A": "Complaint log only",
+        "B": "Maintenance and inspection records",
+        "C": "Invoices only",
+        "D": "Supplier catalog"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "question": "Which KPI measures equipment reliability?",
+      "options": {
+        "A": "MTBF",
+        "B": "MTTR",
+        "C": "Response time",
+        "D": "Energy index"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 139,
+      "question": "Which activity minimizes emergency breakdowns?",
+      "options": {
+        "A": "Reactive maintenance",
+        "B": "Preventive maintenance",
+        "C": "Delayed repairs",
+        "D": "Ignoring alarms"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 140,
+      "question": "Which communication improves maintenance efficiency?",
+      "options": {
+        "A": "Unclear instructions",
+        "B": "Proper work orders",
+        "C": "Verbal complaints only",
+        "D": "No documentation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 141,
+      "question": "Which tool helps schedule maintenance tasks?",
+      "options": {
+        "A": "Calculator",
+        "B": "CMMS",
+        "C": "Email only",
+        "D": "Drawing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 142,
+      "question": "Which benefit does CMMS provide?",
+      "options": {
+        "A": "Higher breakdowns",
+        "B": "Poor tracking",
+        "C": "Better asset management",
+        "D": "Increased paperwork"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 143,
+      "question": "Which factor affects spare parts planning?",
+      "options": {
+        "A": "Failure history",
+        "B": "Paint color",
+        "C": "Office size",
+        "D": "Floor type"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 144,
+      "question": "Which practice avoids maintenance backlog?",
+      "options": {
+        "A": "Delayed scheduling",
+        "B": "Planned maintenance",
+        "C": "Ignoring minor issues",
+        "D": "Reactive repairs only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 145,
+      "question": "Which maintenance metric measures downtime?",
+      "options": {
+        "A": "MTTR",
+        "B": "MTBF",
+        "C": "Availability",
+        "D": "Energy index"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 146,
+      "question": "Which review improves maintenance processes?",
+      "options": {
+        "A": "Random discussion",
+        "B": "Post-maintenance review",
+        "C": "Ignoring feedback",
+        "D": "Verbal complaints"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 147,
+      "question": "Which factor drives continuous improvement?",
+      "options": {
+        "A": "No data",
+        "B": "Performance analysis",
+        "C": "Guesswork",
+        "D": "Delayed action"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 148,
+      "question": "Which maintenance objective focuses on safety?",
+      "options": {
+        "A": "Cost reduction only",
+        "B": "Aesthetic improvement",
+        "C": "Risk reduction",
+        "D": "Decoration"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 149,
+      "question": "Which outcome indicates good maintenance management?",
+      "options": {
+        "A": "Frequent failures",
+        "B": "High downtime",
+        "C": "Safe and reliable operations",
+        "D": "Increased complaints"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 150,
+      "question": "Which factor is essential for successful maintenance?",
+      "options": {
+        "A": "Lack of planning",
+        "B": "Skilled manpower",
+        "C": "No documentation",
+        "D": "Reactive approach"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 151,
+      "question": "Which maintenance activity is performed at fixed intervals?",
+      "options": {
+        "A": "Corrective maintenance",
+        "B": "Breakdown maintenance",
+        "C": "Preventive maintenance",
+        "D": "Emergency maintenance"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 152,
+      "question": "Which factor mainly increases maintenance cost?",
+      "options": {
+        "A": "Timely inspections",
+        "B": "Deferred maintenance",
+        "C": "Proper planning",
+        "D": "Skilled technicians"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 153,
+      "question": "Which document authorizes work execution?",
+      "options": {
+        "A": "Inspection report",
+        "B": "Work order",
+        "C": "Logbook",
+        "D": "As-built drawing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 154,
+      "question": "Unauthorized modifications should be:",
+      "options": {
+        "A": "Encouraged",
+        "B": "Documented and approved",
+        "C": "Ignored",
+        "D": "Repeated"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 155,
+      "question": "Which sign indicates structural distress?",
+      "options": {
+        "A": "Paint fading",
+        "B": "Wide cracks",
+        "C": "Glossy finish",
+        "D": "Color matching"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 156,
+      "question": "Which test checks concrete integrity?",
+      "options": {
+        "A": "Slump test",
+        "B": "Core test",
+        "C": "Paint adhesion test",
+        "D": "Flow test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 157,
+      "question": "Which repair is suitable for corroded rebars?",
+      "options": {
+        "A": "Surface painting",
+        "B": "Rebar treatment and jacketing",
+        "C": "Whitewash",
+        "D": "Tile fixing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 158,
+      "question": "Which waterproofing failure leads to ceiling dampness?",
+      "options": {
+        "A": "Basement failure",
+        "B": "Roof or bathroom leakage",
+        "C": "Pipe corrosion",
+        "D": "AC problem"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 159,
+      "question": "Which activity ensures roof drainage efficiency?",
+      "options": {
+        "A": "Painting parapet",
+        "B": "Cleaning roof drains",
+        "C": "Fixing tiles",
+        "D": "Replacing lights"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 160,
+      "question": "Which fire system provides early detection?",
+      "options": {
+        "A": "Sprinkler",
+        "B": "Fire alarm system",
+        "C": "Fire pump",
+        "D": "Hose reel"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 161,
+      "question": "Which fire protection system activates automatically?",
+      "options": {
+        "A": "Fire extinguisher",
+        "B": "Fire hose reel",
+        "C": "Sprinkler system",
+        "D": "Manual alarm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 162,
+      "question": "Which activity is critical during fire alarm maintenance?",
+      "options": {
+        "A": "Panel painting",
+        "B": "Battery testing",
+        "C": "Cable coloring",
+        "D": "Label printing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 163,
+      "question": "Which safety system ensures power cut during fault?",
+      "options": {
+        "A": "Isolator",
+        "B": "RCCB",
+        "C": "Contactor",
+        "D": "Timer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 164,
+      "question": "Which electrical hazard may cause fire?",
+      "options": {
+        "A": "Proper earthing",
+        "B": "Loose connections",
+        "C": "Correct fuse rating",
+        "D": "Good insulation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 165,
+      "question": "Which inspection identifies hot spots in electrical panels?",
+      "options": {
+        "A": "Visual inspection",
+        "B": "Thermographic inspection",
+        "C": "Continuity test",
+        "D": "Polarity test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 166,
+      "question": "Which practice reduces electrical accidents?",
+      "options": {
+        "A": "Working live",
+        "B": "LOTO procedure",
+        "C": "Ignoring warnings",
+        "D": "Bypassing protection"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 167,
+      "question": "Which motor fault causes abnormal noise?",
+      "options": {
+        "A": "Good alignment",
+        "B": "Worn bearings",
+        "C": "Proper lubrication",
+        "D": "Correct voltage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 168,
+      "question": "Which maintenance action prevents pump cavitation?",
+      "options": {
+        "A": "Low suction head",
+        "B": "Adequate suction conditions",
+        "C": "Blocked suction",
+        "D": "High temperature"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 169,
+      "question": "Which HVAC issue causes uneven cooling?",
+      "options": {
+        "A": "Clean filters",
+        "B": "Balanced airflow",
+        "C": "Blocked or closed dampers",
+        "D": "Correct thermostat"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 170,
+      "question": "Which practice improves HVAC efficiency?",
+      "options": {
+        "A": "Dirty filters",
+        "B": "Regular servicing",
+        "C": "Blocked ducts",
+        "D": "Improper settings"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 171,
+      "question": "Which plumbing defect causes water hammer?",
+      "options": {
+        "A": "Slow valve closure",
+        "B": "Sudden valve closure",
+        "C": "Low pressure",
+        "D": "Proper supports"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 172,
+      "question": "Which maintenance reduces drainage blockage?",
+      "options": {
+        "A": "Ignoring grease",
+        "B": "Regular cleaning",
+        "C": "Reducing slope",
+        "D": "Blocking vents"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 173,
+      "question": "Which water issue indicates pipe leakage?",
+      "options": {
+        "A": "Stable meter reading",
+        "B": "Unusual water bills",
+        "C": "Clear water",
+        "D": "Normal pressure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 174,
+      "question": "Which fire safety activity improves readiness?",
+      "options": {
+        "A": "Fire drill",
+        "B": "Panel painting",
+        "C": "Cable labeling",
+        "D": "Sign replacement"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 175,
+      "question": "Which training is mandatory for emergency response?",
+      "options": {
+        "A": "Painting training",
+        "B": "First aid and fire fighting",
+        "C": "IT training",
+        "D": "Accounting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 176,
+      "question": "Which housekeeping issue is a safety hazard?",
+      "options": {
+        "A": "Clear walkways",
+        "B": "Good lighting",
+        "C": "Oil spill on floor",
+        "D": "Proper storage"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 177,
+      "question": "Which floor condition increases slip risk?",
+      "options": {
+        "A": "Textured tiles",
+        "B": "Dry surface",
+        "C": "Wet surface",
+        "D": "Mat finish"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 178,
+      "question": "Which sign indicates prohibition?",
+      "options": {
+        "A": "Green rectangle",
+        "B": "Yellow triangle",
+        "C": "Red circle with slash",
+        "D": "Blue circle"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 179,
+      "question": "Which lighting type reduces glare?",
+      "options": {
+        "A": "Bare bulb",
+        "B": "Diffused lighting",
+        "C": "High-intensity point light",
+        "D": "Direct lighting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 180,
+      "question": "Which feature improves accessibility?",
+      "options": {
+        "A": "Steps only",
+        "B": "Ramps with handrails",
+        "C": "High thresholds",
+        "D": "Narrow doors"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 181,
+      "question": "Which maintenance record supports budgeting?",
+      "options": {
+        "A": "Complaint log",
+        "B": "Maintenance cost history",
+        "C": "Attendance register",
+        "D": "Visitor log"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 182,
+      "question": "Which factor affects asset replacement decision?",
+      "options": {
+        "A": "Repair frequency and cost",
+        "B": "Paint color",
+        "C": "Room size",
+        "D": "Brand name"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 183,
+      "question": "Which strategy reduces life-cycle cost?",
+      "options": {
+        "A": "Run-to-failure",
+        "B": "Preventive maintenance",
+        "C": "Ignoring wear",
+        "D": "Emergency repairs"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 184,
+      "question": "Which review evaluates maintenance effectiveness?",
+      "options": {
+        "A": "Financial audit",
+        "B": "Performance review",
+        "C": "Interior audit",
+        "D": "Design review"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 185,
+      "question": "Which practice improves team efficiency?",
+      "options": {
+        "A": "Unclear roles",
+        "B": "Defined responsibilities",
+        "C": "No supervision",
+        "D": "Random task assignment"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 186,
+      "question": "Which factor ensures quality maintenance work?",
+      "options": {
+        "A": "Untrained staff",
+        "B": "Standard procedures",
+        "C": "Skipping inspections",
+        "D": "No documentation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 187,
+      "question": "Which communication method avoids errors?",
+      "options": {
+        "A": "Verbal instruction only",
+        "B": "Written work orders",
+        "C": "Assumptions",
+        "D": "No briefing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 188,
+      "question": "Which indicator shows maintenance backlog?",
+      "options": {
+        "A": "Low pending work orders",
+        "B": "High number of overdue tasks",
+        "C": "Quick response",
+        "D": "Low downtime"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 189,
+      "question": "Which action improves maintenance planning?",
+      "options": {
+        "A": "Ignoring data",
+        "B": "Analyzing maintenance trends",
+        "C": "Guessing priorities",
+        "D": "Delayed reviews"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 190,
+      "question": "Which outcome indicates efficient maintenance?",
+      "options": {
+        "A": "Frequent complaints",
+        "B": "High downtime",
+        "C": "Reliable and safe systems",
+        "D": "Emergency repairs"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 191,
+      "question": "Which factor supports continuous improvement?",
+      "options": {
+        "A": "No feedback",
+        "B": "Regular performance monitoring",
+        "C": "Ignoring KPIs",
+        "D": "Delayed actions"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 192,
+      "question": "Which maintenance culture improves results?",
+      "options": {
+        "A": "Blame culture",
+        "B": "Proactive culture",
+        "C": "Reactive culture",
+        "D": "No accountability"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 193,
+      "question": "Which role is responsible for maintenance planning?",
+      "options": {
+        "A": "Security",
+        "B": "Maintenance manager",
+        "C": "Cleaner",
+        "D": "Receptionist"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 194,
+      "question": "Which system helps control maintenance costs?",
+      "options": {
+        "A": "Manual notes",
+        "B": "CMMS",
+        "C": "Verbal reports",
+        "D": "No tracking"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 195,
+      "question": "Which factor improves asset availability?",
+      "options": {
+        "A": "Delayed maintenance",
+        "B": "Preventive maintenance",
+        "C": "Ignoring alarms",
+        "D": "Breakdown repairs"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 196,
+      "question": "Which metric measures asset availability?",
+      "options": {
+        "A": "MTBF",
+        "B": "MTTR",
+        "C": "Availability percentage",
+        "D": "Energy index"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 197,
+      "question": "Which activity improves customer confidence?",
+      "options": {
+        "A": "Delayed response",
+        "B": "Transparent reporting",
+        "C": "Ignoring issues",
+        "D": "Hidden records"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 198,
+      "question": "Which process ensures lessons learned?",
+      "options": {
+        "A": "Ignoring failures",
+        "B": "Post-incident analysis",
+        "C": "Quick fixes only",
+        "D": "No documentation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 199,
+      "question": "Which goal aligns with best maintenance practice?",
+      "options": {
+        "A": "Minimum cost only",
+        "B": "Safety, reliability, and efficiency",
+        "C": "Maximum breakdowns",
+        "D": "Deferred actions"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 200,
+      "question": "Which factor is critical for maintenance success?",
+      "options": {
+        "A": "No planning",
+        "B": "Management support",
+        "C": "Ignoring training",
+        "D": "Reactive approach"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 201,
+      "question": "Maintenance work can continue WITHOUT additional permit when:",
+      "options": {
+        "A": "Work is urgent",
+        "B": "Work is at night",
+        "C": "Work involves hot cutting",
+        "D": "Work is low-risk and routine"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 202,
+      "question": "Which situation demands STOP WORK, even if permission exists?",
+      "options": {
+        "A": "Minor dust",
+        "B": "Worker fatigue",
+        "C": "Unexpected water leakage in electrical area",
+        "D": "Client pressure"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 203,
+      "question": "PPE is NOT required only when:",
+      "options": {
+        "A": "Working at height",
+        "B": "Working with electricity",
+        "C": "Performing office inspection only",
+        "D": "Using power tools"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 204,
+      "question": "Which crack MOST likely indicates structural distress?",
+      "options": {
+        "A": "Random plaster crack",
+        "B": "Hairline paint crack",
+        "C": "Diagonal crack extending from beam to slab",
+        "D": "Surface shrinkage crack"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 205,
+      "question": "Concrete carbonation is dangerous primarily because it:",
+      "options": {
+        "A": "Changes surface color",
+        "B": "Weakens paint adhesion",
+        "C": "Reduces pH leading to steel corrosion",
+        "D": "Increases strength"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 206,
+      "question": "Structural modification is allowed ONLY when:",
+      "options": {
+        "A": "Client approves",
+        "B": "Contractor is experienced",
+        "C": "Approved drawings and DM permission exist",
+        "D": "Work is hidden"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 207,
+      "question": "Which condition ALONE can cause immediate electrical shutdown?",
+      "options": {
+        "A": "Flickering light",
+        "B": "Loose switch plate",
+        "C": "Water seepage inside DB",
+        "D": "Old wiring color"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 208,
+      "question": "Electrical testing done but results not recorded means:",
+      "options": {
+        "A": "Testing accepted",
+        "B": "Verbal confirmation enough",
+        "C": "Testing considered not done",
+        "D": "Minor issue"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 209,
+      "question": "Fire exit door opens inward. This is:",
+      "options": {
+        "A": "Acceptable in small buildings",
+        "B": "Design choice",
+        "C": "Life-safety non-compliance",
+        "D": "Minor issue"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 210,
+      "question": "Maintenance outsourced but incident occurs. Legal responsibility lies with:",
+      "options": {
+        "A": "Worker",
+        "B": "Subcontractor",
+        "C": "FM / Main contractor",
+        "D": "Security"
+      },
+      "answer": "C"
+    }
+  ]
+}

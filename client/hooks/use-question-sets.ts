@@ -2,14 +2,13 @@ import { useEffect, useState } from "react";
 
 export type QuestionSet = {
   filename: string;
-  url: string;
   title: string;
 };
 
-async function fetchJson<T = unknown>(url: string): Promise<T> {
-  const res = await fetch(url, { cache: "no-store" });
-  if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status}`);
-  return (await res.json()) as T;
+async function fetchJson(url: string): Promise<any> {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json();
 }
 
 export function useQuestionSets() {
@@ -19,33 +18,30 @@ export function useQuestionSets() {
 
   useEffect(() => {
     let mounted = true;
-    (async () => {
+
+    async function load() {
       try {
-        setLoading(true);
-        // Try API first (works locally and on servers with Node FS access)
-        let data: unknown = [];
+        let data;
+
         try {
           data = await fetchJson("/api/question-sets");
         } catch {
-          data = [];
-        }
-
-        // Fallback to static manifest for static hosts (e.g., Netlify)
-        if (!Array.isArray(data) || data.length === 0) {
           try {
             data = await fetchJson("/question-sets.json");
-          } catch {
+          } catch (e: any) {
+            if (mounted) setError(e.message);
             data = [];
           }
         }
 
         if (mounted) setSets(Array.isArray(data) ? data : []);
-      } catch (e: any) {
-        if (mounted) setError(e?.message ?? "Unknown error");
       } finally {
         if (mounted) setLoading(false);
       }
-    })();
+    }
+
+    load();
+
     return () => {
       mounted = false;
     };

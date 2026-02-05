@@ -4,32 +4,30 @@ import path from "path";
 
 export const handleQuestionSets: RequestHandler = (_req, res) => {
   try {
-    const publicDir = path.resolve(process.cwd(), "public");
-    if (!fs.existsSync(publicDir)) return res.json([]);
+    const publicDir = path.join(process.cwd(), "public");
     const files = fs.readdirSync(publicDir);
-    const filtered = files.filter((f) => /Questions\.json$/i.test(f));
+    const filtered = files.filter(
+      (f) => f.endsWith("Questions.json") || f === "mcqs_q1_q210.json",
+    );
 
-    // Attach file mtime and sort oldest-first so the newest files appear last in the UI
-    const withStat = filtered.map((filename) => {
+    const sets = filtered.map((filename) => {
       try {
-        const stat = fs.statSync(path.join(publicDir, filename));
-        return { filename, mtime: stat.mtimeMs };
+        const content = fs.readFileSync(
+          path.join(publicDir, filename),
+          "utf-8",
+        );
+        const json = JSON.parse(content);
+        return {
+          filename,
+          title: json.title || filename.replace(".json", ""),
+        };
       } catch {
-        return { filename, mtime: 0 };
+        return null;
       }
     });
 
-    // Sort ascending by mtime (oldest first)
-    withStat.sort((a, b) => a.mtime - b.mtime);
-
-    const sets = withStat.map(({ filename }) => ({
-      filename,
-      url: `/${encodeURI(filename)}`,
-      title: filename.replace(/\.json$/i, ""),
-    }));
-
-    res.json(sets);
-  } catch (e: any) {
-    res.status(500).json({ error: e?.message ?? String(e) });
+    res.json(sets.filter(Boolean));
+  } catch (error) {
+    res.status(500).json({ error: "Failed to load question sets" });
   }
 };

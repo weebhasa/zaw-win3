@@ -54,25 +54,25 @@ export default function Index() {
   );
 
   const startSessionFilename =
-    selectedPart || (currentGroup?.items?.[0]?.filename ?? "0");
+    selectedPart || (currentGroup?.items?.[0]?.filename ?? "mcqs_q1_q210.json");
 
   return (
     <main className="relative">
       <section className="bg-gradient-to-br from-primary/10 via-background to-fuchsia-100/40 py-16 sm:py-24">
         <div className="container max-w-4xl">
           <h1 className="text-balance bg-gradient-to-r from-primary to-fuchsia-600 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl">
-            Online Test Platform
+            Building Maintenance & Safety Quiz
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            Take a 100-question test featuring multiple choice, true/false, and
-            short answer questions. Your progress is tracked as you go, and
-            detailed results are shown at the end.
+            Test your knowledge on building maintenance, safety practices,
+            electrical systems, plumbing, fire safety, and facility management
+            with 210 comprehensive MCQs.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-end">
             <div className="flex gap-3 w-full sm:w-auto">
               <div className="w-full sm:w-64">
                 <label className="mb-1 block text-sm font-medium text-foreground">
-                  Choose session
+                  Choose test set
                 </label>
                 <Select
                   value={selectedBase}
@@ -85,7 +85,7 @@ export default function Index() {
                   disabled={isLoading}
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder="Select session" />
+                    <SelectValue placeholder="Select test set" />
                   </SelectTrigger>
                   <SelectContent>
                     {groups.map((g) => (
@@ -147,10 +147,10 @@ export default function Index() {
                 A progress bar indicates how many questions you have answered.
               </li>
               <li>
-                Results page shows your score, correct answers, and
-                explanations.
+                Results page shows your score, correct answers, and answer
+                review.
               </li>
-              <li>Restart the test anytime after submission.</li>
+              <li>Restart the test anytime to try again.</li>
               <li>Fully responsive and mobile-friendly UI.</li>
             </ul>
           </div>

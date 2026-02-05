@@ -1,54 +1,41 @@
 import { useEffect, useState } from "react";
-import type { Question } from "@/components/quiz/QuestionCard";
 
-function stripLabel(opt: string) {
-  const m = opt.match(/^\s*[A-Fa-f]\s*[:.)-]\s*(.*)$/);
-  return m ? m[1].trim() : opt.trim();
-}
+export type Question = {
+  id: number;
+  question: string;
+  type: "multiple" | "boolean" | "short";
+  options: Record<string, string> | string[];
+  answer?: string;
+  explanation?: string;
+};
 
-function letterToIndex(letter: string): number {
-  const ch = letter.trim().toUpperCase();
-  const map: Record<string, number> = { A: 0, B: 1, C: 2, D: 3, E: 4, F: 5 };
-  return map[ch] ?? 0;
-}
-
-function toOptionsArray(options: any): string[] {
-  if (!options) return [];
-  if (Array.isArray(options)) return options.map((c) => stripLabel(String(c)));
-  if (typeof options === "object") {
-    const order = ["A", "B", "C", "D", "E", "F"];
-    return order
-      .map((k) => options[k])
-      .filter((v) => v !== undefined && v !== null)
-      .map((v) => stripLabel(String(v)));
+async function safeFetchJson(url: string): Promise<any> {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return res.json();
+  } catch {
+    return null;
   }
-  return [];
-}
-
-function toCorrectIndex(item: any, opts: string[]): number {
-  const raw = item.correctAnswer ?? item.answer;
-  if (typeof raw === "number") return raw;
-  if (typeof raw === "string") {
-    const letterMatch = raw.trim().match(/^[A-Fa-f]$/);
-    if (letterMatch) return letterToIndex(raw);
-    const idx = opts.findIndex(
-      (o) => o.trim().toLowerCase() === raw.trim().toLowerCase(),
-    );
-    return idx >= 0 ? idx : 0;
-  }
-  return 0;
 }
 
 function normalizeArray(arr: any[]): Question[] {
   return arr.map((item, idx) => {
-    const options = toOptionsArray(item.choices ?? item.options);
-    const id = typeof item.id === "number" ? item.id : idx + 1;
+    const id = item.id ?? idx + 1;
+    const options = Array.isArray(item.options)
+      ? item.options.reduce(
+          (acc, opt, i) => {
+            acc[String.fromCharCode(65 + i)] = opt;
+            return acc;
+          },
+          {} as Record<string, string>,
+        )
+      : (item.options ?? {});
     return {
       id,
       type: (item.type as Question["type"]) ?? "multiple",
       question: String(item.question ?? ""),
       options,
-      correctAnswer: toCorrectIndex(item, options),
       explanation: item.explanation ? String(item.explanation) : undefined,
     } satisfies Question;
   });
@@ -70,65 +57,12 @@ function normalizeData(data: any): Question[] {
     return normalizeArray(data.questions);
   }
 
-  // Legacy array of items without explicit type
+  // Raw array of questions
   if (Array.isArray(data)) {
     return normalizeArray(data);
   }
 
   return [];
-}
-
-async function safeFetchJson(url: string) {
-  const tried: string[] = [];
-
-  // Build candidate URL variants to handle encoding mismatches
-  const candidates = [url];
-  try {
-    const decoded = decodeURIComponent(url);
-    if (decoded !== url) candidates.push(decoded);
-    const reencoded = encodeURI(decoded);
-    if (!candidates.includes(reencoded)) candidates.push(reencoded);
-  } catch (e) {
-    // ignore decode errors
-  }
-
-  let lastError: Error | null = null;
-
-  for (const u of candidates) {
-    tried.push(u);
-    try {
-      const res = await fetch(u, { cache: "no-store" });
-      const text = await res.text();
-      const trimmed = text.trimStart();
-      if (!res.ok) {
-        lastError = new Error(`Failed to fetch ${u}: ${res.status}`);
-        continue;
-      }
-      if (trimmed.startsWith("<")) {
-        // Likely HTML (index.html) returned instead of JSON
-        lastError = new Error(`Non-JSON response from ${u}`);
-        continue;
-      }
-      try {
-        return JSON.parse(text);
-      } catch (e: any) {
-        lastError = new Error(
-          `Invalid JSON from ${u}: ${e?.message ?? String(e)}`,
-        );
-        continue;
-      }
-    } catch (e: any) {
-      lastError = new Error(
-        `Network error fetching ${u}: ${e?.message ?? String(e)}`,
-      );
-      continue;
-    }
-  }
-
-  const msg = lastError
-    ? `${lastError.message} (tried: ${tried.join(", ")})`
-    : `Failed to fetch JSON from ${url}`;
-  throw new Error(msg);
 }
 
 export function useQuestions(sourceUrl?: string) {
@@ -138,82 +72,91 @@ export function useQuestions(sourceUrl?: string) {
 
   useEffect(() => {
     let mounted = true;
-    (async () => {
-      try {
-        setLoading(true);
-        setError(null);
 
-        // If a specific source URL is provided, fetch that single file
+    async function load() {
+      try {
         if (sourceUrl) {
-          try {
-            const data = await safeFetchJson(sourceUrl);
+          // Load from specific source
+          let data = null;
+
+          if (sourceUrl.startsWith("/")) {
+            try {
+              const res = await fetch(
+                sourceUrl.endsWith(".json") ? sourceUrl : `${sourceUrl}.json`,
+              );
+              if (res.ok) {
+                data = await res.json();
+              }
+            } catch {
+              try {
+                const res = await fetch(
+                  `/api${sourceUrl.startsWith("/api") ? sourceUrl : sourceUrl}`,
+                );
+                if (res.ok) {
+                  data = await res.json();
+                }
+              } catch (e: any) {
+                if (mounted) setError(e.message);
+              }
+            }
+
             const normalized = normalizeData(data);
             if (mounted) setQuestions(normalized);
-          } catch (e: any) {
-            if (mounted) setError(e?.message ?? String(e));
           }
-          return;
-        }
-
-        // No specific source: discover all sets and aggregate their questions
-        try {
-          let sets: any = [];
+        } else {
+          // No specific source: discover all sets and aggregate their questions
+          let sets = null;
           try {
             sets = await safeFetchJson("/api/question-sets");
           } catch {
-            sets = [];
+            sets = null;
           }
 
-          // Fallback to static manifest when API isn't available (e.g., Netlify static)
-          if (!Array.isArray(sets) || sets.length === 0) {
+          if (!sets) {
             try {
               sets = await safeFetchJson("/question-sets.json");
             } catch {
-              sets = [];
+              sets = null;
             }
           }
 
-          if (!Array.isArray(sets) || sets.length === 0) {
-            // Legacy single-file fallback
+          if (!sets || !Array.isArray(sets) || sets.length === 0) {
             try {
-              const data = await safeFetchJson("/questions.json");
+              const data = await safeFetchJson("/mcqs_q1_q210.json");
               const normalized = normalizeData(data);
               if (mounted) setQuestions(normalized);
             } catch (e: any) {
               if (mounted) setQuestions([]);
             }
-            return;
-          }
+          } else {
+            const all: Question[] = [];
+            let idCounter = 1;
 
-          const all: Question[] = [];
-          // Ensure each question has a unique numeric id across all sets to avoid duplicate React keys
-          let idCounter = 1;
-          for (const s of sets) {
-            try {
-              const data = await safeFetchJson(s.url ?? s.filename ?? s);
-              const normalized = normalizeData(data);
-              const remapped = normalized.map((q) => ({
-                ...q,
-                id: idCounter++,
-              }));
-              all.push(...remapped);
-            } catch (e) {
-              // Skip individual set failures but continue processing others
-              // eslint-disable-next-line no-console
-              console.warn("Skipping set", s, e);
+            for (const set of sets) {
+              const data = await safeFetchJson(
+                `/${encodeURIComponent(set.filename)}`,
+              );
+              if (data) {
+                const normalized = normalizeData(data);
+                for (const q of normalized) {
+                  q.id = idCounter++;
+                }
+                all.push(...normalized);
+              }
             }
-          }
 
-          if (mounted) setQuestions(all);
-        } catch (e: any) {
-          if (mounted) setError(e?.message ?? String(e));
+            if (mounted) setQuestions(all);
+          }
         }
       } catch (e: any) {
-        if (mounted) setError(e?.message ?? String(e));
+        if (mounted) setError(e?.message || "Failed to load questions");
       } finally {
         if (mounted) setLoading(false);
       }
-    })();
+    }
+
+    load();
+
     return () => {
       mounted = false;
     };
