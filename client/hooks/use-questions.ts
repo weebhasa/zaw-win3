@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 export type Question = {
   id: number;
   question: string;
-  type?: "multiple" | "boolean" | "short";
+  type: "multiple" | "boolean" | "short";
   options: Record<string, string> | string[];
   answer?: string;
   explanation?: string;
