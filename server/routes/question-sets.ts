@@ -7,7 +7,7 @@ export const handleQuestionSets: RequestHandler = (_req, res) => {
     const publicDir = path.join(process.cwd(), "public");
     const files = fs.readdirSync(publicDir);
     const filtered = files.filter(
-      (f) => f.endsWith("Questions.json") || f === "mcqs_q1_q210.json",
+      (f) => f.endsWith(".json") && f !== "package.json" && f !== "tsconfig.json" && f !== "components.json",
     );
 
     const sets = filtered.map((filename) => {
