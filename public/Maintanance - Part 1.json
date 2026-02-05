@@ -1,0 +1,563 @@
+{
+  "title": "Maintanance - Part 1",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The main purpose of preventive maintenance is to:",
+      "options": {
+        "A": "Repair failures after breakdown",
+        "B": "Reduce initial construction cost",
+        "C": "Avoid unexpected breakdowns",
+        "D": "Increase building age"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 2,
+      "question": "Which document is mandatory before starting any maintenance work in an occupied building?",
+      "options": {
+        "A": "BOQ",
+        "B": "Method Statement",
+        "C": "Work Permit",
+        "D": "Invoice"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "question": "Who is responsible for ensuring safety compliance during maintenance work?",
+      "options": {
+        "A": "Client",
+        "B": "Engineer",
+        "C": "Contractor",
+        "D": "Municipality"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "question": "Which maintenance activity requires immediate action?",
+      "options": {
+        "A": "Painting",
+        "B": "Hairline wall cracks",
+        "C": "Gas leakage",
+        "D": "Tile replacement"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "question": "Hairline cracks in plaster are usually caused by:",
+      "options": {
+        "A": "Structural failure",
+        "B": "Thermal movement",
+        "C": "Foundation settlement",
+        "D": "Overloading"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "question": "For concrete repair, loose material must be removed before applying repair mortar to:",
+      "options": {
+        "A": "Reduce cost",
+        "B": "Improve appearance",
+        "C": "Ensure proper bonding",
+        "D": "Save time"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "question": "Water seepage in basement walls is best controlled by:",
+      "options": {
+        "A": "Cement plaster",
+        "B": "Acrylic paint",
+        "C": "Waterproof membrane",
+        "D": "Whitewash"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "question": "Which test checks concrete surface strength before repair?",
+      "options": {
+        "A": "Slump test",
+        "B": "Rebound hammer test",
+        "C": "Cube test",
+        "D": "Core cutting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "Which device protects against electric shock?",
+      "options": {
+        "A": "MCB",
+        "B": "Isolator",
+        "C": "ELCB / RCCB",
+        "D": "Fuse"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "question": "Overloading of electrical circuits may cause:",
+      "options": {
+        "A": "Low voltage",
+        "B": "Short circuit",
+        "C": "Fire hazard",
+        "D": "Energy saving"
+      },
+      "answer": "C"
+    },
+
+    {
+      "id": 11,
+      "question": "Earthing system resistance should generally be less than:",
+      "options": {
+        "A": "10 ohms",
+        "B": "5 ohms",
+        "C": "2 ohms",
+        "D": "1 ohm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Regular AC filter cleaning helps to:",
+      "options": {
+        "A": "Increase power consumption",
+        "B": "Improve air quality",
+        "C": "Reduce cooling",
+        "D": "Damage coil"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "Which refrigerant is commonly used in split AC units in UAE?",
+      "options": {
+        "A": "R22",
+        "B": "R12",
+        "C": "R410A",
+        "D": "Ammonia"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "question": "AC water leakage is usually caused by:",
+      "options": {
+        "A": "Gas leakage",
+        "B": "Choked drain line",
+        "C": "High voltage",
+        "D": "Dirty condenser"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "question": "Which pipe is commonly used for hot water supply?",
+      "options": {
+        "A": "PVC",
+        "B": "HDPE",
+        "C": "PPR",
+        "D": "GI"
+      },
+      "answer": "C"
+    },
+
+    {
+      "id": 16,
+      "question": "Backflow prevention in plumbing is achieved by installing:",
+      "options": {
+        "A": "Gate valve",
+        "B": "Ball valve",
+        "C": "Non-return valve (NRV)",
+        "D": "Pressure valve"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "question": "Water hammer in pipes is caused by:",
+      "options": {
+        "A": "Pipe leakage",
+        "B": "Sudden valve closure",
+        "C": "High temperature",
+        "D": "Low pressure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "question": "Fire extinguishers must be inspected at least:",
+      "options": {
+        "A": "Every week",
+        "B": "Every month",
+        "C": "Every 6 months",
+        "D": "Once a year"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "question": "Which color code is used for fire fighting pipes?",
+      "options": {
+        "A": "Blue",
+        "B": "Green",
+        "C": "Red",
+        "D": "Yellow"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 20,
+      "question": "Emergency exit doors must:",
+      "options": {
+        "A": "Be locked",
+        "B": "Open inward",
+        "C": "Be clearly illuminated",
+        "D": "Be hidden"
+      },
+      "answer": "C"
+    },
+
+    {
+      "id": 21,
+      "question": "Which type of maintenance is carried out after equipment failure?",
+      "options": {
+        "A": "Preventive",
+        "B": "Predictive",
+        "C": "Corrective",
+        "D": "Planned"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 22,
+      "question": "Maintenance work in public areas should be carried out:",
+      "options": {
+        "A": "During peak hours",
+        "B": "Without warning signs",
+        "C": "With barricading and signage",
+        "D": "Only after complaints"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "question": "Tool Box Talk (TBT) is conducted to:",
+      "options": {
+        "A": "Increase productivity",
+        "B": "Train new staff only",
+        "C": "Explain hazards and safety measures",
+        "D": "Record attendance"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "question": "Which document shows scheduled maintenance activities?",
+      "options": {
+        "A": "As-built drawing",
+        "B": "Maintenance logbook",
+        "C": "Test report",
+        "D": "Purchase order"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "question": "Spalling of concrete mainly occurs due to:",
+      "options": {
+        "A": "Poor paint quality",
+        "B": "Corrosion of reinforcement",
+        "C": "Over plastering",
+        "D": "Thermal expansion"
+      },
+      "answer": "B"
+    },
+
+    {
+      "id": 26,
+      "question": "Which material is commonly used for crack injection repair?",
+      "options": {
+        "A": "Cement slurry",
+        "B": "Epoxy resin",
+        "C": "Bitumen",
+        "D": "Acrylic paint"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "Expansion joints in buildings are provided to:",
+      "options": {
+        "A": "Improve appearance",
+        "B": "Reduce cost",
+        "C": "Allow thermal movement",
+        "D": "Increase load capacity"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 28,
+      "question": "Which activity requires structural engineer approval?",
+      "options": {
+        "A": "Repainting walls",
+        "B": "Replacing tiles",
+        "C": "Cutting RCC beam",
+        "D": "Changing light fixtures"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "question": "Which test is carried out to check cable insulation?",
+      "options": {
+        "A": "Continuity test",
+        "B": "Polarity test",
+        "C": "Insulation resistance (Megger) test",
+        "D": "Earth resistance test"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 30,
+      "question": "Which condition is MOST dangerous in electrical maintenance?",
+      "options": {
+        "A": "Loose wire",
+        "B": "Damaged insulation",
+        "C": "Overheating cable",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+
+    {
+      "id": 31,
+      "question": "Emergency lighting should operate during:",
+      "options": {
+        "A": "Normal power",
+        "B": "Power failure",
+        "C": "Daytime only",
+        "D": "Maintenance hours"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "Which component controls refrigerant flow in split AC?",
+      "options": {
+        "A": "Compressor",
+        "B": "Condenser",
+        "C": "Expansion valve",
+        "D": "Evaporator"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 33,
+      "question": "Dirty condenser coils will cause:",
+      "options": {
+        "A": "Reduced cooling efficiency",
+        "B": "Lower power consumption",
+        "C": "Increased airflow",
+        "D": "Better performance"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "Recommended maintenance frequency for AC units in UAE climate is:",
+      "options": {
+        "A": "Once a year",
+        "B": "Every 6 months",
+        "C": "Every 3 months",
+        "D": "Only when faulty"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 35,
+      "question": "Which fitting is used to stop foul smell from drainage system?",
+      "options": {
+        "A": "Elbow",
+        "B": "Tee",
+        "C": "Trap",
+        "D": "Reducer"
+      },
+      "answer": "C"
+    },
+
+    {
+      "id": 36,
+      "question": "Which test is conducted to check water pipeline leakage?",
+      "options": {
+        "A": "Air test",
+        "B": "Pressure test",
+        "C": "Flow test",
+        "D": "Sound test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "question": "Choking of drainage pipes is mainly caused by:",
+      "options": {
+        "A": "Clean water",
+        "B": "Proper slope",
+        "C": "Grease and debris",
+        "D": "Vent pipes"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "question": "Which fire extinguisher is suitable for electrical fires?",
+      "options": {
+        "A": "Water",
+        "B": "Foam",
+        "C": "CO₂",
+        "D": "Wet chemical"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 39,
+      "question": "Fire alarm system maintenance includes testing of:",
+      "options": {
+        "A": "Detectors",
+        "B": "Manual call points",
+        "C": "Sounders",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 40,
+      "question": "Fire exit routes must be:",
+      "options": {
+        "A": "Used for storage",
+        "B": "Locked after office hours",
+        "C": "Kept clear at all times",
+        "D": "Painted white"
+      },
+      "answer": "C"
+    },
+
+    {
+      "id": 41,
+      "question": "Before starting hot works (welding/cutting), which permit is mandatory?",
+      "options": {
+        "A": "Work at height permit",
+        "B": "Hot work permit",
+        "C": "Electrical permit",
+        "D": "Confined space permit"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "question": "Lock-Out Tag-Out (LOTO) system is used to:",
+      "options": {
+        "A": "Save energy",
+        "B": "Identify tools",
+        "C": "Prevent accidental energizing",
+        "D": "Reduce noise"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 43,
+      "question": "Personal Protective Equipment (PPE) must be provided by:",
+      "options": {
+        "A": "Worker",
+        "B": "Client",
+        "C": "Contractor",
+        "D": "Municipality"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 44,
+      "question": "Which area requires the highest level of housekeeping control?",
+      "options": {
+        "A": "Store room",
+        "B": "Plant room",
+        "C": "Office area",
+        "D": "Parking area"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 45,
+      "question": "Efflorescence on walls is mainly due to:",
+      "options": {
+        "A": "Paint defect",
+        "B": "Moisture movement and salts",
+        "C": "Structural failure",
+        "D": "Dust accumulation"
+      },
+      "answer": "B"
+    },
+
+    {
+      "id": 46,
+      "question": "Which waterproofing is commonly used for wet areas like toilets?",
+      "options": {
+        "A": "Bituminous membrane",
+        "B": "Cementitious coating",
+        "C": "Acrylic paint",
+        "D": "Oil paint"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 47,
+      "question": "Hollow sound in tiles indicates:",
+      "options": {
+        "A": "Good bonding",
+        "B": "Air gap or debonding",
+        "C": "Structural crack",
+        "D": "Tile quality issue"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 48,
+      "question": "Before tile replacement, the substrate must be:",
+      "options": {
+        "A": "Wet and dusty",
+        "B": "Dry and clean",
+        "C": "Painted",
+        "D": "Polished"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "question": "Which lighting system is recommended for energy efficiency in buildings?",
+      "options": {
+        "A": "Incandescent",
+        "B": "Halogen",
+        "C": "Fluorescent",
+        "D": "LED"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 50,
+      "question": "Which device protects electrical circuits from overload and short circuit?",
+      "options": {
+        "A": "RCCB",
+        "B": "Isolator",
+        "C": "MCB",
+        "D": "Contactor"
+      },
+      "answer": "C"
+    }
+  ]
+}

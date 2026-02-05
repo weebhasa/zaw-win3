@@ -1,0 +1,115 @@
+{
+  "title": "Maintanance - Part 5",
+  "questions": [
+    {
+      "id": 201,
+      "question": "Maintenance work can continue WITHOUT additional permit when:",
+      "options": {
+        "A": "Work is urgent",
+        "B": "Work is at night",
+        "C": "Work involves hot cutting",
+        "D": "Work is low-risk and routine"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 202,
+      "question": "Which situation demands STOP WORK, even if permission exists?",
+      "options": {
+        "A": "Minor dust",
+        "B": "Worker fatigue",
+        "C": "Unexpected water leakage in electrical area",
+        "D": "Client pressure"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 203,
+      "question": "PPE is NOT required only when:",
+      "options": {
+        "A": "Working at height",
+        "B": "Working with electricity",
+        "C": "Performing office inspection only",
+        "D": "Using power tools"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 204,
+      "question": "Which crack MOST likely indicates structural distress?",
+      "options": {
+        "A": "Random plaster crack",
+        "B": "Hairline paint crack",
+        "C": "Diagonal crack extending from beam to slab",
+        "D": "Surface shrinkage crack"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 205,
+      "question": "Concrete carbonation is dangerous primarily because it:",
+      "options": {
+        "A": "Changes surface color",
+        "B": "Weakens paint adhesion",
+        "C": "Reduces pH leading to steel corrosion",
+        "D": "Increases strength"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 206,
+      "question": "Structural modification is allowed ONLY when:",
+      "options": {
+        "A": "Client approves",
+        "B": "Contractor is experienced",
+        "C": "Approved drawings and DM permission exist",
+        "D": "Work is hidden"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 207,
+      "question": "Which condition ALONE can cause immediate electrical shutdown?",
+      "options": {
+        "A": "Flickering light",
+        "B": "Loose switch plate",
+        "C": "Water seepage inside DB",
+        "D": "Old wiring color"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 208,
+      "question": "Electrical testing done but results not recorded means:",
+      "options": {
+        "A": "Testing accepted",
+        "B": "Verbal confirmation enough",
+        "C": "Testing considered not done",
+        "D": "Minor issue"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 209,
+      "question": "Fire exit door opens inward. This is:",
+      "options": {
+        "A": "Acceptable in small buildings",
+        "B": "Design choice",
+        "C": "Life-safety non-compliance",
+        "D": "Minor issue"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 210,
+      "question": "Maintenance outsourced but incident occurs. Legal responsibility lies with:",
+      "options": {
+        "A": "Worker",
+        "B": "Subcontractor",
+        "C": "FM / Main contractor",
+        "D": "Security"
+      },
+      "answer": "C"
+    }
+  ]
+}
