@@ -80,7 +80,9 @@ export default function TestPage() {
     navigate("/results", { state: resultsData });
   };
 
-  const allAnswered = currentQuestions.every((q) => answers[q.id] !== undefined);
+  const allAnswered = currentQuestions.every(
+    (q) => answers[q.id] !== undefined,
+  );
 
   if (error) {
     return (

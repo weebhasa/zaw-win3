@@ -37,35 +37,35 @@ export function QuestionCard({
 
       {q.type === "multiple" && q.options && (
         <div className="space-y-2">
-          {Array.isArray(q.options) ? (
-            q.options.map((opt, i) => (
-              <Button
-                key={i}
-                onClick={() => onChange(String.fromCharCode(65 + i))}
-                variant={
-                  answer === String.fromCharCode(65 + i) ? "default" : "outline"
-                }
-                className="w-full justify-start text-base h-auto py-3 px-4"
-              >
-                <span className="font-semibold mr-3">
-                  {String.fromCharCode(65 + i)}.
-                </span>
-                {opt}
-              </Button>
-            ))
-          ) : (
-            Object.entries(q.options).map(([key, value]) => (
-              <Button
-                key={key}
-                onClick={() => onChange(key)}
-                variant={answer === key ? "default" : "outline"}
-                className="w-full justify-start text-base h-auto py-3 px-4"
-              >
-                <span className="font-semibold mr-3">{key}.</span>
-                {value}
-              </Button>
-            ))
-          )}
+          {Array.isArray(q.options)
+            ? q.options.map((opt, i) => (
+                <Button
+                  key={i}
+                  onClick={() => onChange(String.fromCharCode(65 + i))}
+                  variant={
+                    answer === String.fromCharCode(65 + i)
+                      ? "default"
+                      : "outline"
+                  }
+                  className="w-full justify-start text-base h-auto py-3 px-4"
+                >
+                  <span className="font-semibold mr-3">
+                    {String.fromCharCode(65 + i)}.
+                  </span>
+                  {opt}
+                </Button>
+              ))
+            : Object.entries(q.options).map(([key, value]) => (
+                <Button
+                  key={key}
+                  onClick={() => onChange(key)}
+                  variant={answer === key ? "default" : "outline"}
+                  className="w-full justify-start text-base h-auto py-3 px-4"
+                >
+                  <span className="font-semibold mr-3">{key}.</span>
+                  {value}
+                </Button>
+              ))}
         </div>
       )}
 

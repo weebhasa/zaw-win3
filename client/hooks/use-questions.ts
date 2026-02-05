@@ -30,7 +30,7 @@ function normalizeArray(arr: any[]): Question[] {
           },
           {} as Record<string, string>,
         )
-      : item.options ?? {};
+      : (item.options ?? {});
     return {
       id,
       type: (item.type as Question["type"]) ?? "multiple",
@@ -81,13 +81,17 @@ export function useQuestions(sourceUrl?: string) {
 
           if (sourceUrl.startsWith("/")) {
             try {
-              const res = await fetch(sourceUrl.endsWith(".json") ? sourceUrl : `${sourceUrl}.json`);
+              const res = await fetch(
+                sourceUrl.endsWith(".json") ? sourceUrl : `${sourceUrl}.json`,
+              );
               if (res.ok) {
                 data = await res.json();
               }
             } catch {
               try {
-                const res = await fetch(`/api${sourceUrl.startsWith("/api") ? sourceUrl : sourceUrl}`);
+                const res = await fetch(
+                  `/api${sourceUrl.startsWith("/api") ? sourceUrl : sourceUrl}`,
+                );
                 if (res.ok) {
                   data = await res.json();
                 }
@@ -129,7 +133,9 @@ export function useQuestions(sourceUrl?: string) {
             let idCounter = 1;
 
             for (const set of sets) {
-              const data = await safeFetchJson(`/${encodeURIComponent(set.filename)}`);
+              const data = await safeFetchJson(
+                `/${encodeURIComponent(set.filename)}`,
+              );
               if (data) {
                 const normalized = normalizeData(data);
                 for (const q of normalized) {

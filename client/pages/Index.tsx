@@ -64,7 +64,9 @@ export default function Index() {
             Building Maintenance & Safety Quiz
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            Test your knowledge on building maintenance, safety practices, electrical systems, plumbing, fire safety, and facility management with 210 comprehensive MCQs.
+            Test your knowledge on building maintenance, safety practices,
+            electrical systems, plumbing, fire safety, and facility management
+            with 210 comprehensive MCQs.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-end">
             <div className="flex gap-3 w-full sm:w-auto">
@@ -145,7 +147,8 @@ export default function Index() {
                 A progress bar indicates how many questions you have answered.
               </li>
               <li>
-                Results page shows your score, correct answers, and answer review.
+                Results page shows your score, correct answers, and answer
+                review.
               </li>
               <li>Restart the test anytime to try again.</li>
               <li>Fully responsive and mobile-friendly UI.</li>

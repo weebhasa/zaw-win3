@@ -7,12 +7,15 @@ export const handleQuestionSets: RequestHandler = (_req, res) => {
     const publicDir = path.join(process.cwd(), "public");
     const files = fs.readdirSync(publicDir);
     const filtered = files.filter(
-      (f) => f.endsWith("Questions.json") || f === "mcqs_q1_q210.json"
+      (f) => f.endsWith("Questions.json") || f === "mcqs_q1_q210.json",
     );
 
     const sets = filtered.map((filename) => {
       try {
-        const content = fs.readFileSync(path.join(publicDir, filename), "utf-8");
+        const content = fs.readFileSync(
+          path.join(publicDir, filename),
+          "utf-8",
+        );
         const json = JSON.parse(content);
         return {
           filename,

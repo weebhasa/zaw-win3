@@ -53,10 +53,7 @@ export default function ResultsPage() {
             String(d.answer).toUpperCase();
 
           return (
-            <div
-              key={d.id}
-              className="border rounded-lg p-4 space-y-3"
-            >
+            <div key={d.id} className="border rounded-lg p-4 space-y-3">
               <div className="flex items-start justify-between gap-3">
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
@@ -69,14 +66,22 @@ export default function ResultsPage() {
                   </div>
                   <div className="ml-7 space-y-2 text-sm">
                     <div>
-                      <span className="text-muted-foreground">Your answer:</span>{" "}
-                      <span className={isCorrect ? "text-green-600" : "text-red-600"}>
+                      <span className="text-muted-foreground">
+                        Your answer:
+                      </span>{" "}
+                      <span
+                        className={
+                          isCorrect ? "text-green-600" : "text-red-600"
+                        }
+                      >
                         {answers[d.id]}
                       </span>
                     </div>
                     {!isCorrect && (
                       <div>
-                        <span className="text-muted-foreground">Correct answer:</span>{" "}
+                        <span className="text-muted-foreground">
+                          Correct answer:
+                        </span>{" "}
                         <span className="text-green-600">{d.answer}</span>
                       </div>
                     )}
