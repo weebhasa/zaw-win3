@@ -2,7 +2,6 @@ import "dotenv/config";
 import express from "express";
 import cors from "cors";
 import { handleDemo } from "./routes/demo";
-import { handleQuestionSets } from "./routes/question-sets";
 
 export function createServer() {
   const app = express();
@@ -19,9 +18,6 @@ export function createServer() {
   });
 
   app.get("/api/demo", handleDemo);
-
-  // Question sets discovery (serve JSON files placed in /public that end with "Questions.json")
-  app.get("/api/question-sets", handleQuestionSets);
 
   return app;
 }
