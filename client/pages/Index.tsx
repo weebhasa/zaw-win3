@@ -86,7 +86,6 @@ export default function Index() {
                     <SelectValue placeholder="Select test set" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="mcqs_q1_q210">Full Test (Q1-Q210)</SelectItem>
                     {groups.map((g) => (
                       <SelectItem key={g.base} value={g.base}>
                         {g.base}
