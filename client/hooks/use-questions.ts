@@ -121,13 +121,7 @@ export function useQuestions(sourceUrl?: string) {
           }
 
           if (!sets || !Array.isArray(sets) || sets.length === 0) {
-            try {
-              const data = await safeFetchJson("/mcqs_q1_q210.json");
-              const normalized = normalizeData(data);
-              if (mounted) setQuestions(normalized);
-            } catch (e: any) {
-              if (mounted) setQuestions([]);
-            }
+            if (mounted) setQuestions([]);
           } else {
             const all: Question[] = [];
             let idCounter = 1;
