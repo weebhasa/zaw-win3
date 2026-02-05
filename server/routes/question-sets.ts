@@ -4,7 +4,14 @@ import path from "path";
 
 export const handleQuestionSets: RequestHandler = (_req, res) => {
   try {
-    const publicDir = path.join(process.cwd(), "public");
+    const possibleDirs = [
+      path.join(process.cwd(), "public"),
+      path.join(process.cwd(), "dist/spa"),
+      path.join(process.cwd(), "spa"),
+    ];
+
+    let publicDir = possibleDirs.find((dir) => fs.existsSync(dir)) || possibleDirs[0];
+
     const files = fs.readdirSync(publicDir);
     const filtered = files.filter(
       (f) => f.endsWith(".json") && f !== "package.json" && f !== "tsconfig.json" && f !== "components.json",
