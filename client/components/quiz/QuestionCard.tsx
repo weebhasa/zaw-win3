@@ -5,7 +5,7 @@ export type Question = {
   id: number;
   type: "multiple" | "boolean" | "short";
   question: string;
-  options?: string[];
+  options?: string[] | Record<string, string>;
   explanation?: string;
 };
 
