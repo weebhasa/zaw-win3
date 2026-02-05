@@ -54,7 +54,7 @@ export default function Index() {
   );
 
   const startSessionFilename =
-    selectedPart || (currentGroup?.items?.[0]?.filename ?? "mcqs_q1_q210.json");
+    selectedPart || (currentGroup?.items?.[0]?.filename ?? "");
 
   return (
     <main className="relative">
