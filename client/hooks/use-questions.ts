@@ -80,14 +80,12 @@ export function useQuestions(sourceUrl?: string) {
           let data = null;
 
           if (sourceUrl.startsWith("/")) {
-            // Try JSON file first
             try {
               const res = await fetch(sourceUrl.endsWith(".json") ? sourceUrl : `${sourceUrl}.json`);
               if (res.ok) {
                 data = await res.json();
               }
             } catch {
-              // Fallback to API
               try {
                 const res = await fetch(`/api${sourceUrl.startsWith("/api") ? sourceUrl : sourceUrl}`);
                 if (res.ok) {
@@ -100,52 +98,52 @@ export function useQuestions(sourceUrl?: string) {
 
             const normalized = normalizeData(data);
             if (mounted) setQuestions(normalized);
-          } catch (e: any) {
-            if (mounted) setError(e.message);
           }
         } else {
           // No specific source: discover all sets and aggregate their questions
+          let sets = null;
           try {
-            let sets = null;
+            sets = await safeFetchJson("/api/question-sets");
+          } catch {
+            sets = null;
+          }
+
+          if (!sets) {
             try {
-              sets = await safeFetchJson("/api/question-sets");
+              sets = await safeFetchJson("/question-sets.json");
             } catch {
-              try {
-                sets = await safeFetchJson("/question-sets.json");
-              } catch {
-                // empty
-              }
+              sets = null;
             }
+          }
 
-            if (!sets || !Array.isArray(sets) || sets.length === 0) {
-              try {
-                const data = await safeFetchJson("/questions.json");
+          if (!sets || !Array.isArray(sets) || sets.length === 0) {
+            try {
+              const data = await safeFetchJson("/mcqs_q1_q210.json");
+              const normalized = normalizeData(data);
+              if (mounted) setQuestions(normalized);
+            } catch (e: any) {
+              if (mounted) setQuestions([]);
+            }
+          } else {
+            const all: Question[] = [];
+            let idCounter = 1;
+
+            for (const set of sets) {
+              const data = await safeFetchJson(`/${encodeURIComponent(set.filename)}`);
+              if (data) {
                 const normalized = normalizeData(data);
-                if (mounted) setQuestions(normalized);
-              } catch (e: any) {
-                if (mounted) setQuestions([]);
-              }
-            } else {
-              const all: Question[] = [];
-              let idCounter = 1;
-
-              for (const set of sets) {
-                const data = await safeFetchJson(`/${encodeURIComponent(set.filename)}`);
-                if (data) {
-                  const normalized = normalizeData(data);
-                  for (const q of normalized) {
-                    q.id = idCounter++;
-                  }
-                  all.push(...normalized);
+                for (const q of normalized) {
+                  q.id = idCounter++;
                 }
+                all.push(...normalized);
               }
-
-              if (mounted) setQuestions(all);
             }
-          } catch (e: any) {
-            if (mounted) setError(e.message);
+
+            if (mounted) setQuestions(all);
           }
         }
+      } catch (e: any) {
+        if (mounted) setError(e?.message || "Failed to load questions");
       } finally {
         if (mounted) setLoading(false);
       }
