@@ -10,9 +10,8 @@ import { useMemo, useState } from "react";
 
 function isCorrect(q: Question, ans: AnswerValue): boolean {
   if (ans === undefined || ans === null) return false;
-  const answer = q as any;
-  if (!answer.answer) return false;
-  return String(ans).toUpperCase() === String(answer.answer).toUpperCase();
+  if (!q.answer) return false;
+  return String(ans).toUpperCase() === String(q.answer).toUpperCase();
 }
 
 export default function TestPage() {
