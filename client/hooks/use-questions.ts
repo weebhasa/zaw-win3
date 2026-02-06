@@ -36,6 +36,7 @@ function normalizeArray(arr: any[]): Question[] {
       type: (item.type as Question["type"]) ?? "multiple",
       question: String(item.question ?? ""),
       options,
+      answer: item.answer ? String(item.answer) : undefined,
       explanation: item.explanation ? String(item.explanation) : undefined,
     } satisfies Question;
   });
