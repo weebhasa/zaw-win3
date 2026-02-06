@@ -72,9 +72,8 @@ export default function Index() {
             Building Maintenance & Safety Quiz
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            Test your knowledge on building maintenance, safety practices,
-            electrical systems, plumbing, fire safety, and facility management
-            with 210 comprehensive MCQs.
+            Prepare for your engineering and maintenance certification exams with
+            our comprehensive collection of practice questions and mock tests.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-end">
             <div className="flex gap-3 w-full sm:w-auto">
