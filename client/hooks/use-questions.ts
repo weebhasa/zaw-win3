@@ -12,9 +12,18 @@ export type Question = {
 async function safeFetchJson(url: string): Promise<any> {
   try {
     const res = await fetch(url);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    if (!res.ok) {
+      console.error(`Failed to fetch ${url}: HTTP ${res.status}`);
+      return null;
+    }
+    const contentType = res.headers.get("content-type");
+    if (contentType && !contentType.includes("application/json")) {
+      console.error(`Failed to fetch ${url}: Expected JSON but got ${contentType}`);
+      return null;
+    }
     return res.json();
-  } catch {
+  } catch (error) {
+    console.error(`Error fetching ${url}:`, error);
     return null;
   }
 }
