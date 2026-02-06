@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { useQuestions } from "@/hooks/use-questions";
 import { useQuestionSets } from "@/hooks/use-question-sets";
 import {
   Select,
@@ -14,13 +13,7 @@ import {
 } from "@/components/ui/select";
 
 export default function Index() {
-  const { questions, loading } = useQuestions();
   const { sets, loading: setsLoading } = useQuestionSets();
-
-  const totalSessions = useMemo(() => {
-    const count = questions ? Math.ceil(questions.length / 20) : 1;
-    return Math.max(1, count);
-  }, [questions]);
 
   // Group sets by base title
   const groups = useMemo(() => {
@@ -54,7 +47,7 @@ export default function Index() {
     setSelectedPart(first.items[0]?.filename ?? "");
   }, [groups]);
 
-  const isLoading = loading || setsLoading;
+  const isLoading = setsLoading;
 
   const currentGroup = useMemo(
     () => groups.find((g) => g.base === selectedBase) ?? null,
