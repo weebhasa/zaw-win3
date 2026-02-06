@@ -27,12 +27,20 @@ export default function Index() {
     if (!sets) return [] as { base: string; items: typeof sets }[];
     const map = new Map<string, typeof sets>();
     for (const s of sets) {
-      const m = s.title.match(/^(.*)\bPart\b\s*\d+/i);
+      // Improved regex to handle "Part X", "Part X Questions", etc.
+      // It looks for "Part" preceded by space, hyphen or nothing.
+      const m = s.title.match(/^(.*?)(?:\s*[-–—]?\s*)\bPart\b\s*\d+/i);
       const base = m ? m[1].trim() : s.title;
       if (!map.has(base)) map.set(base, [] as typeof sets);
       map.get(base)!.push(s);
     }
-    return Array.from(map.entries()).map(([base, items]) => ({ base, items }));
+
+    return Array.from(map.entries())
+      .map(([base, items]) => ({
+        base,
+        items: items.sort((a, b) => a.title.localeCompare(b.title, undefined, { numeric: true, sensitivity: 'base' }))
+      }))
+      .sort((a, b) => a.base.localeCompare(b.base, undefined, { numeric: true, sensitivity: 'base' }));
   }, [sets]);
 
   const [selectedBase, setSelectedBase] = useState<string>("\0");
