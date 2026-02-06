@@ -3,6 +3,7 @@ import express from "express";
 import cors from "cors";
 import { handleDemo } from "./routes/demo";
 import { handleQuestionSets } from "./routes/question-sets";
+import { handleGetQuestions } from "./routes/questions";
 
 export function createServer() {
   const app = express();
@@ -22,6 +23,9 @@ export function createServer() {
 
   // Question sets discovery
   app.get("/api/question-sets", handleQuestionSets);
+
+  // Individual question set fetch
+  app.get("/api/questions", handleGetQuestions);
 
   return app;
 }
