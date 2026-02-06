@@ -1,0 +1,555 @@
+{
+  "title": "Oil & Gas Safety - Part 4",
+  "questions": [
+    {
+      "id": 151,
+      "question": "Which standard is widely used for pipeline design?",
+      "options": {
+        "A": "ASTM",
+        "B": "API",
+        "C": "ISO only",
+        "D": "BS only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 152,
+      "question": "Which method is used to prevent pipeline corrosion?",
+      "options": {
+        "A": "Painting only",
+        "B": "Cathodic protection",
+        "C": "Hydro test",
+        "D": "Coating removal"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 153,
+      "question": "Which hazard is associated with acetylene welding?",
+      "options": {
+        "A": "Fire and explosion",
+        "B": "Corrosion",
+        "C": "Dust",
+        "D": "Noise"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 154,
+      "question": "Who approves PTW before work starts?",
+      "options": {
+        "A": "Worker",
+        "B": "Supervisor",
+        "C": "Authorized person (permit issuer)",
+        "D": "Safety officer only"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 155,
+      "question": "Which document identifies chemical hazards and precautions?",
+      "options": {
+        "A": "BOQ",
+        "B": "MSDS / SDS",
+        "C": "Method statement",
+        "D": "Drawing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 156,
+      "question": "Which hazard is most likely when working in nitrogen-purged pipelines?",
+      "options": {
+        "A": "Fire",
+        "B": "Oxygen deficiency",
+        "C": "Explosion",
+        "D": "Noise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 157,
+      "question": "Which safety color indicates caution/warning?",
+      "options": {
+        "A": "Red",
+        "B": "Yellow",
+        "C": "Green",
+        "D": "Blue"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 158,
+      "question": "Which inspection ensures crane wire rope is safe?",
+      "options": {
+        "A": "Torque test",
+        "B": "Visual inspection",
+        "C": "Hydro test",
+        "D": "Radiography"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 159,
+      "question": "How often should scaffolding be inspected?",
+      "options": {
+        "A": "Daily / before use",
+        "B": "Weekly",
+        "C": "Monthly",
+        "D": "Only after accident"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 160,
+      "question": "Which activity requires fire extinguisher at hand?",
+      "options": {
+        "A": "Excavation",
+        "B": "Hot work/welding",
+        "C": "Painting",
+        "D": "Inspection"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 161,
+      "question": "What is the main function of a flame arrestor?",
+      "options": {
+        "A": "Reduce pressure",
+        "B": "Stop flame propagation",
+        "C": "Cool gas",
+        "D": "Reduce corrosion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 162,
+      "question": "Which inspection checks weld internal defects?",
+      "options": {
+        "A": "Visual only",
+        "B": "Radiography (RT)",
+        "C": "DFT test",
+        "D": "Torque check"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 163,
+      "question": "Confined space requires which equipment for rescue?",
+      "options": {
+        "A": "Ladder",
+        "B": "Tripod with lifeline",
+        "C": "Hammer",
+        "D": "Welding machine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 164,
+      "question": "Which hazard is associated with rotating machinery?",
+      "options": {
+        "A": "Entanglement",
+        "B": "Corrosion",
+        "C": "Noise only",
+        "D": "Fire only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 165,
+      "question": "Which inspection ensures valves are tight and leak-free?",
+      "options": {
+        "A": "Visual only",
+        "B": "Leak test / pressure test",
+        "C": "Radiography",
+        "D": "DFT test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 166,
+      "question": "Which device monitors oxygen deficiency in confined space?",
+      "options": {
+        "A": "Flow meter",
+        "B": "Oxygen analyzer / detector",
+        "C": "Pressure gauge",
+        "D": "Thermometer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 167,
+      "question": "Which PPE protects eyes from sparks during grinding?",
+      "options": {
+        "A": "Helmet",
+        "B": "Goggles",
+        "C": "Gloves",
+        "D": "Safety shoes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 168,
+      "question": "Which hazard is associated with poor housekeeping?",
+      "options": {
+        "A": "Dust",
+        "B": "Slips, trips, and falls",
+        "C": "Gas leakage",
+        "D": "Explosion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 169,
+      "question": "Which document ensures activities do not overlap unsafely?",
+      "options": {
+        "A": "BOQ",
+        "B": "PTW system",
+        "C": "Invoice",
+        "D": "Drawing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 170,
+      "question": "Which factor increases the risk of explosion in a pipeline?",
+      "options": {
+        "A": "Gas accumulation",
+        "B": "Proper ventilation",
+        "C": "Gas monitoring",
+        "D": "Fire watch"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 171,
+      "question": "Which type of valve is used to prevent reverse flow in pipelines?",
+      "options": {
+        "A": "Gate valve",
+        "B": "Check valve",
+        "C": "Ball valve",
+        "D": "Globe valve"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 172,
+      "question": "What is the main hazard when working near high-pressure gas pipelines?",
+      "options": {
+        "A": "Noise",
+        "B": "Explosion or sudden release of gas",
+        "C": "Dust",
+        "D": "Slips"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 173,
+      "question": "Which device is used to measure pipeline pressure?",
+      "options": {
+        "A": "Flow meter",
+        "B": "Pressure gauge",
+        "C": "Thermometer",
+        "D": "Gas detector"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 174,
+      "question": "Which PPE protects against chemical splashes?",
+      "options": {
+        "A": "Gloves and face shield",
+        "B": "Helmet only",
+        "C": "Ear plugs only",
+        "D": "Safety shoes only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 175,
+      "question": "Which activity requires isolation and LOTO?",
+      "options": {
+        "A": "Painting",
+        "B": "Maintenance on energized equipment",
+        "C": "Surveying",
+        "D": "Excavation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 176,
+      "question": "Which color indicates prohibition on site?",
+      "options": {
+        "A": "Red",
+        "B": "Yellow",
+        "C": "Green",
+        "D": "Blue"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 177,
+      "question": "Which hazard is associated with acetylene cylinders?",
+      "options": {
+        "A": "Corrosion",
+        "B": "Explosion and fire",
+        "C": "Noise",
+        "D": "Radiation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 178,
+      "question": "What is the purpose of a hot work permit?",
+      "options": {
+        "A": "Approve painting work",
+        "B": "Ensure safety measures for welding/cutting",
+        "C": "Reduce noise",
+        "D": "Speed up work"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 179,
+      "question": "Which test is performed to check pipeline weld strength?",
+      "options": {
+        "A": "Visual inspection",
+        "B": "Hydrostatic test",
+        "C": "Torque test",
+        "D": "Dye penetrant"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 180,
+      "question": "Which hazard is common when welding in confined space?",
+      "options": {
+        "A": "Fire, explosion, and toxic gases",
+        "B": "Slips",
+        "C": "Noise only",
+        "D": "Dust"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 181,
+      "question": "Which inspection is used to detect internal pipeline defects?",
+      "options": {
+        "A": "CCTV / internal inspection",
+        "B": "Hydro test",
+        "C": "Visual inspection only",
+        "D": "Torque check"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 182,
+      "question": "Which activity requires fire extinguisher on standby?",
+      "options": {
+        "A": "Excavation",
+        "B": "Hot work / welding",
+        "C": "Surveying",
+        "D": "Material delivery"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 183,
+      "question": "Which standard governs design of oil & gas pressure vessels?",
+      "options": {
+        "A": "API",
+        "B": "ASTM",
+        "C": "ASME",
+        "D": "ISO"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 184,
+      "question": "Which gas is highly toxic even in small concentration?",
+      "options": {
+        "A": "Nitrogen",
+        "B": "Hydrogen sulfide (H₂S)",
+        "C": "Oxygen",
+        "D": "Methane"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 185,
+      "question": "Which safety sign shape indicates mandatory action?",
+      "options": {
+        "A": "Circular",
+        "B": "Triangular",
+        "C": "Square",
+        "D": "Octagon"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 186,
+      "question": "Which hazard is controlled by proper ventilation?",
+      "options": {
+        "A": "Noise",
+        "B": "Gas accumulation and oxygen deficiency",
+        "C": "Corrosion",
+        "D": "Fire only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 187,
+      "question": "Which activity requires barricading and signage?",
+      "options": {
+        "A": "Excavation",
+        "B": "Office work",
+        "C": "Painting ground level",
+        "D": "Inspection"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 188,
+      "question": "What is the main purpose of toolbox talk?",
+      "options": {
+        "A": "Waste time",
+        "B": "Inform workers about hazards and safe procedures",
+        "C": "Inspect tools",
+        "D": "Issue salaries"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 189,
+      "question": "Which inspection checks flange bolt torque?",
+      "options": {
+        "A": "Visual inspection",
+        "B": "Torque wrench measurement",
+        "C": "Hydro test",
+        "D": "Radiography"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 190,
+      "question": "Which hazard is associated with rotating machinery?",
+      "options": {
+        "A": "Entanglement",
+        "B": "Corrosion",
+        "C": "Noise only",
+        "D": "Fire only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 191,
+      "question": "Which inspection ensures lifting equipment is safe?",
+      "options": {
+        "A": "Radiography",
+        "B": "Visual and functional inspection",
+        "C": "Torque check",
+        "D": "Hydro test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 192,
+      "question": "Which document records accidents and near-misses?",
+      "options": {
+        "A": "Method statement",
+        "B": "Incident report",
+        "C": "Drawing",
+        "D": "BOQ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 193,
+      "question": "Which gas causes the “rotten egg” smell?",
+      "options": {
+        "A": "Methane",
+        "B": "Hydrogen sulfide (H₂S)",
+        "C": "Carbon dioxide",
+        "D": "Nitrogen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 194,
+      "question": "Which safety device prevents overpressure in pipelines?",
+      "options": {
+        "A": "Ball valve",
+        "B": "Pressure relief valve",
+        "C": "Check valve",
+        "D": "Globe valve"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 195,
+      "question": "Which hazard is controlled by PPE?",
+      "options": {
+        "A": "Gas leaks",
+        "B": "Noise, dust, chemical or mechanical hazards",
+        "C": "Corrosion",
+        "D": "Explosion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 196,
+      "question": "Which hazard is associated with poor housekeeping?",
+      "options": {
+        "A": "Slips, trips, and falls",
+        "B": "Fire only",
+        "C": "Corrosion",
+        "D": "Noise"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 197,
+      "question": "Which inspection ensures welding electrodes are properly stored?",
+      "options": {
+        "A": "Visual inspection",
+        "B": "Dry storage and temperature control",
+        "C": "Hydro test",
+        "D": "Torque check"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 198,
+      "question": "Which type of PPE protects against falling objects?",
+      "options": {
+        "A": "Helmet",
+        "B": "Gloves",
+        "C": "Safety shoes",
+        "D": "Ear plugs"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 199,
+      "question": "Which hazard is associated with poorly ventilated confined space?",
+      "options": {
+        "A": "Fire only",
+        "B": "Oxygen deficiency",
+        "C": "Noise",
+        "D": "Corrosion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 200,
+      "question": "Which system controls and authorizes hazardous work activities on site?",
+      "options": {
+        "A": "ERP system",
+        "B": "Permit to Work (PTW) system",
+        "C": "BOQ",
+        "D": "Method statement"
+      },
+      "answer": "B"
+    }
+  ]
+}

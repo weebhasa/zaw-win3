@@ -1,0 +1,555 @@
+{
+  "title": "Oil & Gas Safety - Part 2",
+  "questions": [
+    {
+      "id": 51,
+      "question": "Which standard covers pressure vessels?",
+      "options": {
+        "A": "API",
+        "B": "ASME",
+        "C": "BS",
+        "D": "ISO"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "question": "Toolbox talk is normally conducted:",
+      "options": {
+        "A": "Weekly",
+        "B": "Monthly",
+        "C": "Before starting daily work",
+        "D": "After work"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 53,
+      "question": "Which document identifies chemical hazards?",
+      "options": {
+        "A": "MSDS / SDS",
+        "B": "BOQ",
+        "C": "Drawing",
+        "D": "Method statement"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "question": "Which hazard is common during grinding?",
+      "options": {
+        "A": "Noise and sparks",
+        "B": "Radiation",
+        "C": "Gas leakage",
+        "D": "Corrosion"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "question": "Emergency exits must be:",
+      "options": {
+        "A": "Locked",
+        "B": "Hidden",
+        "C": "Clearly marked and accessible",
+        "D": "Used for storage"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 56,
+      "question": "Which equipment is used to lift heavy loads safely on site?",
+      "options": {
+        "A": "Forklift only",
+        "B": "Crane",
+        "C": "Wheelbarrow",
+        "D": "Rope only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 57,
+      "question": "Before starting lifting operation, which document is required?",
+      "options": {
+        "A": "Invoice",
+        "B": "Lifting plan",
+        "C": "Drawing",
+        "D": "BOQ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "question": "The main risk of working at height is:",
+      "options": {
+        "A": "Noise",
+        "B": "Falling",
+        "C": "Fire",
+        "D": "Corrosion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 59,
+      "question": "Full body harness is required when working above:",
+      "options": {
+        "A": "1 m",
+        "B": "1.5 m",
+        "C": "2 m",
+        "D": "3 m"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 60,
+      "question": "Which device protects workers from falling?",
+      "options": {
+        "A": "Safety helmet",
+        "B": "Guardrail",
+        "C": "Safety shoes",
+        "D": "Gloves"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 61,
+      "question": "Scaffolding must be inspected:",
+      "options": {
+        "A": "Once only",
+        "B": "Before use and periodically",
+        "C": "After accident only",
+        "D": "Monthly"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "Which gas is colorless and odorless but causes suffocation?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Carbon monoxide",
+        "C": "Nitrogen",
+        "D": "Hydrogen"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 63,
+      "question": "What is the function of a flashback arrestor?",
+      "options": {
+        "A": "Increase flow",
+        "B": "Stop reverse flame",
+        "C": "Reduce noise",
+        "D": "Increase pressure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "Which activity requires work at height permit?",
+      "options": {
+        "A": "Painting at ground level",
+        "B": "Welding on platform above 2 m",
+        "C": "Cleaning floor",
+        "D": "Pipe cutting on ground"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "Which type of fire involves electrical equipment?",
+      "options": {
+        "A": "Class A",
+        "B": "Class B",
+        "C": "Class C",
+        "D": "Class D"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 66,
+      "question": "What is the main purpose of barricading?",
+      "options": {
+        "A": "Decoration",
+        "B": "Restrict unauthorized access",
+        "C": "Increase storage",
+        "D": "Improve lighting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 67,
+      "question": "Welding electrodes must be stored:",
+      "options": {
+        "A": "In open area",
+        "B": "In dry and controlled conditions",
+        "C": "In water",
+        "D": "Near flammable materials"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 68,
+      "question": "Which inspection checks coating thickness?",
+      "options": {
+        "A": "UT",
+        "B": "Holiday test",
+        "C": "DFT test",
+        "D": "Radiography"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 69,
+      "question": "Which gas is used in fire suppression systems?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Nitrogen",
+        "C": "CO₂",
+        "D": "Hydrogen"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 70,
+      "question": "Permit validity is usually:",
+      "options": {
+        "A": "One week",
+        "B": "One month",
+        "C": "One shift / one day",
+        "D": "One year"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 71,
+      "question": "Which hazard is associated with pressure testing?",
+      "options": {
+        "A": "Noise only",
+        "B": "Sudden release of energy",
+        "C": "Dust",
+        "D": "Slips"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 72,
+      "question": "Who approves Permit to Work?",
+      "options": {
+        "A": "Worker",
+        "B": "Storekeeper",
+        "C": "Authorized person",
+        "D": "Visitor"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 73,
+      "question": "Which activity is NOT allowed without PTW?",
+      "options": {
+        "A": "Office work",
+        "B": "Hot work",
+        "C": "Paper work",
+        "D": "Meetings"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 74,
+      "question": "Which equipment is used to monitor oxygen level?",
+      "options": {
+        "A": "Flow meter",
+        "B": "Oxygen analyzer",
+        "C": "Pressure gauge",
+        "D": "Thermometer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 75,
+      "question": "Which pipeline joint is suitable for high pressure?",
+      "options": {
+        "A": "Threaded joint",
+        "B": "Flanged joint",
+        "C": "Welded joint",
+        "D": "Rubber joint"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 76,
+      "question": "Which hazard is common in oil & gas sites?",
+      "options": {
+        "A": "Radiation",
+        "B": "Flammable gases",
+        "C": "Ice formation",
+        "D": "Flooding only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 77,
+      "question": "Which document explains emergency procedures?",
+      "options": {
+        "A": "Method statement",
+        "B": "ERP",
+        "C": "Drawing",
+        "D": "Invoice"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 78,
+      "question": "Fire drills are conducted to:",
+      "options": {
+        "A": "Waste time",
+        "B": "Test emergency preparedness",
+        "C": "Increase manpower",
+        "D": "Check attendance"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 79,
+      "question": "Which inspection is done before scaffold use?",
+      "options": {
+        "A": "Visual inspection",
+        "B": "Load test",
+        "C": "Pressure test",
+        "D": "Radiography"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 80,
+      "question": "Who must attend toolbox talk?",
+      "options": {
+        "A": "Engineers only",
+        "B": "Safety officer only",
+        "C": "All workers involved in the job",
+        "D": "Visitors"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 81,
+      "question": "Which document confirms workers are trained for the job?",
+      "options": {
+        "A": "Invoice",
+        "B": "Training record",
+        "C": "BOQ",
+        "D": "Drawing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 82,
+      "question": "Which hazard is most likely during hot work?",
+      "options": {
+        "A": "Slips",
+        "B": "Fire and explosion",
+        "C": "Noise only",
+        "D": "Dust"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 83,
+      "question": "Which material is commonly used for oil & gas pipelines?",
+      "options": {
+        "A": "PVC",
+        "B": "HDPE",
+        "C": "Carbon steel",
+        "D": "GI"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 84,
+      "question": "What is the purpose of purging pipelines?",
+      "options": {
+        "A": "Increase pressure",
+        "B": "Remove air or gas safely",
+        "C": "Improve welding",
+        "D": "Reduce noise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 85,
+      "question": "Which gas is commonly used for purging?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Nitrogen",
+        "C": "LPG",
+        "D": "Acetylene"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 86,
+      "question": "Which device measures pipeline pressure?",
+      "options": {
+        "A": "Thermometer",
+        "B": "Pressure gauge",
+        "C": "Gas detector",
+        "D": "Flow switch"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 87,
+      "question": "Which fire class involves metal fires?",
+      "options": {
+        "A": "Class A",
+        "B": "Class B",
+        "C": "Class C",
+        "D": "Class D"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 88,
+      "question": "Which test detects surface cracks in welds?",
+      "options": {
+        "A": "UT",
+        "B": "Radiography",
+        "C": "Dye Penetrant Test",
+        "D": "Hydro test"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 89,
+      "question": "Working in explosive atmosphere requires:",
+      "options": {
+        "A": "Normal tools",
+        "B": "Non-sparking tools",
+        "C": "Wooden tools only",
+        "D": "High-speed tools"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 90,
+      "question": "Which valve is used for quick shut-off?",
+      "options": {
+        "A": "Gate valve",
+        "B": "Globe valve",
+        "C": "Ball valve",
+        "D": "Needle valve"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 91,
+      "question": "Which document shows safe sequence of work?",
+      "options": {
+        "A": "Method Statement",
+        "B": "Invoice",
+        "C": "BOQ",
+        "D": "Material approval"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 92,
+      "question": "What does HAZOP stand for?",
+      "options": {
+        "A": "Hazard Operation Plan",
+        "B": "Hazard and Operability Study",
+        "C": "Hazard Option Process",
+        "D": "Hazard Operation Procedure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 93,
+      "question": "Which condition indicates unsafe oxygen level?",
+      "options": {
+        "A": "20.9%",
+        "B": "19.5%",
+        "C": "Below 19.5%",
+        "D": "21%"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 94,
+      "question": "Which gas causes “rotten egg” smell?",
+      "options": {
+        "A": "Methane",
+        "B": "Hydrogen sulfide",
+        "C": "Nitrogen",
+        "D": "Carbon dioxide"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 95,
+      "question": "Which inspection checks internal pipe defects?",
+      "options": {
+        "A": "Visual inspection",
+        "B": "Hydro test",
+        "C": "CCTV / internal inspection",
+        "D": "Coating test"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 96,
+      "question": "Which PPE is required during grinding?",
+      "options": {
+        "A": "Ear plugs and goggles",
+        "B": "Helmet only",
+        "C": "Gloves only",
+        "D": "Safety shoes only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 97,
+      "question": "Which hazard is associated with poor housekeeping?",
+      "options": {
+        "A": "Radiation",
+        "B": "Slips and trips",
+        "C": "Corrosion",
+        "D": "Gas leakage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 98,
+      "question": "Which document is used to control simultaneous activities?",
+      "options": {
+        "A": "PTW system",
+        "B": "Invoice",
+        "C": "BOQ",
+        "D": "Drawing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 99,
+      "question": "Which factor increases explosion risk?",
+      "options": {
+        "A": "Ventilation",
+        "B": "Gas accumulation",
+        "C": "Gas monitoring",
+        "D": "Fire watch"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 100,
+      "question": "Which inspection ensures tools are safe to use?",
+      "options": {
+        "A": "Material inspection",
+        "B": "Color coding / tool inspection",
+        "C": "Financial audit",
+        "D": "Quality audit"
+      },
+      "answer": "B"
+    }
+  ]
+}

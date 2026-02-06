@@ -1,0 +1,555 @@
+{
+  "title": "Oil & Gas Safety - Part 3",
+  "questions": [
+    {
+      "id": 101,
+      "question": "Which activity requires a fire watch?",
+      "options": {
+        "A": "Painting",
+        "B": "Hot work",
+        "C": "Excavation",
+        "D": "Survey"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 102,
+      "question": "Fire watch person must stay on site for at least:",
+      "options": {
+        "A": "During work only",
+        "B": "15 minutes after hot work",
+        "C": "30 minutes after hot work",
+        "D": "Whole day"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 103,
+      "question": "Which document defines roles and responsibilities for safety?",
+      "options": {
+        "A": "BOQ",
+        "B": "HSE Plan",
+        "C": "Invoice",
+        "D": "Drawing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 104,
+      "question": "Which hazard is related to pressurized systems?",
+      "options": {
+        "A": "Slips",
+        "B": "Sudden release of energy",
+        "C": "Noise only",
+        "D": "Dust"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 105,
+      "question": "Which equipment prevents over-pressurization?",
+      "options": {
+        "A": "Pressure gauge",
+        "B": "Flow meter",
+        "C": "Pressure relief valve",
+        "D": "Thermometer"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 106,
+      "question": "Which gas is commonly used in welding?",
+      "options": {
+        "A": "Nitrogen",
+        "B": "Oxygen",
+        "C": "Carbon dioxide",
+        "D": "Argon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "question": "Which welding process is commonly used for pipelines?",
+      "options": {
+        "A": "TIG",
+        "B": "MIG",
+        "C": "SMAW",
+        "D": "Spot welding"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 108,
+      "question": "Which inspection checks weld internal defects?",
+      "options": {
+        "A": "Visual inspection",
+        "B": "Dye penetrant test",
+        "C": "Radiographic test",
+        "D": "DFT test"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 109,
+      "question": "Which condition makes confined space unsafe?",
+      "options": {
+        "A": "Good ventilation",
+        "B": "Normal oxygen",
+        "C": "Presence of toxic gas",
+        "D": "Standby man present"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 110,
+      "question": "Which equipment is mandatory for confined space rescue?",
+      "options": {
+        "A": "Ladder only",
+        "B": "Tripod and lifeline",
+        "C": "Hammer",
+        "D": "Welding machine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 111,
+      "question": "Which hazard is associated with nitrogen purging?",
+      "options": {
+        "A": "Fire",
+        "B": "Explosion",
+        "C": "Oxygen deficiency",
+        "D": "Noise"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 112,
+      "question": "Which safety color indicates prohibition?",
+      "options": {
+        "A": "Blue",
+        "B": "Green",
+        "C": "Yellow",
+        "D": "Red"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 113,
+      "question": "Which document records accidents and incidents?",
+      "options": {
+        "A": "Method statement",
+        "B": "Incident report",
+        "C": "BOQ",
+        "D": "Drawing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 114,
+      "question": "Which hazard is caused by poor ventilation?",
+      "options": {
+        "A": "Corrosion",
+        "B": "Oxygen deficiency",
+        "C": "Noise",
+        "D": "Radiation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 115,
+      "question": "Which inspection checks valve tightness?",
+      "options": {
+        "A": "Visual inspection",
+        "B": "Leak test",
+        "C": "Radiography",
+        "D": "DFT test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "question": "Which activity requires exclusion zone?",
+      "options": {
+        "A": "Office work",
+        "B": "Pressure testing",
+        "C": "Filing documents",
+        "D": "Site inspection"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "question": "Which material is used for gasket in oil & gas service?",
+      "options": {
+        "A": "Rubber only",
+        "B": "Paper",
+        "C": "Spiral wound gasket",
+        "D": "Plastic"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 118,
+      "question": "Which hazard is related to rotating equipment?",
+      "options": {
+        "A": "Entanglement",
+        "B": "Radiation",
+        "C": "Corrosion",
+        "D": "Leakage"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 119,
+      "question": "Which control measure reduces noise exposure?",
+      "options": {
+        "A": "Ear plugs",
+        "B": "Gloves",
+        "C": "Helmet",
+        "D": "Safety shoes"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 120,
+      "question": "Which authority conducts DM G category exams?",
+      "options": {
+        "A": "DEWA",
+        "B": "ADNOC",
+        "C": "Dubai Municipality",
+        "D": "Dubai Police"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 121,
+      "question": "What is the main purpose of a “Work at Height Permit”?",
+      "options": {
+        "A": "To allow painting",
+        "B": "To ensure safety measures are in place",
+        "C": "To speed up work",
+        "D": "To approve overtime"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 122,
+      "question": "Which hazard is most critical when welding near flammable gas?",
+      "options": {
+        "A": "Noise",
+        "B": "Fire and explosion",
+        "C": "Heat only",
+        "D": "Dust"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "question": "Which gas is used as inert gas for pipeline blanketing?",
+      "options": {
+        "A": "Hydrogen",
+        "B": "Nitrogen",
+        "C": "Methane",
+        "D": "Oxygen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 124,
+      "question": "Which type of inspection detects coating holidays?",
+      "options": {
+        "A": "Visual inspection",
+        "B": "Holiday detector test",
+        "C": "Radiography",
+        "D": "UT test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "When is hot work permit re-validated?",
+      "options": {
+        "A": "Weekly",
+        "B": "If work is interrupted or shift changes",
+        "C": "Monthly",
+        "D": "Only once"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 126,
+      "question": "Which hazard is associated with LPG storage?",
+      "options": {
+        "A": "Static electricity and leak",
+        "B": "Noise",
+        "C": "Dust",
+        "D": "Vibration"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 127,
+      "question": "Which valve is used for throttling?",
+      "options": {
+        "A": "Gate valve",
+        "B": "Globe valve",
+        "C": "Ball valve",
+        "D": "Check valve"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 128,
+      "question": "What is the primary function of a flame detector?",
+      "options": {
+        "A": "Reduce noise",
+        "B": "Detect fire early",
+        "C": "Increase pressure",
+        "D": "Prevent corrosion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 129,
+      "question": "Which inspection verifies pipeline alignment?",
+      "options": {
+        "A": "Hydrostatic test",
+        "B": "Visual inspection and measuring",
+        "C": "Radiography",
+        "D": "DFT test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 130,
+      "question": "Which hazard is associated with acetylene cylinder?",
+      "options": {
+        "A": "Toxicity",
+        "B": "Explosion risk",
+        "C": "Oxygen deficiency",
+        "D": "Noise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 131,
+      "question": "Which color indicates safety information in Dubai sites?",
+      "options": {
+        "A": "Red",
+        "B": "Blue",
+        "C": "Green",
+        "D": "Yellow"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 132,
+      "question": "Which system controls energy isolation during maintenance?",
+      "options": {
+        "A": "PTW system",
+        "B": "LOTO system",
+        "C": "ERP system",
+        "D": "BOQ system"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 133,
+      "question": "During nitrogen purging, what is the main hazard?",
+      "options": {
+        "A": "Fire",
+        "B": "Oxygen deficiency",
+        "C": "Corrosion",
+        "D": "Explosion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 134,
+      "question": "Which inspection checks flange torque?",
+      "options": {
+        "A": "Visual inspection",
+        "B": "Torque wrench measurement",
+        "C": "Hydro test",
+        "D": "Radiography"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 135,
+      "question": "Which fire class is for combustible metals like magnesium?",
+      "options": {
+        "A": "Class A",
+        "B": "Class B",
+        "C": "Class C",
+        "D": "Class D"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 136,
+      "question": "Which PPE protects against chemical splash?",
+      "options": {
+        "A": "Gloves and face shield",
+        "B": "Safety shoes only",
+        "C": "Helmet only",
+        "D": "Ear plugs"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 137,
+      "question": "Confined space must have which monitoring?",
+      "options": {
+        "A": "Temperature only",
+        "B": "Gas levels, oxygen, toxic and flammable gases",
+        "C": "Visual inspection only",
+        "D": "Noise only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "question": "Which valve prevents backflow?",
+      "options": {
+        "A": "Ball valve",
+        "B": "Gate valve",
+        "C": "Check valve",
+        "D": "Globe valve"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 139,
+      "question": "Which type of crane requires monthly inspection?",
+      "options": {
+        "A": "Tower crane",
+        "B": "Mobile crane",
+        "C": "Overhead crane",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 140,
+      "question": "Which activity requires barricade and signage?",
+      "options": {
+        "A": "Excavation",
+        "B": "Welding at ground level",
+        "C": "Office work",
+        "D": "Inspection only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 141,
+      "question": "What is the purpose of ERW pipe inspection?",
+      "options": {
+        "A": "Only visual",
+        "B": "Detect weld seam defects",
+        "C": "Painting",
+        "D": "Pressure reduction"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 142,
+      "question": "Which hazard is controlled by PPE?",
+      "options": {
+        "A": "Fire risk",
+        "B": "Personal exposure to chemical, mechanical or physical hazards",
+        "C": "Gas leak",
+        "D": "Pressure release"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 143,
+      "question": "Which device is used to measure oxygen deficiency?",
+      "options": {
+        "A": "Flow meter",
+        "B": "Oxygen analyzer",
+        "C": "Pressure gauge",
+        "D": "Thermometer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 144,
+      "question": "During lifting, which factor must be calculated?",
+      "options": {
+        "A": "Load weight and crane capacity",
+        "B": "Worker number",
+        "C": "Noise level",
+        "D": "Color of equipment"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 145,
+      "question": "Which safety sign is circular and blue?",
+      "options": {
+        "A": "Mandatory action",
+        "B": "Warning",
+        "C": "Danger",
+        "D": "Safe condition"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 146,
+      "question": "Which permit is required for electrical work on live equipment?",
+      "options": {
+        "A": "Hot work permit",
+        "B": "Cold work permit",
+        "C": "Electrical permit",
+        "D": "Excavation permit"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 147,
+      "question": "What is the main purpose of grounding/earthing?",
+      "options": {
+        "A": "Increase pressure",
+        "B": "Prevent electric shock and static sparks",
+        "C": "Reduce noise",
+        "D": "Support structure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 148,
+      "question": "Which inspection detects gas leaks?",
+      "options": {
+        "A": "Hydrostatic test",
+        "B": "Pressure test",
+        "C": "Gas sniffing or detector",
+        "D": "Radiography"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 149,
+      "question": "Which valve type is best for on/off service?",
+      "options": {
+        "A": "Ball valve",
+        "B": "Globe valve",
+        "C": "Needle valve",
+        "D": "Check valve"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 150,
+      "question": "Which fire extinguisher is suitable for electrical fires?",
+      "options": {
+        "A": "Water",
+        "B": "Foam",
+        "C": "CO₂",
+        "D": "Dry sand"
+      },
+      "answer": "C"
+    }
+  ]
+}
