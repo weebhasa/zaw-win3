@@ -1,6 +1,8 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, XCircle } from "lucide-react";
+import { useEffect, useRef } from "react";
+import { storage } from "@/lib/storage";
 
 export default function ResultsPage() {
   const location = useLocation();
@@ -17,11 +19,26 @@ export default function ResultsPage() {
   }
 
   const { currentQuestions, answers, sessionFilename } = resultsData;
+  const savedRef = useRef(false);
+
   const correctCount = currentQuestions.filter(
     (d: any) =>
       String(answers[d.id]).toUpperCase() === String(d.answer).toUpperCase(),
   ).length;
   const percentage = Math.round((correctCount / currentQuestions.length) * 100);
+
+  useEffect(() => {
+    if (!savedRef.current && sessionFilename) {
+      storage.saveResult({
+        sessionFilename,
+        score: correctCount,
+        total: currentQuestions.length,
+        percentage,
+        answers,
+      });
+      savedRef.current = true;
+    }
+  }, [sessionFilename, correctCount, currentQuestions.length, percentage, answers]);
 
   const handleRestart = () => {
     if (sessionFilename) {
