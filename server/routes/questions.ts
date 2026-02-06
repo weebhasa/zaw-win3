@@ -18,23 +18,35 @@ export const handleGetQuestions: RequestHandler = (req, res) => {
 
     // Security: prevent directory traversal
     const safeFilename = path.basename(filename);
-    
+
     const possibleDirs = [
       path.join(process.cwd(), "public"),
       path.join(process.cwd(), "dist/spa"),
       path.join(process.cwd(), "spa"),
     ];
 
-    let publicDir = possibleDirs.find((dir) => fs.existsSync(dir)) || possibleDirs[0];
-    let filePath = path.join(publicDir, safeFilename.endsWith(".json") ? safeFilename : `${safeFilename}.json`);
+    let publicDir =
+      possibleDirs.find((dir) => fs.existsSync(dir)) || possibleDirs[0];
+    let filePath = path.join(
+      publicDir,
+      safeFilename.endsWith(".json") ? safeFilename : `${safeFilename}.json`,
+    );
 
     if (!fs.existsSync(filePath)) {
       // Fallback: search directory for a case-insensitive or space-normalized match
       const files = fs.readdirSync(publicDir);
-      const normalizedSearch = safeFilename.replace(/\.json$/, "").toLowerCase().trim().replace(/\s+/g, " ");
+      const normalizedSearch = safeFilename
+        .replace(/\.json$/, "")
+        .toLowerCase()
+        .trim()
+        .replace(/\s+/g, " ");
 
-      const foundFile = files.find(f => {
-        const normalizedFile = f.replace(/\.json$/, "").toLowerCase().trim().replace(/\s+/g, " ");
+      const foundFile = files.find((f) => {
+        const normalizedFile = f
+          .replace(/\.json$/, "")
+          .toLowerCase()
+          .trim()
+          .replace(/\s+/g, " ");
         return normalizedFile === normalizedSearch;
       });
 

@@ -34,9 +34,19 @@ export default function Index() {
     return Array.from(map.entries())
       .map(([base, items]) => ({
         base,
-        items: items.sort((a, b) => a.title.localeCompare(b.title, undefined, { numeric: true, sensitivity: 'base' }))
+        items: items.sort((a, b) =>
+          a.title.localeCompare(b.title, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          }),
+        ),
       }))
-      .sort((a, b) => a.base.localeCompare(b.base, undefined, { numeric: true, sensitivity: 'base' }));
+      .sort((a, b) =>
+        a.base.localeCompare(b.base, undefined, {
+          numeric: true,
+          sensitivity: "base",
+        }),
+      );
   }, [sets]);
 
   const [selectedBase, setSelectedBase] = useState<string>("\0");
@@ -73,8 +83,9 @@ export default function Index() {
             Building Maintenance & Safety Quiz
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            Prepare for your engineering and maintenance certification exams with
-            our comprehensive collection of practice questions and mock tests.
+            Prepare for your engineering and maintenance certification exams
+            with our comprehensive collection of practice questions and mock
+            tests.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-end">
             <div className="flex gap-3 w-full sm:w-auto">
@@ -152,10 +163,16 @@ export default function Index() {
                   <History className="h-6 w-6" />
                 </div>
                 <div>
-                  <div className="text-sm font-medium text-muted-foreground">Last Attempt</div>
+                  <div className="text-sm font-medium text-muted-foreground">
+                    Last Attempt
+                  </div>
                   <div className="flex items-center gap-3">
-                    <span className="text-2xl font-bold text-primary">{lastResult.percentage}%</span>
-                    <span className="text-sm text-muted-foreground">({lastResult.score}/{lastResult.total})</span>
+                    <span className="text-2xl font-bold text-primary">
+                      {lastResult.percentage}%
+                    </span>
+                    <span className="text-sm text-muted-foreground">
+                      ({lastResult.score}/{lastResult.total})
+                    </span>
                     <span className="flex items-center gap-1 text-xs text-muted-foreground/80">
                       <Calendar className="h-3 w-3" />
                       {format(new Date(lastResult.date), "MMM d, yyyy")}
@@ -184,7 +201,8 @@ export default function Index() {
                 review.
               </li>
               <li>
-                Your best scores are saved locally so you can track your progress.
+                Your best scores are saved locally so you can track your
+                progress.
               </li>
               <li>Restart the test anytime to try again.</li>
               <li>Fully responsive and mobile-friendly UI.</li>

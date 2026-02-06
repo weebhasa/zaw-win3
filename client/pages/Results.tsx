@@ -38,7 +38,13 @@ export default function ResultsPage() {
       });
       savedRef.current = true;
     }
-  }, [sessionFilename, correctCount, currentQuestions.length, percentage, answers]);
+  }, [
+    sessionFilename,
+    correctCount,
+    currentQuestions.length,
+    percentage,
+    answers,
+  ]);
 
   const handleRestart = () => {
     if (sessionFilename) {

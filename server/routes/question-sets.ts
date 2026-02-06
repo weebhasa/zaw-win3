@@ -10,11 +10,20 @@ export const handleQuestionSets: RequestHandler = (_req, res) => {
       path.join(process.cwd(), "spa"),
     ];
 
-    let publicDir = possibleDirs.find((dir) => fs.existsSync(dir)) || possibleDirs[0];
+    let publicDir =
+      possibleDirs.find((dir) => fs.existsSync(dir)) || possibleDirs[0];
 
-    const files = fs.readdirSync(publicDir).sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
+    const files = fs
+      .readdirSync(publicDir)
+      .sort((a, b) =>
+        a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }),
+      );
     const filtered = files.filter(
-      (f) => f.endsWith(".json") && f !== "package.json" && f !== "tsconfig.json" && f !== "components.json",
+      (f) =>
+        f.endsWith(".json") &&
+        f !== "package.json" &&
+        f !== "tsconfig.json" &&
+        f !== "components.json",
     );
 
     const sets = filtered.map((filename) => {
