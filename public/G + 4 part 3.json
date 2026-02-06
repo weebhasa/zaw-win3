@@ -1,0 +1,555 @@
+{
+  "title": "G + 4 - Part 3",
+  "questions": [
+    {
+      "id": 101,
+      "question": "Which factor mainly controls the durability of concrete?",
+      "options": {
+        "A": "Cement color",
+        "B": "Water–cement ratio",
+        "C": "Aggregate shape",
+        "D": "Shuttering type"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 102,
+      "question": "The minimum clear cover for reinforcement in footings is:",
+      "options": {
+        "A": "25 mm",
+        "B": "40 mm",
+        "C": "50 mm",
+        "D": "75 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 103,
+      "question": "Which document confirms approved materials before use on site?",
+      "options": {
+        "A": "BOQ",
+        "B": "Material submittal",
+        "C": "Method statement",
+        "D": "Daily report"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 104,
+      "question": "In RCC beams, maximum bending moment usually occurs at:",
+      "options": {
+        "A": "Supports",
+        "B": "Mid-span",
+        "C": "Column face",
+        "D": "End of slab"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 105,
+      "question": "Which test checks the shape of aggregates?",
+      "options": {
+        "A": "Crushing test",
+        "B": "Abrasion test",
+        "C": "Flakiness & elongation test",
+        "D": "Impact test"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 106,
+      "question": "The main purpose of site fencing is to:",
+      "options": {
+        "A": "Improve site appearance",
+        "B": "Prevent unauthorized access",
+        "C": "Store materials",
+        "D": "Reduce noise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "question": "Which fire extinguisher is suitable for electrical fires?",
+      "options": {
+        "A": "Water type",
+        "B": "Foam type",
+        "C": "CO₂ type",
+        "D": "Sand bucket"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 108,
+      "question": "The standard height of a riser in residential stairs is:",
+      "options": {
+        "A": "120–140 mm",
+        "B": "140–160 mm",
+        "C": "150–170 mm",
+        "D": "170–200 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 109,
+      "question": "In RCC slabs, main reinforcement is provided:",
+      "options": {
+        "A": "Along shorter span",
+        "B": "Along longer span",
+        "C": "At slab edges only",
+        "D": "Randomly"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 110,
+      "question": "Which document is required for variation works?",
+      "options": {
+        "A": "Approved drawings",
+        "B": "Site instruction",
+        "C": "Approved variation order",
+        "D": "Method statement"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 111,
+      "question": "The minimum thickness of block wall (external) is usually:",
+      "options": {
+        "A": "100 mm",
+        "B": "150 mm",
+        "C": "200 mm",
+        "D": "250 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 112,
+      "question": "Which safety permit is required for hot works?",
+      "options": {
+        "A": "Excavation permit",
+        "B": "Hot work permit",
+        "C": "Confined space permit",
+        "D": "Electrical permit"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 113,
+      "question": "The main purpose of water stops in construction joints is to:",
+      "options": {
+        "A": "Increase strength",
+        "B": "Reduce cost",
+        "C": "Prevent water leakage",
+        "D": "Improve appearance"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 114,
+      "question": "Which test checks uniformity of cement volume?",
+      "options": {
+        "A": "Fineness test",
+        "B": "Soundness test",
+        "C": "Consistency test",
+        "D": "Compression test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 115,
+      "question": "Which item is mandatory in DM-approved drawings?",
+      "options": {
+        "A": "Contractor name only",
+        "B": "Consultant stamp",
+        "C": "Handwritten notes",
+        "D": "Site photos"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "question": "Which load acts horizontally on buildings?",
+      "options": {
+        "A": "Dead load",
+        "B": "Live load",
+        "C": "Wind load",
+        "D": "Floor load"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 117,
+      "question": "The purpose of kick plates on scaffolding is to:",
+      "options": {
+        "A": "Increase height",
+        "B": "Support planks",
+        "C": "Prevent falling objects",
+        "D": "Improve access"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 118,
+      "question": "Which concrete defect is caused by segregation?",
+      "options": {
+        "A": "Honeycombing",
+        "B": "Efflorescence",
+        "C": "Cracking",
+        "D": "Spalling"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 119,
+      "question": "The minimum slope for bathroom floor drainage is approximately:",
+      "options": {
+        "A": "1:30",
+        "B": "1:40",
+        "C": "1:60",
+        "D": "1:100"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 120,
+      "question": "Practical completion certificate is issued when:",
+      "options": {
+        "A": "Project is 100% paid",
+        "B": "Snag items are cleared",
+        "C": "Building is usable with minor defects",
+        "D": "Structure is completed"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 121,
+      "question": "The minimum width of a residential corridor is generally:",
+      "options": {
+        "A": "900 mm",
+        "B": "1000 mm",
+        "C": "1200 mm",
+        "D": "1500 mm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 122,
+      "question": "Which test is used to determine setting time of cement?",
+      "options": {
+        "A": "Soundness test",
+        "B": "Consistency test",
+        "C": "Vicat test",
+        "D": "Fineness test"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 123,
+      "question": "In RCC design, factor of safety is mainly provided to:",
+      "options": {
+        "A": "Reduce cost",
+        "B": "Improve appearance",
+        "C": "Account for uncertainties",
+        "D": "Reduce construction time"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 124,
+      "question": "Which document is required before concreting works?",
+      "options": {
+        "A": "Material delivery note",
+        "B": "Inspection request (IR) approval",
+        "C": "Daily report",
+        "D": "Invoice"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "The minimum thickness of staircase waist slab is usually:",
+      "options": {
+        "A": "100 mm",
+        "B": "120 mm",
+        "C": "150 mm",
+        "D": "200 mm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 126,
+      "question": "Which aggregate size is commonly used in RCC works?",
+      "options": {
+        "A": "10 mm",
+        "B": "12 mm",
+        "C": "20 mm",
+        "D": "40 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 127,
+      "question": "The main function of a soak pit is to:",
+      "options": {
+        "A": "Store sewage",
+        "B": "Treat wastewater",
+        "C": "Allow infiltration into soil",
+        "D": "Increase flow"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 128,
+      "question": "Which type of curing is most effective?",
+      "options": {
+        "A": "Air curing",
+        "B": "Chemical curing",
+        "C": "Water curing",
+        "D": "Steam curing"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 129,
+      "question": "The minimum distance between reinforcement bars should be:",
+      "options": {
+        "A": "Equal to bar diameter",
+        "B": "Less than aggregate size",
+        "C": "Greater than maximum aggregate size",
+        "D": "Zero"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 130,
+      "question": "Which item is checked during blockwork inspection?",
+      "options": {
+        "A": "Paint color",
+        "B": "Mortar mix ratio",
+        "C": "Electrical load",
+        "D": "Furniture layout"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 131,
+      "question": "The purpose of dowel bars is to:",
+      "options": {
+        "A": "Reduce cracking",
+        "B": "Transfer load between members",
+        "C": "Improve finish",
+        "D": "Reduce thickness"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 132,
+      "question": "Which type of scaffold is commonly used for building works?",
+      "options": {
+        "A": "Cantilever scaffold",
+        "B": "Suspended scaffold",
+        "C": "Single scaffold",
+        "D": "Trestle scaffold"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 133,
+      "question": "The minimum curing period for masonry work is:",
+      "options": {
+        "A": "2 days",
+        "B": "5 days",
+        "C": "7 days",
+        "D": "14 days"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 134,
+      "question": "Which fire protection system is mandatory in staircases?",
+      "options": {
+        "A": "Sprinkler system",
+        "B": "Smoke detector",
+        "C": "Fire alarm bell",
+        "D": "Emergency lighting"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 135,
+      "question": "Which load combination is critical for structural design?",
+      "options": {
+        "A": "Dead load only",
+        "B": "Live load only",
+        "C": "Dead + live load",
+        "D": "Wind load only"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 136,
+      "question": "The purpose of non-shrink grout is to:",
+      "options": {
+        "A": "Reduce strength",
+        "B": "Fill gaps without shrinkage",
+        "C": "Improve color",
+        "D": "Reduce cost"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 137,
+      "question": "Which electrical color code represents earth wire?",
+      "options": {
+        "A": "Red",
+        "B": "Blue",
+        "C": "Green / Yellow",
+        "D": "Black"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 138,
+      "question": "The maximum height of parapet wall is usually:",
+      "options": {
+        "A": "900 mm",
+        "B": "1000 mm",
+        "C": "1200 mm",
+        "D": "1500 mm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 139,
+      "question": "Which test is conducted to check permeability of concrete?",
+      "options": {
+        "A": "Slump test",
+        "B": "Water penetration test",
+        "C": "Rebound hammer test",
+        "D": "Core test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 140,
+      "question": "Site housekeeping is important mainly to:",
+      "options": {
+        "A": "Reduce material cost",
+        "B": "Improve aesthetics",
+        "C": "Prevent accidents",
+        "D": "Increase manpower"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 141,
+      "question": "Which type of cement is recommended for aggressive soil conditions?",
+      "options": {
+        "A": "Ordinary Portland Cement",
+        "B": "Rapid hardening cement",
+        "C": "Sulphate resistant cement",
+        "D": "White cement"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 142,
+      "question": "The main purpose of expansion joints in long buildings is to:",
+      "options": {
+        "A": "Reduce dead load",
+        "B": "Improve aesthetics",
+        "C": "Allow movement due to temperature",
+        "D": "Increase strength"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 143,
+      "question": "Which inspection is required before backfilling foundation trenches?",
+      "options": {
+        "A": "Painting inspection",
+        "B": "Concrete inspection",
+        "C": "DM foundation inspection",
+        "D": "Final inspection"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 144,
+      "question": "In RCC design, serviceability limit state considers:",
+      "options": {
+        "A": "Collapse",
+        "B": "Excessive deflection and cracking",
+        "C": "Ultimate strength",
+        "D": "Overloading only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 145,
+      "question": "Which test is used to check steel ductility?",
+      "options": {
+        "A": "Tensile test",
+        "B": "Bend test",
+        "C": "Hardness test",
+        "D": "Impact test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 146,
+      "question": "The minimum thickness of waterproofing screed on roof is generally:",
+      "options": {
+        "A": "20 mm",
+        "B": "30 mm",
+        "C": "40 mm",
+        "D": "50 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 147,
+      "question": "Which type of load increases during earthquake?",
+      "options": {
+        "A": "Dead load",
+        "B": "Live load",
+        "C": "Lateral load",
+        "D": "Floor load"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 148,
+      "question": "The purpose of anti-carbonation coating is to:",
+      "options": {
+        "A": "Improve color",
+        "B": "Prevent corrosion of reinforcement",
+        "C": "Increase strength",
+        "D": "Reduce water absorption only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 149,
+      "question": "Which document is mandatory for safety compliance on site?",
+      "options": {
+        "A": "Bar bending schedule",
+        "B": "HSE plan",
+        "C": "BOQ",
+        "D": "Shop drawings"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 150,
+      "question": "The minimum clear cover for reinforcement in columns is:",
+      "options": {
+        "A": "20 mm",
+        "B": "25 mm",
+        "C": "40 mm",
+        "D": "50 mm"
+      },
+      "answer": "C"
+    }
+  ]
+}

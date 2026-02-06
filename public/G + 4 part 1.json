@@ -1,0 +1,555 @@
+{
+  "title": "G+ 4 - Part 1",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The maximum number of floors allowed in a G+4 building is:",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 2,
+      "question": "Minimum concrete cover for reinforcement in beams exposed to weather is:",
+      "options": {
+        "A": "20 mm",
+        "B": "25 mm",
+        "C": "30 mm",
+        "D": "40 mm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 3,
+      "question": "Which document must be approved before starting construction work?",
+      "options": {
+        "A": "BOQ",
+        "B": "Shop drawings",
+        "C": "Building permit",
+        "D": "Method statement"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "question": "The purpose of a damp proof course (DPC) is to:",
+      "options": {
+        "A": "Improve strength",
+        "B": "Prevent rising moisture",
+        "C": "Reduce cost",
+        "D": "Increase load capacity"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "Slump test is carried out to check:",
+      "options": {
+        "A": "Concrete strength",
+        "B": "Cement quality",
+        "C": "Concrete workability",
+        "D": "Aggregate size"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "The minimum curing period for normal Portland cement concrete is:",
+      "options": {
+        "A": "3 days",
+        "B": "5 days",
+        "C": "7 days",
+        "D": "14 days"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "question": "Fire exit staircases in G+4 buildings should be:",
+      "options": {
+        "A": "Open type",
+        "B": "Wooden",
+        "C": "Fire rated enclosed",
+        "D": "Decorative only"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "question": "Which material is commonly used for waterproofing roof slabs?",
+      "options": {
+        "A": "Cement plaster",
+        "B": "Bituminous membrane",
+        "C": "Gypsum",
+        "D": "Paint only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "The standard test for concrete compressive strength is conducted after:",
+      "options": {
+        "A": "7 days",
+        "B": "14 days",
+        "C": "21 days",
+        "D": "28 days"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 10,
+      "question": "Minimum headroom height for staircases is:",
+      "options": {
+        "A": "1.8 m",
+        "B": "2.0 m",
+        "C": "2.1 m",
+        "D": "2.4 m"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "question": "Which safety equipment is mandatory at construction sites?",
+      "options": {
+        "A": "Safety helmet",
+        "B": "Safety shoes",
+        "C": "Reflective vest",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 12,
+      "question": "The function of expansion joints in buildings is to:",
+      "options": {
+        "A": "Improve appearance",
+        "B": "Reduce cost",
+        "C": "Allow thermal movement",
+        "D": "Increase load"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "question": "Earthing in electrical systems is provided to:",
+      "options": {
+        "A": "Increase voltage",
+        "B": "Reduce power",
+        "C": "Protect from electric shock",
+        "D": "Save energy"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "question": "The slope provided for sewer pipelines is mainly to:",
+      "options": {
+        "A": "Increase pressure",
+        "B": "Reduce pipe size",
+        "C": "Ensure smooth flow",
+        "D": "Reduce excavation"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 15,
+      "question": "Which test checks soil bearing capacity?",
+      "options": {
+        "A": "Slump test",
+        "B": "Sieve analysis",
+        "C": "Plate load test",
+        "D": "Cube test"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "question": "In reinforced concrete, steel is mainly used to resist:",
+      "options": {
+        "A": "Compression",
+        "B": "Tension",
+        "C": "Shear only",
+        "D": "Shrinkage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "question": "Method statement is required to:",
+      "options": {
+        "A": "Increase cost",
+        "B": "Describe work procedure",
+        "C": "Approve payments",
+        "D": "Replace drawings"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "question": "Which code is followed by Dubai Municipality for fire and life safety?",
+      "options": {
+        "A": "British Standards",
+        "B": "NFPA",
+        "C": "UAE Fire & Life Safety Code",
+        "D": "ASTM"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 19,
+      "question": "The minimum width of a residential staircase is generally:",
+      "options": {
+        "A": "800 mm",
+        "B": "900 mm",
+        "C": "1000 mm",
+        "D": "1200 mm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "question": "Final completion certificate is issued after:",
+      "options": {
+        "A": "Foundation work",
+        "B": "Structural completion",
+        "C": "Snag clearance & inspection",
+        "D": "First fix MEP"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "question": "The minimum thickness of RCC slab in residential G+4 buildings is generally:",
+      "options": {
+        "A": "75 mm",
+        "B": "100 mm",
+        "C": "120 mm",
+        "D": "150 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 22,
+      "question": "Which test is conducted to check the quality of cement?",
+      "options": {
+        "A": "Slump test",
+        "B": "Soundness test",
+        "C": "Cube test",
+        "D": "Plate load test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "The purpose of shuttering in concrete works is to:",
+      "options": {
+        "A": "Increase strength",
+        "B": "Give shape and support",
+        "C": "Reduce cement content",
+        "D": "Improve curing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "question": "In buildings, parapet wall minimum height is usually:",
+      "options": {
+        "A": "600 mm",
+        "B": "800 mm",
+        "C": "1000 mm",
+        "D": "1200 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "question": "Which reinforcement is provided in slabs mainly to resist shrinkage?",
+      "options": {
+        "A": "Main bars",
+        "B": "Bent-up bars",
+        "C": "Distribution bars",
+        "D": "Links"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 26,
+      "question": "The recommended slope for roof drainage is:",
+      "options": {
+        "A": "1:20",
+        "B": "1:40",
+        "C": "1:60",
+        "D": "1:100"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "The main function of a retaining wall is to:",
+      "options": {
+        "A": "Carry building load",
+        "B": "Prevent soil erosion",
+        "C": "Support lateral earth pressure",
+        "D": "Improve appearance"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 28,
+      "question": "Which equipment is used for compaction of soil in trenches?",
+      "options": {
+        "A": "Concrete mixer",
+        "B": "Needle vibrator",
+        "C": "Plate compactor",
+        "D": "Tower crane"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "question": "The allowable bearing capacity of soil is obtained from:",
+      "options": {
+        "A": "Concrete test",
+        "B": "Structural drawing",
+        "C": "Soil investigation report",
+        "D": "BOQ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 30,
+      "question": "In RCC work, cover blocks are used to:",
+      "options": {
+        "A": "Increase strength",
+        "B": "Reduce cost",
+        "C": "Maintain clear cover",
+        "D": "Improve bonding"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 31,
+      "question": "Which type of foundation is suitable for weak soil?",
+      "options": {
+        "A": "Isolated footing",
+        "B": "Strip footing",
+        "C": "Raft foundation",
+        "D": "Pad footing"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 32,
+      "question": "The maximum rise of stair step is generally:",
+      "options": {
+        "A": "150 mm",
+        "B": "170 mm",
+        "C": "190 mm",
+        "D": "220 mm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 33,
+      "question": "Which test ensures proper compaction of concrete?",
+      "options": {
+        "A": "Slump test",
+        "B": "Core test",
+        "C": "Rebound hammer test",
+        "D": "Vibration test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "Electrical conduits in slabs should be placed:",
+      "options": {
+        "A": "Above reinforcement",
+        "B": "Below reinforcement",
+        "C": "Between top and bottom reinforcement",
+        "D": "Outside slab"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 35,
+      "question": "The minimum curing period for plastering is:",
+      "options": {
+        "A": "2 days",
+        "B": "5 days",
+        "C": "7 days",
+        "D": "14 days"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 36,
+      "question": "Fire alarm system is mandatory in:",
+      "options": {
+        "A": "Villas only",
+        "B": "Industrial buildings only",
+        "C": "G+4 residential buildings",
+        "D": "Temporary sheds"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 37,
+      "question": "The main purpose of safety induction is to:",
+      "options": {
+        "A": "Reduce labor",
+        "B": "Explain work method",
+        "C": "Prevent accidents",
+        "D": "Increase productivity"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "question": "The water absorption test is conducted for:",
+      "options": {
+        "A": "Cement",
+        "B": "Sand",
+        "C": "Bricks / blocks",
+        "D": "Steel"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 39,
+      "question": "Which document is used for measurement and billing?",
+      "options": {
+        "A": "Approved drawings",
+        "B": "BOQ",
+        "C": "Method statement",
+        "D": "HSE plan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 40,
+      "question": "Final inspection by Dubai Municipality is required for:",
+      "options": {
+        "A": "Excavation",
+        "B": "Structural works",
+        "C": "Completion certificate",
+        "D": "Shuttering approval"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 41,
+      "question": "The purpose of shear reinforcement in beams is to resist:",
+      "options": {
+        "A": "Bending",
+        "B": "Tension",
+        "C": "Shear force",
+        "D": "Compression"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 42,
+      "question": "Which test is used to assess in-situ concrete strength without damaging the structure?",
+      "options": {
+        "A": "Cube test",
+        "B": "Core test",
+        "C": "Rebound hammer test",
+        "D": "Slump test"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 43,
+      "question": "The minimum diameter of main reinforcement bar commonly used in slabs is:",
+      "options": {
+        "A": "6 mm",
+        "B": "8 mm",
+        "C": "10 mm",
+        "D": "12 mm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 44,
+      "question": "In building construction, plinth level is defined as:",
+      "options": {
+        "A": "Top of foundation",
+        "B": "Bottom of footing",
+        "C": "Finished floor level",
+        "D": "Ground floor roof level"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "question": "Which material is used as anti-termite treatment?",
+      "options": {
+        "A": "Bitumen",
+        "B": "Chlorpyrifos",
+        "C": "Cement slurry",
+        "D": "Water proof paint"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "question": "The purpose of a manhole in sewer systems is to:",
+      "options": {
+        "A": "Increase flow velocity",
+        "B": "Store sewage",
+        "C": "Allow inspection and maintenance",
+        "D": "Reduce pipe diameter"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 47,
+      "question": "The maximum spacing of stirrups near beam supports should be:",
+      "options": {
+        "A": "More than mid-span spacing",
+        "B": "Same as mid-span",
+        "C": "Less than mid-span spacing",
+        "D": "Not required"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "question": "Which type of block is commonly used for non-load bearing walls?",
+      "options": {
+        "A": "Solid concrete block",
+        "B": "Hollow concrete block",
+        "C": "Clay brick only",
+        "D": "Stone block"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "question": "In plumbing systems, a trap is provided to:",
+      "options": {
+        "A": "Increase water pressure",
+        "B": "Prevent leakage",
+        "C": "Prevent foul smell",
+        "D": "Increase flow"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 50,
+      "question": "The minimum slope recommended for internal drainage pipes is:",
+      "options": {
+        "A": "1:10",
+        "B": "1:20",
+        "C": "1:40",
+        "D": "1:60"
+      },
+      "answer": "B"
+    }
+  ]
+}

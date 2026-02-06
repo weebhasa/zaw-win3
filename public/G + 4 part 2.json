@@ -1,0 +1,555 @@
+{
+  "title": "G + 4 - Part 2",
+  "questions": [
+    {
+      "id": 51,
+      "question": "Which document shows exact reinforcement details?",
+      "options": {
+        "A": "Architectural drawings",
+        "B": "Structural drawings",
+        "C": "Shop drawings",
+        "D": "BOQ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "question": "Safety nets are mainly used to:",
+      "options": {
+        "A": "Protect materials",
+        "B": "Protect workers from falling",
+        "C": "Increase productivity",
+        "D": "Improve site appearance"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "question": "Which test checks the consistency of cement?",
+      "options": {
+        "A": "Slump test",
+        "B": "Fineness test",
+        "C": "Standard consistency test",
+        "D": "Soundness test"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 54,
+      "question": "The minimum thickness of plaster for internal walls is:",
+      "options": {
+        "A": "6 mm",
+        "B": "10 mm",
+        "C": "12 mm",
+        "D": "20 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 55,
+      "question": "Which item is mandatory in approved shop drawings?",
+      "options": {
+        "A": "Company logo",
+        "B": "Scale and dimensions",
+        "C": "Labor details",
+        "D": "Material invoice"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "question": "The function of a lightning protection system is to:",
+      "options": {
+        "A": "Improve power supply",
+        "B": "Reduce voltage",
+        "C": "Protect structure from lightning",
+        "D": "Increase earthing resistance"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 57,
+      "question": "The maximum permissible moisture content in sand is checked by:",
+      "options": {
+        "A": "Sieve analysis",
+        "B": "Bulking of sand test",
+        "C": "Slump test",
+        "D": "Core test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "question": "Which factor mainly affects concrete strength?",
+      "options": {
+        "A": "Color of cement",
+        "B": "Water-cement ratio",
+        "C": "Size of shuttering",
+        "D": "Curing temperature only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 59,
+      "question": "Temporary electrical connections at site must have:",
+      "options": {
+        "A": "Exposed wires",
+        "B": "Proper earthing",
+        "C": "No circuit breaker",
+        "D": "Wooden supports only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 60,
+      "question": "Handover of a building is done after:",
+      "options": {
+        "A": "Structural work",
+        "B": "Block work",
+        "C": "Final inspection and approval",
+        "D": "First fix MEP"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 61,
+      "question": "The minimum depth of foundation depends mainly on:",
+      "options": {
+        "A": "Building height",
+        "B": "Type of soil",
+        "C": "Cost of project",
+        "D": "Type of finish"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "Which test determines the fineness of cement?",
+      "options": {
+        "A": "Soundness test",
+        "B": "Sieve test",
+        "C": "Slump test",
+        "D": "Cube test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 63,
+      "question": "The purpose of tie beams in a structure is to:",
+      "options": {
+        "A": "Carry vertical loads",
+        "B": "Support slabs",
+        "C": "Connect columns and reduce differential settlement",
+        "D": "Improve appearance"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 64,
+      "question": "In formwork, de-shuttering of vertical surfaces like columns is usually done after:",
+      "options": {
+        "A": "12 hours",
+        "B": "24 hours",
+        "C": "48 hours",
+        "D": "7 days"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "Which concrete grade is commonly used for RCC slabs in G+4 buildings?",
+      "options": {
+        "A": "M15",
+        "B": "M20",
+        "C": "M25",
+        "D": "M30"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 66,
+      "question": "The maximum spacing of distribution bars in slabs is generally:",
+      "options": {
+        "A": "2 times slab thickness",
+        "B": "3 times slab thickness",
+        "C": "5 times slab thickness",
+        "D": "8 times slab thickness"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 67,
+      "question": "Which type of load is considered permanent?",
+      "options": {
+        "A": "Live load",
+        "B": "Wind load",
+        "C": "Dead load",
+        "D": "Impact load"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 68,
+      "question": "The main purpose of curing is to:",
+      "options": {
+        "A": "Increase setting time",
+        "B": "Prevent evaporation of water",
+        "C": "Improve surface finish",
+        "D": "Reduce cement content"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 69,
+      "question": "Which item is checked during DM site inspection?",
+      "options": {
+        "A": "Labor attendance",
+        "B": "Approved drawings on site",
+        "C": "Contractor profit",
+        "D": "Material invoices"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 70,
+      "question": "The minimum size of manhole for sewer lines is generally:",
+      "options": {
+        "A": "600 × 600 mm",
+        "B": "750 × 750 mm",
+        "C": "900 × 900 mm",
+        "D": "1200 × 1200 mm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 71,
+      "question": "Which test is used to determine aggregate impact value?",
+      "options": {
+        "A": "Crushing test",
+        "B": "Impact test",
+        "C": "Abrasion test",
+        "D": "Flakiness test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 72,
+      "question": "The purpose of a lintel is to:",
+      "options": {
+        "A": "Support roof",
+        "B": "Support slab",
+        "C": "Carry load above openings",
+        "D": "Improve insulation"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 73,
+      "question": "In firefighting systems, a hose reel is mainly used for:",
+      "options": {
+        "A": "Major fires",
+        "B": "Electrical fires only",
+        "C": "Initial fire control",
+        "D": "External firefighting"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 74,
+      "question": "The maximum allowable deflection in RCC beams is limited to:",
+      "options": {
+        "A": "Improve strength",
+        "B": "Improve durability",
+        "C": "Prevent excessive cracking",
+        "D": "Reduce cement quantity"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 75,
+      "question": "Which factor affects workability of concrete the most?",
+      "options": {
+        "A": "Aggregate color",
+        "B": "Cement brand",
+        "C": "Water content",
+        "D": "Curing method"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 76,
+      "question": "In electrical installations, MCB stands for:",
+      "options": {
+        "A": "Main Control Board",
+        "B": "Miniature Circuit Breaker",
+        "C": "Maximum Current Breaker",
+        "D": "Manual Circuit Box"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 77,
+      "question": "Which test checks the strength of bricks?",
+      "options": {
+        "A": "Water absorption test",
+        "B": "Compression test",
+        "C": "Soundness test",
+        "D": "Efflorescence test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 78,
+      "question": "The purpose of ventilation in buildings is to:",
+      "options": {
+        "A": "Increase temperature",
+        "B": "Remove stale air",
+        "C": "Improve lighting",
+        "D": "Reduce noise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 79,
+      "question": "Which safety sign indicates mandatory action?",
+      "options": {
+        "A": "Red circular sign",
+        "B": "Yellow triangular sign",
+        "C": "Blue circular sign",
+        "D": "Green square sign"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 80,
+      "question": "Project completion time is mainly controlled through:",
+      "options": {
+        "A": "BOQ",
+        "B": "Bar bending schedule",
+        "C": "Construction schedule",
+        "D": "Material test reports"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 81,
+      "question": "The main purpose of a soil compaction test is to:",
+      "options": {
+        "A": "Increase excavation depth",
+        "B": "Check soil density",
+        "C": "Reduce concrete quantity",
+        "D": "Improve appearance"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 82,
+      "question": "Which test is used to determine the tensile strength of steel reinforcement?",
+      "options": {
+        "A": "Bend test",
+        "B": "Impact test",
+        "C": "Tensile test",
+        "D": "Hardness test"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 83,
+      "question": "In RCC columns, ties are provided to:",
+      "options": {
+        "A": "Increase column height",
+        "B": "Hold main bars in position",
+        "C": "Increase bending strength",
+        "D": "Reduce dead load"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 84,
+      "question": "The minimum clear width of fire exit staircase is:",
+      "options": {
+        "A": "800 mm",
+        "B": "900 mm",
+        "C": "1000 mm",
+        "D": "1200 mm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 85,
+      "question": "Which type of paint is recommended for external walls?",
+      "options": {
+        "A": "Distemper",
+        "B": "Oil paint",
+        "C": "Acrylic emulsion",
+        "D": "Lime wash"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 86,
+      "question": "The main purpose of an inspection chamber is to:",
+      "options": {
+        "A": "Store water",
+        "B": "Increase pressure",
+        "C": "Allow access for cleaning",
+        "D": "Reduce flow"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 87,
+      "question": "Which document defines quality requirements of materials?",
+      "options": {
+        "A": "BOQ",
+        "B": "Specification",
+        "C": "Shop drawing",
+        "D": "Work schedule"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 88,
+      "question": "The maximum spacing of column ties should not exceed:",
+      "options": {
+        "A": "Least lateral dimension of column",
+        "B": "16 times diameter of main bar",
+        "C": "300 mm",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 89,
+      "question": "The main cause of concrete cracking is:",
+      "options": {
+        "A": "Excess cement",
+        "B": "High water-cement ratio",
+        "C": "Improper curing",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 90,
+      "question": "Which type of load is considered temporary?",
+      "options": {
+        "A": "Dead load",
+        "B": "Self-weight",
+        "C": "Live load",
+        "D": "Wall load"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 91,
+      "question": "In plumbing, a vent pipe is used to:",
+      "options": {
+        "A": "Carry sewage",
+        "B": "Prevent siphonage",
+        "C": "Increase water pressure",
+        "D": "Reduce pipe size"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 92,
+      "question": "The standard height of handrail in staircases is approximately:",
+      "options": {
+        "A": "700 mm",
+        "B": "850 mm",
+        "C": "1000 mm",
+        "D": "1200 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 93,
+      "question": "Which test is used to check the hardness of aggregate?",
+      "options": {
+        "A": "Abrasion test",
+        "B": "Impact test",
+        "C": "Crushing test",
+        "D": "Soundness test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 94,
+      "question": "Fire extinguishers should be located:",
+      "options": {
+        "A": "Inside store only",
+        "B": "Near electrical panels only",
+        "C": "At visible and accessible locations",
+        "D": "Inside locked rooms"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 95,
+      "question": "The purpose of an RCD in electrical systems is to:",
+      "options": {
+        "A": "Increase voltage",
+        "B": "Reduce current",
+        "C": "Protect against electric shock",
+        "D": "Improve lighting"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 96,
+      "question": "The minimum lap length in tension is generally:",
+      "options": {
+        "A": "20 times bar diameter",
+        "B": "30 times bar diameter",
+        "C": "40 times bar diameter",
+        "D": "60 times bar diameter"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 97,
+      "question": "Which construction activity requires DM inspection approval before proceeding?",
+      "options": {
+        "A": "Painting",
+        "B": "Tiling",
+        "C": "Foundation casting",
+        "D": "Final cleaning"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 98,
+      "question": "The function of a screed is to:",
+      "options": {
+        "A": "Increase structural strength",
+        "B": "Provide smooth and level surface",
+        "C": "Reduce slab thickness",
+        "D": "Improve waterproofing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 99,
+      "question": "Which test measures the workability of concrete?",
+      "options": {
+        "A": "Compaction factor test",
+        "B": "Slump test",
+        "C": "Vee-bee test",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 100,
+      "question": "Substantial completion of a building means:",
+      "options": {
+        "A": "100% finished",
+        "B": "Structure completed only",
+        "C": "Fit for intended use",
+        "D": "Paint completed"
+      },
+      "answer": "C"
+    }
+  ]
+}

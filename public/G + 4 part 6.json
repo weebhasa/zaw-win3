@@ -1,0 +1,555 @@
+{
+  "title": "G + 4 - Part 6",
+  "questions": [
+    {
+      "id": 251,
+      "question": "Which material is commonly used for joint filling in floor tiles?",
+      "options": {
+        "A": "Cement slurry",
+        "B": "Grout",
+        "C": "Sand",
+        "D": "Oil"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 252,
+      "question": "The main purpose of a concrete vibrator is to:",
+      "options": {
+        "A": "Increase water content",
+        "B": "Remove air bubbles and ensure compaction",
+        "C": "Change concrete color",
+        "D": "Reduce setting time"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 253,
+      "question": "Which test is conducted to check the quality of water used for concrete?",
+      "options": {
+        "A": "Slump test",
+        "B": "Chemical analysis",
+        "C": "Sieve analysis",
+        "D": "Cube test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 254,
+      "question": "The standard height of a kitchen counter is usually:",
+      "options": {
+        "A": "700 mm",
+        "B": "800 mm",
+        "C": "900 mm",
+        "D": "1000 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 255,
+      "question": "Which material is used for thermal insulation of roofs?",
+      "options": {
+        "A": "Polystyrene boards",
+        "B": "Cement plaster",
+        "C": "Bitumen",
+        "D": "Glass"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 256,
+      "question": "The purpose of a primer in painting is to:",
+      "options": {
+        "A": "Provide final color",
+        "B": "Improve adhesion of paint to the surface",
+        "C": "Reduce paint cost",
+        "D": "Make the surface rough"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 257,
+      "question": "Which document is required for site access of heavy machinery?",
+      "options": {
+        "A": "LPO",
+        "B": "Third-party certification and operator license",
+        "C": "Material submittal",
+        "D": "Daily report"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 258,
+      "question": "The minimum slope for a bathroom floor towards the drain is:",
+      "options": {
+        "A": "1:20",
+        "B": "1:50",
+        "C": "1:100",
+        "D": "No slope required"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 259,
+      "question": "Which safety equipment is used for working at heights above 2 meters?",
+      "options": {
+        "A": "Safety harness",
+        "B": "Safety shoes only",
+        "C": "Ear muffs",
+        "D": "Goggles"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 260,
+      "question": "The function of a float valve in a water tank is to:",
+      "options": {
+        "A": "Increase pressure",
+        "B": "Control water level and prevent overflow",
+        "C": "Filter water",
+        "D": "Measure flow"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 261,
+      "question": "Which test determines the setting time of cement?",
+      "options": {
+        "A": "Vicat apparatus test",
+        "B": "Slump test",
+        "C": "Sieve analysis",
+        "D": "Cube test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 262,
+      "question": "The standard thickness of a gypsum board partition is often:",
+      "options": {
+        "A": "50 mm",
+        "B": "75 mm",
+        "C": "100 mm",
+        "D": "150 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 263,
+      "question": "Which document is used to record daily progress on site?",
+      "options": {
+        "A": "BOQ",
+        "B": "Daily Progress Report (DPR)",
+        "C": "HSE plan",
+        "D": "Contract"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 264,
+      "question": "The purpose of a sprinkler head is to:",
+      "options": {
+        "A": "Detect smoke",
+        "B": "Automatically discharge water during a fire",
+        "C": "Cool the room",
+        "D": "Provide lighting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 265,
+      "question": "Which tool is used for cutting tiles?",
+      "options": {
+        "A": "Hand saw",
+        "B": "Tile cutter / Grinder",
+        "C": "Hammer",
+        "D": "Chisel"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 266,
+      "question": "The minimum fire rating for a staircase door in high-rise buildings is usually:",
+      "options": {
+        "A": "30 mins",
+        "B": "60 mins",
+        "C": "90-120 mins",
+        "D": "Not required"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 267,
+      "question": "Which activity is performed after structural completion?",
+      "options": {
+        "A": "Excavation",
+        "B": "Internal finishing and MEP works",
+        "C": "Piling",
+        "D": "Foundation casting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 268,
+      "question": "The main purpose of a non-return valve (NRV) is to:",
+      "options": {
+        "A": "Increase flow",
+        "B": "Allow flow in one direction only",
+        "C": "Reduce pressure",
+        "D": "Filter water"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 269,
+      "question": "Which factor is critical for the stability of a scaffold?",
+      "options": {
+        "A": "Scaffold color",
+        "B": "Proper base/sole plates and bracing",
+        "C": "Number of workers",
+        "D": "Type of tools used"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 270,
+      "question": "The standard color for neutral wire in many electrical systems is:",
+      "options": {
+        "A": "Red",
+        "B": "Black or Blue (depending on standard)",
+        "C": "Green",
+        "D": "Yellow"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 271,
+      "question": "Which test determines the air content in fresh concrete?",
+      "options": {
+        "A": "Pressure method test",
+        "B": "Slump test",
+        "C": "Cube test",
+        "D": "Sieve analysis"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 272,
+      "question": "The purpose of a fire damper in HVAC ducts is to:",
+      "options": {
+        "A": "Increase airflow",
+        "B": "Prevent fire spread through ducts",
+        "C": "Cool the air",
+        "D": "Filter dust"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 273,
+      "question": "Which document outlines the method of carrying out a specific task safely?",
+      "options": {
+        "A": "BOQ",
+        "B": "Safe Work Method Statement (SWMS)",
+        "C": "Material submittal",
+        "D": "Invoice"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 274,
+      "question": "The standard height of a bathroom washbasin is approximately:",
+      "options": {
+        "A": "600 mm",
+        "B": "800-850 mm",
+        "C": "1000 mm",
+        "D": "1200 mm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 275,
+      "question": "Which activity is required before applying wallpaper?",
+      "options": {
+        "A": "Plastering and primer application",
+        "B": "Floor tiling",
+        "C": "Window installation",
+        "D": "Furniture placement"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 276,
+      "question": "The main purpose of a pressure relief valve (PRV) is to:",
+      "options": {
+        "A": "Increase pressure",
+        "B": "Prevent system failure due to overpressure",
+        "C": "Store liquid",
+        "D": "Measure temperature"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 277,
+      "question": "Which test checks the permeability of a roof membrane?",
+      "options": {
+        "A": "Flood test",
+        "B": "Slump test",
+        "C": "Cube test",
+        "D": "Impact test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 278,
+      "question": "The purpose of a trap in plumbing is to:",
+      "options": {
+        "A": "Catch hair",
+        "B": "Provide a water seal to prevent sewer gases from entering",
+        "C": "Increase water flow",
+        "D": "Filter water"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 279,
+      "question": "Which document is used to verify the quality of concrete delivered to site?",
+      "options": {
+        "A": "BOQ",
+        "B": "Delivery ticket/note and slump test results",
+        "C": "HSE plan",
+        "D": "Shop drawing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 280,
+      "question": "The standard spacing for electrical outlets in a room depends on:",
+      "options": {
+        "A": "Wall color",
+        "B": "Local building codes and room use",
+        "C": "Furniture height",
+        "D": "Paint type"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 281,
+      "question": "Which test determines the abrasion resistance of floor tiles?",
+      "options": {
+        "A": "PEI rating test",
+        "B": "Slump test",
+        "C": "Water absorption test",
+        "D": "Sieve analysis"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 282,
+      "question": "The purpose of an expansion tank in a heating system is to:",
+      "options": {
+        "A": "Store fuel",
+        "B": "Accommodate thermal expansion of water",
+        "C": "Increase pressure",
+        "D": "Filter air"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 283,
+      "question": "Which tool is used for checking the squareness of a corner?",
+      "options": {
+        "A": "Measuring tape",
+        "B": "Try square / L-square",
+        "C": "Plumb bob",
+        "D": "Hammer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 284,
+      "question": "The standard width of a single exit door is usually:",
+      "options": {
+        "A": "700 mm",
+        "B": "900-1000 mm",
+        "C": "1200 mm",
+        "D": "1500 mm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 285,
+      "question": "Which activity is part of routine maintenance?",
+      "options": {
+        "A": "Building a new room",
+        "B": "Monthly inspection of fire extinguishers",
+        "C": "Replacing a collapsed roof",
+        "D": "Changing building color"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 286,
+      "question": "The purpose of a check valve in a pump system is to:",
+      "options": {
+        "A": "Increase pump speed",
+        "B": "Prevent backflow when the pump stops",
+        "C": "Measure flow",
+        "D": "Reduce noise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 287,
+      "question": "Which document defines the technical specifications of a project?",
+      "options": {
+        "A": "BOQ",
+        "B": "Project Specification Manual",
+        "C": "Delivery note",
+        "D": "Daily report"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 288,
+      "question": "The standard color for earthing wire is:",
+      "options": {
+        "A": "Black",
+        "B": "Green or Green/Yellow",
+        "C": "Blue",
+        "D": "Red"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 289,
+      "question": "Which test determines the viscosity of paint?",
+      "options": {
+        "A": "Ford Cup test",
+        "B": "Slump test",
+        "C": "Impact test",
+        "D": "Sieve analysis"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 290,
+      "question": "The purpose of a fire blanket is to:",
+      "options": {
+        "A": "Decorate rooms",
+        "B": "Extinguish small fires by smothering",
+        "C": "Keep warm",
+        "D": "Cover furniture"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 291,
+      "question": "Which tool is used for leveling long distances on site?",
+      "options": {
+        "A": "Measuring tape",
+        "B": "Theodolite / Total Station / Laser level",
+        "C": "Plumb bob",
+        "D": "Hand level"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 292,
+      "question": "The standard height of a light switch from the floor is usually:",
+      "options": {
+        "A": "1000 mm",
+        "B": "1200-1400 mm",
+        "C": "1600 mm",
+        "D": "1800 mm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 293,
+      "question": "Which activity must be completed before starting internal plastering?",
+      "options": {
+        "A": "First fix MEP (conduits/pipes) and blockwork inspection",
+        "B": "Final painting",
+        "C": "Furniture delivery",
+        "D": "Tiling"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 294,
+      "question": "The main reason for using galvanized steel for outdoor structures is to:",
+      "options": {
+        "A": "Increase weight",
+        "B": "Prevent corrosion",
+        "C": "Reduce cost",
+        "D": "Improve conductivity"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 295,
+      "question": "Minimum curing period for masonry work is:",
+      "options": {
+        "A": "2 days",
+        "B": "5 days",
+        "C": "7 days",
+        "D": "14 days"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 296,
+      "question": "Which inspection is required before plastering walls?",
+      "options": {
+        "A": "Structural inspection",
+        "B": "Blockwork inspection",
+        "C": "Electrical inspection",
+        "D": "Final inspection"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 297,
+      "question": "Which load is considered dynamic in design?",
+      "options": {
+        "A": "Dead load",
+        "B": "Live load",
+        "C": "Impact load",
+        "D": "Wall load"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 298,
+      "question": "Minimum width of residential corridor is:",
+      "options": {
+        "A": "800 mm",
+        "B": "900 mm",
+        "C": "1000 mm",
+        "D": "1200 mm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 299,
+      "question": "The purpose of a smoke alarm is to:",
+      "options": {
+        "A": "Extinguish fire",
+        "B": "Alert occupants of smoke/fire presence",
+        "C": "Remove smoke",
+        "D": "Cool the room"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 300,
+      "question": "Which activity is part of decommissioning a site?",
+      "options": {
+        "A": "Starting excavation",
+        "B": "Removing temporary facilities and clearing debris",
+        "C": "Poured concrete",
+        "D": "Installing windows"
+      },
+      "answer": "B"
+    }
+  ]
+}

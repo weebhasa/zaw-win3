@@ -1,0 +1,555 @@
+{
+  "title": "G + 4 - Part 5",
+  "questions": [
+    {
+      "id": 201,
+      "question": "Which material is used for sealing window frames?",
+      "options": {
+        "A": "Cement mortar",
+        "B": "Silicone sealant",
+        "C": "Plaster",
+        "D": "Oil paint"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 202,
+      "question": "The purpose of a circuit breaker is to:",
+      "options": {
+        "A": "Increase voltage",
+        "B": "Protect circuit from overload/short circuit",
+        "C": "Store power",
+        "D": "Control brightness"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 203,
+      "question": "Which test checks the density of compacted soil?",
+      "options": {
+        "A": "Slump test",
+        "B": "Sieve analysis",
+        "C": "Sand replacement method",
+        "D": "Cube test"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 204,
+      "question": "The standard height of a door frame is usually:",
+      "options": {
+        "A": "1800 mm",
+        "B": "2000 mm",
+        "C": "2100 mm",
+        "D": "2400 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 205,
+      "question": "Which chemical is used to prevent rust on exposed steel?",
+      "options": {
+        "A": "Cement slurry",
+        "B": "Anti-corrosive primer",
+        "C": "Water",
+        "D": "Kerosene"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 206,
+      "question": "The purpose of an AC thermostat is to:",
+      "options": {
+        "A": "Increase airflow",
+        "B": "Control temperature",
+        "C": "Reduce noise",
+        "D": "Filter air"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 207,
+      "question": "Which document is needed to verify the grade of steel reinforcement?",
+      "options": {
+        "A": "LPO",
+        "B": "Mill test certificate",
+        "C": "Delivery note",
+        "D": "Site report"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 208,
+      "question": "The minimum slope for a balcony floor is approximately:",
+      "options": {
+        "A": "1:20",
+        "B": "1:50",
+        "C": "1:100",
+        "D": "No slope needed"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 209,
+      "question": "Which safety equipment is used while working with chemicals?",
+      "options": {
+        "A": "Safety harness",
+        "B": "Chemical resistant gloves & goggles",
+        "C": "Ear muffs",
+        "D": "Reflective vest"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 210,
+      "question": "The function of a expansion tank in water systems is to:",
+      "options": {
+        "A": "Store extra water",
+        "B": "Absorb pressure changes due to thermal expansion",
+        "C": "Increase flow rate",
+        "D": "Filter water"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 211,
+      "question": "Which test determines the moisture content in timber?",
+      "options": {
+        "A": "Slump test",
+        "B": "Moisture meter test",
+        "C": "Sieve analysis",
+        "D": "Impact test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 212,
+      "question": "The standard overlap for waterproofing membrane is usually:",
+      "options": {
+        "A": "20 mm",
+        "B": "50 mm",
+        "C": "100 mm",
+        "D": "200 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 213,
+      "question": "Which document is used to track materials entering the site?",
+      "options": {
+        "A": "Shop drawing",
+        "B": "Material delivery note",
+        "C": "HSE plan",
+        "D": "BOQ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 214,
+      "question": "The purpose of a smoke detector is to:",
+      "options": {
+        "A": "Extinguish fire",
+        "B": "Detect presence of smoke and trigger alarm",
+        "C": "Remove smoke",
+        "D": "Cool the room"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 215,
+      "question": "Which tool is used for checking the level of floor tiles?",
+      "options": {
+        "A": "Measuring tape",
+        "B": "Spirit level / Laser level",
+        "C": "Hammer",
+        "D": "Pliers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 216,
+      "question": "The minimum thickness of a firewall depends on:",
+      "options": {
+        "A": "Building color",
+        "B": "Required fire rating (hours)",
+        "C": "Number of windows",
+        "D": "Paint type"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 217,
+      "question": "Which activity must be performed before applying the final coat of paint?",
+      "options": {
+        "A": "Furniture installation",
+        "B": "Snagging and surface preparation",
+        "C": "Floor cleaning only",
+        "D": "Building handover"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 218,
+      "question": "The main purpose of a water pressure reducing valve (PRV) is to:",
+      "options": {
+        "A": "Increase pressure",
+        "B": "Protect pipes from excessive pressure",
+        "C": "Store water",
+        "D": "Measure flow"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 219,
+      "question": "Which factor is most important for structural safety during excavation?",
+      "options": {
+        "A": "Shoring and protection of adjacent structures",
+        "B": "Color of soil",
+        "C": "Type of excavator",
+        "D": "Number of workers"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 220,
+      "question": "The standard color for live electrical wire in many systems is:",
+      "options": {
+        "A": "Green",
+        "B": "Brown",
+        "C": "Blue",
+        "D": "Yellow/Green"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 221,
+      "question": "Which test determines the durability of stones?",
+      "options": {
+        "A": "Soundness test",
+        "B": "Slump test",
+        "C": "Sieve analysis",
+        "D": "Compression test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 222,
+      "question": "The purpose of a weep hole in a retaining wall is to:",
+      "options": {
+        "A": "Improve appearance",
+        "B": "Drain water and reduce hydrostatic pressure",
+        "C": "Allow air circulation",
+        "D": "Fix reinforcement"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 223,
+      "question": "Which document is issued by authorities for building occupation?",
+      "options": {
+        "A": "Building permit",
+        "B": "Building Completion Certificate (BCC)",
+        "C": "BOQ",
+        "D": "Shop drawing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 224,
+      "question": "The maximum height of a ladder used on site should not exceed:",
+      "options": {
+        "A": "3 m",
+        "B": "6 m",
+        "C": "Project specific safety guidelines",
+        "D": "10 m"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 225,
+      "question": "Which activity is part of preventive maintenance?",
+      "options": {
+        "A": "Fixing a broken pipe",
+        "B": "Regular AC filter cleaning",
+        "C": "Repairing a collapsed wall",
+        "D": "Replacing a blown fuse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 226,
+      "question": "The purpose of an earthing pit is to:",
+      "options": {
+        "A": "Store electrical tools",
+        "B": "Provide a low resistance path to ground",
+        "C": "Increase voltage",
+        "D": "Cool cables"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 227,
+      "question": "Which test checks the bonding strength of tiles?",
+      "options": {
+        "A": "Pull-off test",
+        "B": "Slump test",
+        "C": "Impact test",
+        "D": "Sieve test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 228,
+      "question": "The minimum thickness of a structural concrete wall is usually:",
+      "options": {
+        "A": "100 mm",
+        "B": "150 mm",
+        "C": "200 mm",
+        "D": "250 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 229,
+      "question": "Which document outlines the safety risks of a specific material?",
+      "options": {
+        "A": "BOQ",
+        "B": "Material Safety Data Sheet (MSDS)",
+        "C": "Shop drawing",
+        "D": "Invoice"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 230,
+      "question": "The function of a surge protector is to:",
+      "options": {
+        "A": "Increase current",
+        "B": "Protect electronics from voltage spikes",
+        "C": "Save energy",
+        "D": "Control lighting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 231,
+      "question": "Which test determines the bitumen content in asphalt?",
+      "options": {
+        "A": "Extraction test",
+        "B": "Slump test",
+        "C": "Sieve analysis",
+        "D": "Cube test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 232,
+      "question": "The purpose of a fire curtain is to:",
+      "options": {
+        "A": "Decorate windows",
+        "B": "Prevent spread of fire and smoke in large openings",
+        "C": "Keep the room dark",
+        "D": "Reduce noise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 233,
+      "question": "Which tool is used to check the verticality of a wall?",
+      "options": {
+        "A": "Spirit level",
+        "B": "Plumb bob",
+        "C": "Measuring tape",
+        "D": "Square"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 234,
+      "question": "The standard size of a car parking space is approximately:",
+      "options": {
+        "A": "1.5m x 3.0m",
+        "B": "2.5m x 5.0m",
+        "C": "3.5m x 7.0m",
+        "D": "4.0m x 8.0m"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 235,
+      "question": "Which activity is required before starting waterproofing?",
+      "options": {
+        "A": "Painting",
+        "B": "Surface cleaning and primer application",
+        "C": "Tiling",
+        "D": "Furniture installation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 236,
+      "question": "The main reason for using fly ash in concrete is to:",
+      "options": {
+        "A": "Increase cost",
+        "B": "Improve workability and durability",
+        "C": "Make concrete black",
+        "D": "Reduce setting time"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 237,
+      "question": "Which document is used for reporting accidents on site?",
+      "options": {
+        "A": "BOQ",
+        "B": "Incident/Accident Report",
+        "C": "Method statement",
+        "D": "Shop drawing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 238,
+      "question": "The function of a expansion joint in piping is to:",
+      "options": {
+        "A": "Increase flow",
+        "B": "Compensate for thermal movement",
+        "C": "Reduce pressure",
+        "D": "Support the pipe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 239,
+      "question": "Which test checks the quality of drinking water?",
+      "options": {
+        "A": "Chemical and microbiological analysis",
+        "B": "Slump test",
+        "C": "Sieve analysis",
+        "D": "Strength test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 240,
+      "question": "The standard height of electrical sockets in living areas is usually:",
+      "options": {
+        "A": "100 mm",
+        "B": "300-450 mm",
+        "C": "1000 mm",
+        "D": "1200 mm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 241,
+      "question": "Which safety equipment is mandatory for welding?",
+      "options": {
+        "A": "Normal goggles",
+        "B": "Welding mask/shield and leather gloves",
+        "C": "Reflective vest only",
+        "D": "Ear plugs"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 242,
+      "question": "The purpose of a pilot light in gas systems is to:",
+      "options": {
+        "A": "Provide lighting",
+        "B": "Ignite the main burner",
+        "C": "Reduce gas usage",
+        "D": "Control pressure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 243,
+      "question": "Which test determines the hardness of a finished floor?",
+      "options": {
+        "A": "Scratch hardness test (Mohs scale)",
+        "B": "Slump test",
+        "C": "Sieve analysis",
+        "D": "Water test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 244,
+      "question": "The recommended maximum distance for carrying materials by hand is:",
+      "options": {
+        "A": "10 m",
+        "B": "Safety guidelines specific to site/task",
+        "C": "100 m",
+        "D": "500 m"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 245,
+      "question": "Which activity is part of corrective maintenance?",
+      "options": {
+        "A": "Daily cleaning",
+        "B": "Repairing a leak reported by a tenant",
+        "C": "Annual inspection",
+        "D": "Painting a new wall"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 246,
+      "question": "The purpose of a riser in a plumbing system is to:",
+      "options": {
+        "A": "Store water",
+        "B": "Carry water vertically to upper floors",
+        "C": "Increase pressure",
+        "D": "Filter water"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 247,
+      "question": "Which document defines the scope of work for a contractor?",
+      "options": {
+        "A": "HSE plan",
+        "B": "Contract agreement / BOQ",
+        "C": "Mill certificate",
+        "D": "Daily report"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 248,
+      "question": "The standard color for neutral wire in many modern systems is:",
+      "options": {
+        "A": "Red",
+        "B": "Blue",
+        "C": "Green",
+        "D": "Yellow"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 249,
+      "question": "Which test determines the consistency of grease?",
+      "options": {
+        "A": "Penetration test",
+        "B": "Slump test",
+        "C": "Sieve analysis",
+        "D": "Cube test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 250,
+      "question": "The purpose of a fire damper is to:",
+      "options": {
+        "A": "Improve AC cooling",
+        "B": "Prevent fire spread through ventilation ducts",
+        "C": "Increase airflow",
+        "D": "Filter smoke"
+      },
+      "answer": "B"
+    }
+  ]
+}

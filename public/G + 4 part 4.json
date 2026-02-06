@@ -1,0 +1,555 @@
+{
+  "title": "G + 4 - Part 4",
+  "questions": [
+    {
+      "id": 151,
+      "question": "Which plumbing fixture prevents backflow?",
+      "options": {
+        "A": "Trap",
+        "B": "Valve",
+        "C": "Backflow preventer",
+        "D": "Vent pipe"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 152,
+      "question": "The standard slope for ramp for disabled access is approximately:",
+      "options": {
+        "A": "1:8",
+        "B": "1:10",
+        "C": "1:12",
+        "D": "1:15"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 153,
+      "question": "Which test checks presence of harmful salts in aggregates?",
+      "options": {
+        "A": "Sieve analysis",
+        "B": "Organic impurities test",
+        "C": "Water absorption test",
+        "D": "Impact test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 154,
+      "question": "The maximum height of a single flight of stairs is:",
+      "options": {
+        "A": "2.5 m",
+        "B": "3.0 m",
+        "C": "3.6 m",
+        "D": "4.0 m"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 155,
+      "question": "Which activity requires confined space permit?",
+      "options": {
+        "A": "Painting walls",
+        "B": "Roof waterproofing",
+        "C": "Manhole entry",
+        "D": "Block laying"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 156,
+      "question": "The main purpose of anchor bolts is to:",
+      "options": {
+        "A": "Improve finish",
+        "B": "Connect structural members",
+        "C": "Fix steel columns to foundation",
+        "D": "Reduce vibration"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 157,
+      "question": "Which factor affects setting time of cement?",
+      "options": {
+        "A": "Cement fineness",
+        "B": "Temperature",
+        "C": "Water content",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 158,
+      "question": "Which document is used for tracking daily site activities?",
+      "options": {
+        "A": "BOQ",
+        "B": "Shop drawing",
+        "C": "Daily site report",
+        "D": "HSE plan"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 159,
+      "question": "The purpose of a shear wall in buildings is to:",
+      "options": {
+        "A": "Carry vertical load only",
+        "B": "Resist lateral loads like wind and seismic",
+        "C": "Improve aesthetics",
+        "D": "Reduce concrete quantity"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 160,
+      "question": "The minimum diameter of main bars in a column is usually:",
+      "options": {
+        "A": "8 mm",
+        "B": "10 mm",
+        "C": "12 mm",
+        "D": "16 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 161,
+      "question": "Which test determines the crushing strength of concrete cubes?",
+      "options": {
+        "A": "Tensile test",
+        "B": "Compression test",
+        "C": "Slump test",
+        "D": "Bend test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 162,
+      "question": "The function of a grease trap is to:",
+      "options": {
+        "A": "Increase water pressure",
+        "B": "Remove grease and oil from kitchen waste",
+        "C": "Store sewage",
+        "D": "Prevent leaks"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 163,
+      "question": "Which activity must be inspected by Dubai Municipality for completion certificate?",
+      "options": {
+        "A": "First coat of paint",
+        "B": "Structural completion and final finishes",
+        "C": "Furniture delivery",
+        "D": "Site office setup"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 164,
+      "question": "The minimum width of a landing is:",
+      "options": {
+        "A": "Same as the width of the staircase",
+        "B": "Half of the staircase width",
+        "C": "Fixed at 900 mm",
+        "D": "Twice the staircase width"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 165,
+      "question": "Which document is needed before casting a slab?",
+      "options": {
+        "A": "Material delivery note",
+        "B": "Approved IR (Inspection Request)",
+        "C": "BOQ",
+        "D": "Labor attendance sheet"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 166,
+      "question": "The standard height of a washbasin from floor level is:",
+      "options": {
+        "A": "600 mm",
+        "B": "750 mm",
+        "C": "850 mm",
+        "D": "1000 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 167,
+      "question": "Which safety equipment protects against falling from height?",
+      "options": {
+        "A": "Gloves",
+        "B": "Full body harness",
+        "C": "Ear plugs",
+        "D": "Safety goggles"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 168,
+      "question": "The purpose of a water tank level switch is to:",
+      "options": {
+        "A": "Control water pressure",
+        "B": "Prevent tank overflow",
+        "C": "Improve water quality",
+        "D": "Increase flow rate"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 169,
+      "question": "Which factor affects the workability of concrete?",
+      "options": {
+        "A": "Water content",
+        "B": "Aggregate size and shape",
+        "C": "Admixtures",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 170,
+      "question": "The maximum duration for a building permit is usually:",
+      "options": {
+        "A": "6 months",
+        "B": "1 year",
+        "C": "Project duration with renewal",
+        "D": "5 years"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 171,
+      "question": "Which material is used for expansion joint filling?",
+      "options": {
+        "A": "Cement mortar",
+        "B": "Polysulphide sealant / filler board",
+        "C": "Steel plate",
+        "D": "Concrete"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 172,
+      "question": "The minimum curing period for structural concrete is usually:",
+      "options": {
+        "A": "3 days",
+        "B": "7 days",
+        "C": "14 days",
+        "D": "28 days"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 173,
+      "question": "Which electrical device protects against overcurrent?",
+      "options": {
+        "A": "Switch",
+        "B": "MCB",
+        "C": "Transformer",
+        "D": "Socket"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 174,
+      "question": "The function of a foundation is to:",
+      "options": {
+        "A": "Increase building weight",
+        "B": "Distribute load to the soil",
+        "C": "Improve appearance",
+        "D": "Save concrete"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 175,
+      "question": "Which document is needed to verify concrete strength at 28 days?",
+      "options": {
+        "A": "Slump test report",
+        "B": "Cube test report",
+        "C": "Material submittal",
+        "D": "Invoice"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 176,
+      "question": "The maximum spacing between scaffolding transoms depends on:",
+      "options": {
+        "A": "Type of boards used",
+        "B": "Color of tubes",
+        "C": "Height of building",
+        "D": "Site location"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 177,
+      "question": "Which test checks the quality of waterproofing?",
+      "options": {
+        "A": "Flood test",
+        "B": "Slump test",
+        "C": "Cube test",
+        "D": "Sieve test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 178,
+      "question": "The purpose of a plinth beam is to:",
+      "options": {
+        "A": "Carry roof load",
+        "B": "Tie columns and support walls at ground level",
+        "C": "Increase slab thickness",
+        "D": "Improve insulation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 179,
+      "question": "Which color is used for emergency exit signs?",
+      "options": {
+        "A": "Red",
+        "B": "Yellow",
+        "C": "Green",
+        "D": "Blue"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 180,
+      "question": "The main reason for using TMT steel in RCC is:",
+      "options": {
+        "A": "Lower cost",
+        "B": "High strength and ductility",
+        "C": "Better color",
+        "D": "Easy to bend"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 181,
+      "question": "Which test determines the moisture content of soil?",
+      "options": {
+        "A": "Oven drying method",
+        "B": "Slump test",
+        "C": "Sieve analysis",
+        "D": "Core test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 182,
+      "question": "The standard length of one steel bar is usually:",
+      "options": {
+        "A": "6 m",
+        "B": "10 m",
+        "C": "12 m",
+        "D": "15 m"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 183,
+      "question": "Which document is mandatory for starting excavation?",
+      "options": {
+        "A": "NOC from authorities",
+        "B": "BOQ",
+        "C": "PO",
+        "D": "Material invoice"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 184,
+      "question": "The purpose of a concrete vibrator is to:",
+      "options": {
+        "A": "Mix concrete",
+        "B": "Remove air bubbles and compact concrete",
+        "C": "Level concrete",
+        "D": "Slow down setting time"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 185,
+      "question": "Which fire extinguisher is used for kitchen fires (fats/oils)?",
+      "options": {
+        "A": "Water",
+        "B": "CO2",
+        "C": "Wet chemical",
+        "D": "DCP"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 186,
+      "question": "The minimum number of main bars in a rectangular column is:",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 187,
+      "question": "Which test checks the grade of sand?",
+      "options": {
+        "A": "Slump test",
+        "B": "Sieve analysis",
+        "C": "Soundness test",
+        "D": "Cube test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 188,
+      "question": "The purpose of a floor trap is to:",
+      "options": {
+        "A": "Store water",
+        "B": "Collect floor drainage and prevent foul smell",
+        "C": "Increase pressure",
+        "D": "Stop leaks"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 189,
+      "question": "Which safety sign is a red circle with a slash?",
+      "options": {
+        "A": "Mandatory",
+        "B": "Prohibition",
+        "C": "Warning",
+        "D": "Safe condition"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 190,
+      "question": "The main cause of segregation in concrete is:",
+      "options": {
+        "A": "High water-cement ratio",
+        "B": "Dropping concrete from a height",
+        "C": "Over-vibration",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 191,
+      "question": "Which document is used for making changes to the original design?",
+      "options": {
+        "A": "Daily report",
+        "B": "Variation Order / Site Instruction",
+        "C": "BOQ",
+        "D": "HSE plan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 192,
+      "question": "The minimum width of a doorway in a residential building is usually:",
+      "options": {
+        "A": "700 mm",
+        "B": "800 mm",
+        "C": "900 mm",
+        "D": "1000 mm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 193,
+      "question": "Which test checks the efficiency of soil compaction on site?",
+      "options": {
+        "A": "Field density test",
+        "B": "Sieve analysis",
+        "C": "Slump test",
+        "D": "Plate load test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 194,
+      "question": "The purpose of a Parapet Wall is for:",
+      "options": {
+        "A": "Structural strength",
+        "B": "Safety and edge protection on roofs",
+        "C": "Reducing cost",
+        "D": "Increasing building height"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 195,
+      "question": "Which safety equipment is required for noise protection?",
+      "options": {
+        "A": "Goggles",
+        "B": "Ear muffs / plugs",
+        "C": "Gloves",
+        "D": "Safety boots"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 196,
+      "question": "The function of a distribution board (DB) is to:",
+      "options": {
+        "A": "Generate power",
+        "B": "Distribute power to various circuits",
+        "C": "Increase voltage",
+        "D": "Store energy"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 197,
+      "question": "Which document describes how a task will be safely performed?",
+      "options": {
+        "A": "BOQ",
+        "B": "Method Statement with Risk Assessment",
+        "C": "Daily log",
+        "D": "LPO"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 198,
+      "question": "The maximum permissible deflection in a beam is usually:",
+      "options": {
+        "A": "Span/100",
+        "B": "Span/250",
+        "C": "Span/500",
+        "D": "Fixed at 50 mm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 199,
+      "question": "Which material is used to provide a smooth finish to walls before painting?",
+      "options": {
+        "A": "Cement",
+        "B": "Wall putty",
+        "C": "Sand",
+        "D": "Bitumen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 200,
+      "question": "The standard frequency for safety toolbox talks is usually:",
+      "options": {
+        "A": "Daily",
+        "B": "Monthly",
+        "C": "Annually",
+        "D": "End of project"
+      },
+      "answer": "A"
+    }
+  ]
+}
