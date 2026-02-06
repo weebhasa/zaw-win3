@@ -131,7 +131,7 @@ export function useQuestions(sourceUrl?: string) {
             try {
               const res = await fetch(apiFetchUrl);
               if (res.ok) {
-                const contentType = apiRes.headers.get("content-type");
+                const contentType = res.headers.get("content-type");
                 if (contentType && contentType.includes("application/json")) {
                   data = await res.json();
                 }
