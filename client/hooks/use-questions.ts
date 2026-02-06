@@ -88,30 +88,43 @@ export function useQuestions(sourceUrl?: string) {
         if (sourceUrl) {
           // Load from specific source
           let data = null;
+          const fetchUrl = sourceUrl.endsWith(".json") ? sourceUrl : `${sourceUrl}.json`;
 
-          if (sourceUrl.startsWith("/")) {
-            try {
-              const res = await fetch(
-                sourceUrl.endsWith(".json") ? sourceUrl : `${sourceUrl}.json`,
-              );
-              if (res.ok) {
+          try {
+            const res = await fetch(fetchUrl);
+            if (res.ok) {
+              const contentType = res.headers.get("content-type");
+              if (contentType && contentType.includes("application/json")) {
                 data = await res.json();
-              }
-            } catch {
-              try {
-                const res = await fetch(
-                  `/api${sourceUrl.startsWith("/api") ? sourceUrl : sourceUrl}`,
-                );
-                if (res.ok) {
-                  data = await res.json();
-                }
-              } catch (e: any) {
-                if (mounted) setError(e.message);
+              } else {
+                console.warn(`Fetch for ${fetchUrl} returned non-JSON content: ${contentType}`);
               }
             }
+          } catch (err) {
+            console.error(`Error fetching ${fetchUrl}:`, err);
+          }
 
+          if (!data) {
+            // Try API fallback if static fetch failed
+            const apiFetchUrl = `/api/questions?file=${encodeURIComponent(sourceUrl.replace(/^\//, ""))}`;
+            try {
+              const res = await fetch(apiFetchUrl);
+              if (res.ok) {
+                const contentType = res.headers.get("content-type");
+                if (contentType && contentType.includes("application/json")) {
+                  data = await res.json();
+                }
+              }
+            } catch (err) {
+              console.error(`Error fetching from API ${apiFetchUrl}:`, err);
+            }
+          }
+
+          if (data) {
             const normalized = normalizeData(data);
             if (mounted) setQuestions(normalized);
+          } else {
+            if (mounted) setError(`Failed to load questions from ${fetchUrl}. The file might be missing or the server returned an invalid response.`);
           }
         } else {
           // No specific source: discover all sets and aggregate their questions
