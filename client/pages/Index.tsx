@@ -183,6 +183,9 @@ export default function Index() {
                 Results page shows your score, correct answers, and answer
                 review.
               </li>
+              <li>
+                Your best scores are saved locally so you can track your progress.
+              </li>
               <li>Restart the test anytime to try again.</li>
               <li>Fully responsive and mobile-friendly UI.</li>
             </ul>
