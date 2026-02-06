@@ -1,8 +1,10 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { useQuestions } from "@/hooks/use-questions";
 import { useQuestionSets } from "@/hooks/use-question-sets";
+import { storage, type StoredResult } from "@/lib/storage";
+import { History, Calendar } from "lucide-react";
+import { format } from "date-fns";
 import {
   Select,
   SelectContent,
@@ -14,25 +16,37 @@ import {
 } from "@/components/ui/select";
 
 export default function Index() {
-  const { questions, loading } = useQuestions();
   const { sets, loading: setsLoading } = useQuestionSets();
-
-  const totalSessions = useMemo(() => {
-    const count = questions ? Math.ceil(questions.length / 20) : 1;
-    return Math.max(1, count);
-  }, [questions]);
 
   // Group sets by base title
   const groups = useMemo(() => {
     if (!sets) return [] as { base: string; items: typeof sets }[];
     const map = new Map<string, typeof sets>();
     for (const s of sets) {
-      const m = s.title.match(/^(.*)\bPart\b\s*\d+/i);
+      // Improved regex to handle "Part X", "Part X Questions", etc.
+      // It looks for "Part" preceded by space, hyphen or nothing.
+      const m = s.title.match(/^(.*?)(?:\s*[-–—]?\s*)\bPart\b\s*\d+/i);
       const base = m ? m[1].trim() : s.title;
       if (!map.has(base)) map.set(base, [] as typeof sets);
       map.get(base)!.push(s);
     }
-    return Array.from(map.entries()).map(([base, items]) => ({ base, items }));
+
+    return Array.from(map.entries())
+      .map(([base, items]) => ({
+        base,
+        items: items.sort((a, b) =>
+          a.title.localeCompare(b.title, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          }),
+        ),
+      }))
+      .sort((a, b) =>
+        a.base.localeCompare(b.base, undefined, {
+          numeric: true,
+          sensitivity: "base",
+        }),
+      );
   }, [sets]);
 
   const [selectedBase, setSelectedBase] = useState<string>("\0");
@@ -46,7 +60,7 @@ export default function Index() {
     setSelectedPart(first.items[0]?.filename ?? "");
   }, [groups]);
 
-  const isLoading = loading || setsLoading;
+  const isLoading = setsLoading;
 
   const currentGroup = useMemo(
     () => groups.find((g) => g.base === selectedBase) ?? null,
@@ -54,7 +68,12 @@ export default function Index() {
   );
 
   const startSessionFilename =
-    selectedPart || (currentGroup?.items?.[0]?.filename ?? "mcqs_q1_q210.json");
+    selectedPart || (currentGroup?.items?.[0]?.filename ?? "");
+
+  const lastResult = useMemo(() => {
+    if (!startSessionFilename) return null;
+    return storage.getLatestResult(startSessionFilename);
+  }, [startSessionFilename]);
 
   return (
     <main className="relative">
@@ -64,9 +83,9 @@ export default function Index() {
             Building Maintenance & Safety Quiz
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            Test your knowledge on building maintenance, safety practices,
-            electrical systems, plumbing, fire safety, and facility management
-            with 210 comprehensive MCQs.
+            Prepare for your engineering and maintenance certification exams
+            with our comprehensive collection of practice questions and mock
+            tests.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-end">
             <div className="flex gap-3 w-full sm:w-auto">
@@ -111,11 +130,15 @@ export default function Index() {
                       <SelectValue placeholder="Choose part" />
                     </SelectTrigger>
                     <SelectContent>
-                      {currentGroup.items.map((it) => (
-                        <SelectItem key={it.filename} value={it.filename}>
-                          {it.title}
-                        </SelectItem>
-                      ))}
+                      {currentGroup.items.map((it) => {
+                        const partMatch = it.title.match(/\bPart\b\s*\d+/i);
+                        const label = partMatch ? partMatch[0] : it.title;
+                        return (
+                          <SelectItem key={it.filename} value={it.filename}>
+                            {label}
+                          </SelectItem>
+                        );
+                      })}
                     </SelectContent>
                   </Select>
                 </div>
@@ -127,11 +150,38 @@ export default function Index() {
                 <Link
                   to={`/test?session=${encodeURIComponent(startSessionFilename)}`}
                 >
-                  Start Test
+                  {lastResult ? "Retake Test" : "Start Test"}
                 </Link>
               </Button>
             </div>
           </div>
+
+          {lastResult && (
+            <div className="mt-8 animate-in fade-in slide-in-from-top-4 duration-500">
+              <div className="inline-flex items-center gap-4 rounded-xl border bg-card/50 p-4 backdrop-blur shadow-sm">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
+                  <History className="h-6 w-6" />
+                </div>
+                <div>
+                  <div className="text-sm font-medium text-muted-foreground">
+                    Last Attempt
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <span className="text-2xl font-bold text-primary">
+                      {lastResult.percentage}%
+                    </span>
+                    <span className="text-sm text-muted-foreground">
+                      ({lastResult.score}/{lastResult.total})
+                    </span>
+                    <span className="flex items-center gap-1 text-xs text-muted-foreground/80">
+                      <Calendar className="h-3 w-3" />
+                      {format(new Date(lastResult.date), "MMM d, yyyy")}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
@@ -149,6 +199,10 @@ export default function Index() {
               <li>
                 Results page shows your score, correct answers, and answer
                 review.
+              </li>
+              <li>
+                Your best scores are saved locally so you can track your
+                progress.
               </li>
               <li>Restart the test anytime to try again.</li>
               <li>Fully responsive and mobile-friendly UI.</li>

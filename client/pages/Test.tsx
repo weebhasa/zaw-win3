@@ -10,9 +10,8 @@ import { useMemo, useState } from "react";
 
 function isCorrect(q: Question, ans: AnswerValue): boolean {
   if (ans === undefined || ans === null) return false;
-  const answer = q as any;
-  if (!answer.answer) return false;
-  return String(ans).toUpperCase() === String(answer.answer).toUpperCase();
+  if (!q.answer) return false;
+  return String(ans).toUpperCase() === String(q.answer).toUpperCase();
 }
 
 export default function TestPage() {
@@ -71,11 +70,10 @@ export default function TestPage() {
         id: q.id,
         question: q.question,
         type: q.type,
-        answer: (q as any).answer,
+        answer: q.answer,
         userAnswer: answers[q.id],
       })),
       answers,
-      score: Object.keys(answers).length,
     };
     navigate("/results", { state: resultsData });
   };
@@ -103,6 +101,7 @@ export default function TestPage() {
   }
 
   const q = currentQuestions[currentIndex];
+  const isCurrentAnswered = answers[q.id] !== undefined && answers[q.id] !== "";
   const progress =
     (Object.keys(answers).length / currentQuestions.length) * 100;
 
@@ -142,7 +141,11 @@ export default function TestPage() {
         </Button>
 
         {currentIndex < currentQuestions.length - 1 ? (
-          <Button onClick={handleNextQuestion} className="flex-1">
+          <Button
+            onClick={handleNextQuestion}
+            disabled={!isCurrentAnswered}
+            className="flex-1"
+          >
             Next
           </Button>
         ) : (

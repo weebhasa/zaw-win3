@@ -12,9 +12,47 @@ export type Question = {
 async function safeFetchJson(url: string): Promise<any> {
   try {
     const res = await fetch(url);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    if (!res.ok) {
+      if (res.status === 404 && !url.startsWith("/api/")) {
+        // Try API fallback
+        const rawFilename = url.split("/").pop();
+        if (rawFilename) {
+          const decodedFilename = decodeURIComponent(rawFilename);
+          const apiRes = await fetch(
+            `/api/questions?file=${encodeURIComponent(decodedFilename)}`,
+          );
+          if (apiRes.ok) return apiRes.json();
+        }
+      }
+      console.error(`Failed to fetch ${url}: HTTP ${res.status}`);
+      return null;
+    }
+    const contentType = res.headers.get("content-type");
+    if (contentType && !contentType.includes("application/json")) {
+      // If we got HTML but expected JSON, it's likely an SPA fallback
+      if (!url.startsWith("/api/")) {
+        const rawFilename = url.split("/").pop();
+        if (rawFilename) {
+          const decodedFilename = decodeURIComponent(rawFilename);
+          const apiRes = await fetch(
+            `/api/questions?file=${encodeURIComponent(decodedFilename)}`,
+          );
+          if (apiRes.ok) {
+            const apiContentType = apiRes.headers.get("content-type");
+            if (apiContentType && apiContentType.includes("application/json")) {
+              return apiRes.json();
+            }
+          }
+        }
+      }
+      console.error(
+        `Failed to fetch ${url}: Expected JSON but got ${contentType}`,
+      );
+      return null;
+    }
     return res.json();
-  } catch {
+  } catch (error) {
+    console.error(`Error fetching ${url}:`, error);
     return null;
   }
 }
@@ -36,6 +74,7 @@ function normalizeArray(arr: any[]): Question[] {
       type: (item.type as Question["type"]) ?? "multiple",
       question: String(item.question ?? ""),
       options,
+      answer: item.answer ? String(item.answer) : undefined,
       explanation: item.explanation ? String(item.explanation) : undefined,
     } satisfies Question;
   });
@@ -78,30 +117,52 @@ export function useQuestions(sourceUrl?: string) {
         if (sourceUrl) {
           // Load from specific source
           let data = null;
+          const fetchUrl = sourceUrl.endsWith(".json")
+            ? sourceUrl
+            : `${sourceUrl}.json`;
 
-          if (sourceUrl.startsWith("/")) {
-            try {
-              const res = await fetch(
-                sourceUrl.endsWith(".json") ? sourceUrl : `${sourceUrl}.json`,
-              );
-              if (res.ok) {
+          try {
+            const res = await fetch(fetchUrl);
+            if (res.ok) {
+              const contentType = res.headers.get("content-type");
+              if (contentType && contentType.includes("application/json")) {
                 data = await res.json();
-              }
-            } catch {
-              try {
-                const res = await fetch(
-                  `/api${sourceUrl.startsWith("/api") ? sourceUrl : sourceUrl}`,
+              } else {
+                console.warn(
+                  `Fetch for ${fetchUrl} returned non-JSON content: ${contentType}`,
                 );
-                if (res.ok) {
-                  data = await res.json();
-                }
-              } catch (e: any) {
-                if (mounted) setError(e.message);
               }
             }
+          } catch (err) {
+            console.error(`Error fetching ${fetchUrl}:`, err);
+          }
 
+          if (!data) {
+            // Try API fallback if static fetch failed
+            const rawFilename = sourceUrl.split("/").pop() || "";
+            const decodedFilename = decodeURIComponent(rawFilename);
+            const apiFetchUrl = `/api/questions?file=${encodeURIComponent(decodedFilename)}`;
+            try {
+              const res = await fetch(apiFetchUrl);
+              if (res.ok) {
+                const contentType = res.headers.get("content-type");
+                if (contentType && contentType.includes("application/json")) {
+                  data = await res.json();
+                }
+              }
+            } catch (err) {
+              console.error(`Error fetching from API ${apiFetchUrl}:`, err);
+            }
+          }
+
+          if (data) {
             const normalized = normalizeData(data);
             if (mounted) setQuestions(normalized);
+          } else {
+            if (mounted)
+              setError(
+                `Failed to load questions from ${fetchUrl}. The file might be missing or the server returned an invalid response.`,
+              );
           }
         } else {
           // No specific source: discover all sets and aggregate their questions
@@ -121,13 +182,7 @@ export function useQuestions(sourceUrl?: string) {
           }
 
           if (!sets || !Array.isArray(sets) || sets.length === 0) {
-            try {
-              const data = await safeFetchJson("/mcqs_q1_q210.json");
-              const normalized = normalizeData(data);
-              if (mounted) setQuestions(normalized);
-            } catch (e: any) {
-              if (mounted) setQuestions([]);
-            }
+            if (mounted) setQuestions([]);
           } else {
             const all: Question[] = [];
             let idCounter = 1;

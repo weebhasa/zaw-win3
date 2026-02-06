@@ -4,10 +4,26 @@ import path from "path";
 
 export const handleQuestionSets: RequestHandler = (_req, res) => {
   try {
-    const publicDir = path.join(process.cwd(), "public");
-    const files = fs.readdirSync(publicDir);
+    const possibleDirs = [
+      path.join(process.cwd(), "public"),
+      path.join(process.cwd(), "dist/spa"),
+      path.join(process.cwd(), "spa"),
+    ];
+
+    let publicDir =
+      possibleDirs.find((dir) => fs.existsSync(dir)) || possibleDirs[0];
+
+    const files = fs
+      .readdirSync(publicDir)
+      .sort((a, b) =>
+        a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }),
+      );
     const filtered = files.filter(
-      (f) => f.endsWith("Questions.json") || f === "mcqs_q1_q210.json",
+      (f) =>
+        f.endsWith(".json") &&
+        f !== "package.json" &&
+        f !== "tsconfig.json" &&
+        f !== "components.json",
     );
 
     const sets = filtered.map((filename) => {
@@ -28,6 +44,7 @@ export const handleQuestionSets: RequestHandler = (_req, res) => {
 
     res.json(sets.filter(Boolean));
   } catch (error) {
+    console.error("Error loading question sets:", error);
     res.status(500).json({ error: "Failed to load question sets" });
   }
 };
