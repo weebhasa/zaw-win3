@@ -15,9 +15,10 @@ async function safeFetchJson(url: string): Promise<any> {
     if (!res.ok) {
       if (res.status === 404 && !url.startsWith("/api/")) {
         // Try API fallback
-        const filename = url.split("/").pop();
-        if (filename) {
-          const apiRes = await fetch(`/api/questions?file=${filename}`);
+        const rawFilename = url.split("/").pop();
+        if (rawFilename) {
+          const decodedFilename = decodeURIComponent(rawFilename);
+          const apiRes = await fetch(`/api/questions?file=${encodeURIComponent(decodedFilename)}`);
           if (apiRes.ok) return apiRes.json();
         }
       }
@@ -28,9 +29,10 @@ async function safeFetchJson(url: string): Promise<any> {
     if (contentType && !contentType.includes("application/json")) {
       // If we got HTML but expected JSON, it's likely an SPA fallback
       if (!url.startsWith("/api/")) {
-        const filename = url.split("/").pop();
-        if (filename) {
-          const apiRes = await fetch(`/api/questions?file=${filename}`);
+        const rawFilename = url.split("/").pop();
+        if (rawFilename) {
+          const decodedFilename = decodeURIComponent(rawFilename);
+          const apiRes = await fetch(`/api/questions?file=${encodeURIComponent(decodedFilename)}`);
           if (apiRes.ok) {
             const apiContentType = apiRes.headers.get("content-type");
             if (apiContentType && apiContentType.includes("application/json")) {
