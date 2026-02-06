@@ -35,6 +35,7 @@ export const handleQuestionSets: RequestHandler = (_req, res) => {
 
     res.json(sets.filter(Boolean));
   } catch (error) {
+    console.error("Error loading question sets:", error);
     res.status(500).json({ error: "Failed to load question sets" });
   }
 };
