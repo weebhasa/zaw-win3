@@ -119,11 +119,15 @@ export default function Index() {
                       <SelectValue placeholder="Choose part" />
                     </SelectTrigger>
                     <SelectContent>
-                      {currentGroup.items.map((it) => (
-                        <SelectItem key={it.filename} value={it.filename}>
-                          {it.title}
-                        </SelectItem>
-                      ))}
+                      {currentGroup.items.map((it) => {
+                        const partMatch = it.title.match(/\bPart\b\s*\d+/i);
+                        const label = partMatch ? partMatch[0] : it.title;
+                        return (
+                          <SelectItem key={it.filename} value={it.filename}>
+                            {label}
+                          </SelectItem>
+                        );
+                      })}
                     </SelectContent>
                   </Select>
                 </div>
