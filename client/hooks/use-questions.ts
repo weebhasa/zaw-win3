@@ -127,11 +127,11 @@ export function useQuestions(sourceUrl?: string) {
 
           if (!data) {
             // Try API fallback if static fetch failed
-            const apiFetchUrl = `/api/questions?file=${encodeURIComponent(sourceUrl.replace(/^\//, ""))}`;
+            const apiFetchUrl = `/api/questions?file=${encodeURIComponent(sourceUrl.split("/").pop() || "")}`;
             try {
               const res = await fetch(apiFetchUrl);
               if (res.ok) {
-                const contentType = res.headers.get("content-type");
+                const contentType = apiRes.headers.get("content-type");
                 if (contentType && contentType.includes("application/json")) {
                   data = await res.json();
                 }
