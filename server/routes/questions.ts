@@ -39,10 +39,8 @@ export const handleGetQuestions: RequestHandler = (req, res) => {
       });
 
       if (foundFile) {
-        console.log(`Found file via search: ${foundFile}`);
         filePath = path.join(publicDir, foundFile);
       } else {
-        console.error(`File not found after search: ${safeFilename}`);
         return res.status(404).json({ error: "Question set not found" });
       }
     }
