@@ -28,11 +28,8 @@ export const handleGetQuestions: RequestHandler = (req, res) => {
     let publicDir = possibleDirs.find((dir) => fs.existsSync(dir)) || possibleDirs[0];
     let filePath = path.join(publicDir, safeFilename.endsWith(".json") ? safeFilename : `${safeFilename}.json`);
 
-    console.log(`Attempting to serve questions from: ${filePath}`);
-
     if (!fs.existsSync(filePath)) {
       // Fallback: search directory for a case-insensitive or space-normalized match
-      console.log(`File not found at direct path. Searching directory: ${publicDir}`);
       const files = fs.readdirSync(publicDir);
       const normalizedSearch = safeFilename.replace(/\.json$/, "").toLowerCase().trim().replace(/\s+/g, " ");
 
