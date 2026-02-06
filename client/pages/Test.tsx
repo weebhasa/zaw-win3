@@ -101,6 +101,7 @@ export default function TestPage() {
   }
 
   const q = currentQuestions[currentIndex];
+  const isCurrentAnswered = answers[q.id] !== undefined && answers[q.id] !== "";
   const progress =
     (Object.keys(answers).length / currentQuestions.length) * 100;
 
@@ -140,7 +141,11 @@ export default function TestPage() {
         </Button>
 
         {currentIndex < currentQuestions.length - 1 ? (
-          <Button onClick={handleNextQuestion} className="flex-1">
+          <Button
+            onClick={handleNextQuestion}
+            disabled={!isCurrentAnswered}
+            className="flex-1"
+          >
             Next
           </Button>
         ) : (
