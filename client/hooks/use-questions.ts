@@ -13,11 +13,32 @@ async function safeFetchJson(url: string): Promise<any> {
   try {
     const res = await fetch(url);
     if (!res.ok) {
+      if (res.status === 404 && !url.startsWith("/api/")) {
+        // Try API fallback
+        const filename = url.split("/").pop();
+        if (filename) {
+          const apiRes = await fetch(`/api/questions?file=${filename}`);
+          if (apiRes.ok) return apiRes.json();
+        }
+      }
       console.error(`Failed to fetch ${url}: HTTP ${res.status}`);
       return null;
     }
     const contentType = res.headers.get("content-type");
     if (contentType && !contentType.includes("application/json")) {
+      // If we got HTML but expected JSON, it's likely an SPA fallback
+      if (!url.startsWith("/api/")) {
+        const filename = url.split("/").pop();
+        if (filename) {
+          const apiRes = await fetch(`/api/questions?file=${filename}`);
+          if (apiRes.ok) {
+            const apiContentType = apiRes.headers.get("content-type");
+            if (apiContentType && apiContentType.includes("application/json")) {
+              return apiRes.json();
+            }
+          }
+        }
+      }
       console.error(`Failed to fetch ${url}: Expected JSON but got ${contentType}`);
       return null;
     }
