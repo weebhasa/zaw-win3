@@ -71,11 +71,10 @@ export default function TestPage() {
         id: q.id,
         question: q.question,
         type: q.type,
-        answer: (q as any).answer,
+        answer: q.answer,
         userAnswer: answers[q.id],
       })),
       answers,
-      score: Object.keys(answers).length,
     };
     navigate("/results", { state: resultsData });
   };
