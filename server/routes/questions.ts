@@ -34,10 +34,10 @@ export const handleGetQuestions: RequestHandler = (req, res) => {
       // Fallback: search directory for a case-insensitive or space-normalized match
       console.log(`File not found at direct path. Searching directory: ${publicDir}`);
       const files = fs.readdirSync(publicDir);
-      const normalizedSearch = safeFilename.replace(/\.json$/, "").toLowerCase().trim();
+      const normalizedSearch = safeFilename.replace(/\.json$/, "").toLowerCase().trim().replace(/\s+/g, " ");
 
       const foundFile = files.find(f => {
-        const normalizedFile = f.replace(/\.json$/, "").toLowerCase().trim();
+        const normalizedFile = f.replace(/\.json$/, "").toLowerCase().trim().replace(/\s+/g, " ");
         return normalizedFile === normalizedSearch;
       });
 
