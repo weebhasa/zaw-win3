@@ -20,14 +20,6 @@ export function Header() {
           >
             Home
           </NavLink>
-          <NavLink
-            to="/test?session=0"
-            className={({ isActive }) =>
-              cn("text-muted-foreground hover:text-foreground", isActive && "text-foreground")
-            }
-          >
-            Test
-          </NavLink>
         </nav>
       </div>
     </header>
