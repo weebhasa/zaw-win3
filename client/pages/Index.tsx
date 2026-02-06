@@ -2,6 +2,9 @@ import React, { useEffect, useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useQuestionSets } from "@/hooks/use-question-sets";
+import { storage, type StoredResult } from "@/lib/storage";
+import { History, Calendar } from "lucide-react";
+import { format } from "date-fns";
 import {
   Select,
   SelectContent,
@@ -56,6 +59,11 @@ export default function Index() {
 
   const startSessionFilename =
     selectedPart || (currentGroup?.items?.[0]?.filename ?? "");
+
+  const lastResult = useMemo(() => {
+    if (!startSessionFilename) return null;
+    return storage.getLatestResult(startSessionFilename);
+  }, [startSessionFilename]);
 
   return (
     <main className="relative">
@@ -131,11 +139,32 @@ export default function Index() {
                 <Link
                   to={`/test?session=${encodeURIComponent(startSessionFilename)}`}
                 >
-                  Start Test
+                  {lastResult ? "Retake Test" : "Start Test"}
                 </Link>
               </Button>
             </div>
           </div>
+
+          {lastResult && (
+            <div className="mt-8 animate-in fade-in slide-in-from-top-4 duration-500">
+              <div className="inline-flex items-center gap-4 rounded-xl border bg-card/50 p-4 backdrop-blur shadow-sm">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
+                  <History className="h-6 w-6" />
+                </div>
+                <div>
+                  <div className="text-sm font-medium text-muted-foreground">Last Attempt</div>
+                  <div className="flex items-center gap-3">
+                    <span className="text-2xl font-bold text-primary">{lastResult.percentage}%</span>
+                    <span className="text-sm text-muted-foreground">({lastResult.score}/{lastResult.total})</span>
+                    <span className="flex items-center gap-1 text-xs text-muted-foreground/80">
+                      <Calendar className="h-3 w-3" />
+                      {format(new Date(lastResult.date), "MMM d, yyyy")}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
