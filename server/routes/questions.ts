@@ -21,6 +21,8 @@ export const handleGetQuestions: RequestHandler = (req, res) => {
     let publicDir = possibleDirs.find((dir) => fs.existsSync(dir)) || possibleDirs[0];
     const filePath = path.join(publicDir, safeFilename.endsWith(".json") ? safeFilename : `${safeFilename}.json`);
 
+    console.log(`Attempting to serve questions from: ${filePath}`);
+
     if (!fs.existsSync(filePath)) {
       console.error(`File not found: ${filePath}`);
       return res.status(404).json({ error: "Question set not found" });
