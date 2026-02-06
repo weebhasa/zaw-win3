@@ -19,13 +19,28 @@ export const handleGetQuestions: RequestHandler = (req, res) => {
     ];
 
     let publicDir = possibleDirs.find((dir) => fs.existsSync(dir)) || possibleDirs[0];
-    const filePath = path.join(publicDir, safeFilename.endsWith(".json") ? safeFilename : `${safeFilename}.json`);
+    let filePath = path.join(publicDir, safeFilename.endsWith(".json") ? safeFilename : `${safeFilename}.json`);
 
     console.log(`Attempting to serve questions from: ${filePath}`);
 
     if (!fs.existsSync(filePath)) {
-      console.error(`File not found: ${filePath}`);
-      return res.status(404).json({ error: "Question set not found" });
+      // Fallback: search directory for a case-insensitive or space-normalized match
+      console.log(`File not found at direct path. Searching directory: ${publicDir}`);
+      const files = fs.readdirSync(publicDir);
+      const normalizedSearch = safeFilename.replace(/\.json$/, "").toLowerCase().trim();
+
+      const foundFile = files.find(f => {
+        const normalizedFile = f.replace(/\.json$/, "").toLowerCase().trim();
+        return normalizedFile === normalizedSearch;
+      });
+
+      if (foundFile) {
+        console.log(`Found file via search: ${foundFile}`);
+        filePath = path.join(publicDir, foundFile);
+      } else {
+        console.error(`File not found after search: ${safeFilename}`);
+        return res.status(404).json({ error: "Question set not found" });
+      }
     }
 
     const content = fs.readFileSync(filePath, "utf-8");
