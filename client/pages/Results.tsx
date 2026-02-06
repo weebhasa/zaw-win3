@@ -16,12 +16,20 @@ export default function ResultsPage() {
     );
   }
 
-  const { currentQuestions, answers } = resultsData;
+  const { currentQuestions, answers, sessionFilename } = resultsData;
   const correctCount = currentQuestions.filter(
     (d: any) =>
       String(answers[d.id]).toUpperCase() === String(d.answer).toUpperCase(),
   ).length;
   const percentage = Math.round((correctCount / currentQuestions.length) * 100);
+
+  const handleRestart = () => {
+    if (sessionFilename) {
+      navigate(`/test?session=${encodeURIComponent(sessionFilename)}`);
+    } else {
+      navigate("/test");
+    }
+  };
 
   return (
     <div className="container max-w-3xl py-12">
@@ -38,7 +46,7 @@ export default function ResultsPage() {
 
         <div className="mt-8 flex gap-4 justify-center">
           <Button onClick={() => navigate("/")}>Take Another Test</Button>
-          <Button variant="outline" onClick={() => window.location.reload()}>
+          <Button variant="outline" onClick={handleRestart}>
             Restart
           </Button>
         </div>
