@@ -127,7 +127,9 @@ export function useQuestions(sourceUrl?: string) {
 
           if (!data) {
             // Try API fallback if static fetch failed
-            const apiFetchUrl = `/api/questions?file=${encodeURIComponent(sourceUrl.split("/").pop() || "")}`;
+            const rawFilename = sourceUrl.split("/").pop() || "";
+            const decodedFilename = decodeURIComponent(rawFilename);
+            const apiFetchUrl = `/api/questions?file=${encodeURIComponent(decodedFilename)}`;
             try {
               const res = await fetch(apiFetchUrl);
               if (res.ok) {
