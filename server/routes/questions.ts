@@ -4,9 +4,16 @@ import path from "path";
 
 export const handleGetQuestions: RequestHandler = (req, res) => {
   try {
-    const filename = req.query.file as string;
+    let filename = req.query.file as string;
     if (!filename) {
       return res.status(400).json({ error: "File parameter is required" });
+    }
+
+    // Attempt to decode in case it was passed encoded
+    try {
+      filename = decodeURIComponent(filename);
+    } catch (e) {
+      // Ignore decode errors
     }
 
     // Security: prevent directory traversal
